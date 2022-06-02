@@ -1,0 +1,21 @@
+<!--// 위젯이나 레이아웃에서 로딩된 js 중복 체크 -->
+<!--@foreach(Context::getJsFile() as $key => $jsfile)-->
+	<!--@if(preg_match('/jquery.bxSlider.js/i',$jsfile['file']))-->{@$bxjs='Y'}<!--@end-->
+	<!--@if(preg_match('/jwplayer.js/i',$jsfile['file']))-->{@ $jwpjs='Y'}<!--@end-->
+	<!--@if(preg_match('/jquery.media.js/i',$jsfile['file']))-->{@$jqmjs='Y'}<!--@end-->
+	<!--@if(preg_match('/swfobject.js/i',$jsfile['file']))-->{@$swfjs='Y'}<!--@end-->
+	<!--@if(preg_match('/silverlight.js/i',$jsfile['file']))-->{@$silvjs='Y'}<!--@end-->
+	<!--@if(preg_match('/wmvplayer.js/i',$jsfile['file']))-->{@$wmvjs='Y'}<!--@end-->
+<!--@end-->
+<load cond="$bxjs!='Y'" target="js/jquery.bxSlider.js" />
+<load cond="$jwpjs !='Y'" target="../mplayer/jwplayer.js" />
+<load cond="$jqmjs!='Y'" target="../mplayer/jquery.media.js" />
+<load cond="$swfjs!='Y'" target="../mplayer/swfobject.js" />
+<load cond="$silvjs!='Y'" target="../mplayer/silverlight.js" />
+<load cond="$wmvjs!='Y'" target="../mplayer/wmvplayer.js" />
+
+<!--@if($colorset=="Multiple_Slides")-->
+	<!--#include("./Multiple_Slides.html")-->
+<!--@else-->
+	<!--#include("./Article_Slides.html")-->
+<!--@end-->

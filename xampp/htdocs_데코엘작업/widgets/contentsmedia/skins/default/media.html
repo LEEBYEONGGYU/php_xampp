@@ -1,0 +1,70 @@
+<!--// 멀티스킨 사용을 위해 변수 또는 ID 랜덤 지정 -->
+{@ $slide_id = mt_rand()}
+{@ $skin_id = "cm04_".$slide_id}
+
+{@ $skincssimgpath = getSiteUrl()."widgets/contentsmedia/skins"}
+
+<style type="text/css">
+/************************************************************************************
+RESET
+*************************************************************************************/
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+img, fieldset {
+	border: 0;
+}
+
+/* reset iphone text adjust */
+html {
+	-webkit-text-size-adjust: 100%;
+}
+
+.textT1_{$skin_id}, .textT1_{$skin_id} a, .textT1_{$skin_id} a:visited {
+	color:{$title_font_color};
+	font-family: {$title_font_family};
+	font-size: {$title_font_size}px;
+	font-weight: bold;
+	text-decoration: none;
+	height: {$textT1_Height}px;
+	<!--@if($media_info->show_title=='Y')-->display:block;<!--@else-->display:none;<!--@end-->
+}
+.textT1_{$skin_id} a:hover, .textT1_{$skin_id} a:focus {
+	text-decoration: underline;
+}
+
+.textC1_{$skin_id}, .textC1_{$skin_id} a, .textC1_{$skin_id} a:visited {
+	text-align:justify;
+	color:{$content_font_color};
+	font-family: {$content_font_family};
+	font-size: {$content_font_size}px;
+	font-weight: normal;
+	text-decoration: none;
+	height: {$textC1_Height}px;
+	<!--@if($media_info->show_content=='Y')-->display:block;<!--@else-->display:none;<!--@end-->
+}
+.textC1_{$skin_id} a:hover, .textC1_{$skin_id} a:focus {
+	text-decoration: underline;
+}
+
+/* Image rounded corners */
+.rounded-all { -moz-border-radius: {$media_info->apply_round_px}px {$media_info->apply_round_px}px {$media_info->apply_round_px}px {$media_info->apply_round_px}px; -webkit-border-radius: {$media_info->apply_round_px}px {$media_info->apply_round_px}px {$media_info->apply_round_px}px {$media_info->apply_round_px}px; -khtml-border-radius: {$media_info->apply_round_px}px {$media_info->apply_round_px}px {$media_info->apply_round_px}px {$media_info->apply_round_px}px; border-radius: {$media_info->apply_round_px}px {$media_info->apply_round_px}px {$media_info->apply_round_px}px {$media_info->apply_round_px}px; }
+.norounded-bottom { -moz-border-radius: {$media_info->apply_round_px}px {$media_info->apply_round_px}px 0px 0px; -webkit-border-radius: {$media_info->apply_round_px}px {$media_info->apply_round_px}px 0px 0px; -khtml-border-radius: {$media_info->apply_round_px}px {$media_info->apply_round_px}px 0px 0px; border-radius: {$media_info->apply_round_px}px {$media_info->apply_round_px}px 0px 0px; }
+.rounded-top { -moz-border-radius: {$media_info->apply_round_px}px {$media_info->apply_round_px}px 0 0; -webkit-border-radius: {$media_info->apply_round_px}px {$media_info->apply_round_px}px 0 0; -khtml-border-radius: {$media_info->apply_round_px}px {$media_info->apply_round_px}px 0 0; border-radius: {$media_info->apply_round_px}px {$media_info->apply_round_px}px 0 0; }
+.rounded-bottom { -moz-border-radius: 0 0 {$media_info->apply_round_px}px {$media_info->apply_round_px}px; -webkit-border-radius: 0 0 {$media_info->apply_round_px}px {$media_info->apply_round_px}px; -khtml-border-radius: 0 0 {$media_info->apply_round_px}px {$media_info->apply_round_px}px; border-radius: 0 0 {$media_info->apply_round_px}px {$media_info->apply_round_px}px; }
+.rounded-left { -moz-border-radius: {$media_info->apply_round_px}px 0 0 0; -webkit-border-radius: {$media_info->apply_round_px}px 0 0 0; -khtml-border-radius: {$media_info->apply_round_px}px 0 0 0; border-radius: {$media_info->apply_round_px}px 0 0 0; }
+.rounded-right { -moz-border-radius: 0 {$media_info->apply_round_px}px 0 0; -webkit-border-radius: 0 {$media_info->apply_round_px}px 0 0; -khtml-border-radius: 0 {$media_info->apply_round_px}px 0 0; border-radius: 0 {$media_info->apply_round_px}px 0 0; }
+/* contentslider 위젯 : 배워서남준다(http://studyu.cafe24.com)*/
+</style>
+<ul>
+<!--@foreach($media_info as $key => $items)-->
+<li style="color:red;">$media_info->{$key} : {$items}</li>
+<!--@end-->
+<li style="color:blue;"></li>
+</ul>
+{print_r($media_info)}

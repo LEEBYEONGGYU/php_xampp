@@ -1,0 +1,239 @@
+<!--// 멀티스킨 사용을 위해 변수 또는 ID 랜덤 지정 -->
+{@ $slide_id = mt_rand()}
+{@ $skin_id = "cm04_".$slide_id}
+
+<!--// 제목 폰트 크기 정의 -->
+<!--@if(!$media_info->title_font_size)-->
+	{@ $title_font_size = 12}
+<!--@else-->
+	{@ $title_font_size = $media_info->title_font_size}
+<!--@end-->
+
+<!--// 제목 폰트 색 정의 -->
+<!--@if(!$media_info->title_font_color)-->
+	{@ $title_font_color = '#222'}
+<!--@else-->
+	{@ $title_font_color = $media_info->title_font_color}
+<!--@end-->
+
+<!--// 제목 글꼴 정의 -->
+<!--@if($media_info->title_font_family=='Default')-->
+	{@ $title_font_family = "굴림,Arial,Helevtica,Verdana,san-serif"}
+<!--@else-->
+	{@ $title_font_family = $media_info->title_font_family}
+<!--@end-->
+
+<!--// 사용자 폰트인 경우 -->
+<!--@if($media_info->title_font_user)-->
+	{@ $title_font_family = $media_info->title_font_user}
+<!--@end-->
+
+<!--// 제목+카테고리 높이(28px) -->
+<!--@if(!$media_info->title_height)-->
+	{@ $textT1_Height = 28}
+<!--@else-->
+	{@ $textT1_Height = $media_info->title_height}
+<!--@end-->
+
+<!--// 내용의 폰트 크기 정의 -->
+<!--@if(!$media_info->content_font_size)-->
+	{@ $content_font_size = 11}
+<!--@else-->
+	{@ $content_font_size = $media_info->content_font_size}
+<!--@end-->
+
+<!--// 내용의 폰트 색 정의 -->
+<!--@if(!$media_info->content_font_color)-->
+	{@ $content_font_color = '#000'}
+<!--@else-->
+	{@ $content_font_color = $media_info->content_font_color}
+<!--@end-->
+
+<!--// 내용의 폰트 스타일 정의 -->
+<!--@if($media_info->content_font_family=='Default')-->
+	{@ $content_font_family = "돋움,Arial,Helevtica,Verdana,san-serif"}
+<!--@else-->
+	{@ $content_font_family = $media_info->content_font_family}
+<!--@end-->
+
+<!--// 내용 폰트 직접 입력인 경우 -->
+<!--@if($media_info->content_font_user)-->
+	{@ $content_font_family = $media_info->content_font_user}
+<!--@end-->
+
+<!--// 내용 높이(50px) -->
+<!--@if(!$media_info->content_height)-->
+	{@ $textC1_Height = 50}
+<!--@else-->
+	{@ $textC1_Height = $media_info->content_height}
+<!--@end-->
+<!--// 위젯 url -->
+{@ $defaultpath = Context::getDefaultUrl()}
+<!--@if(substr($defaultpath, -1)!="/")-->
+{@ $defaultpath = Context::getDefaultUrl()."/"}
+<!--@end-->
+{@ $widget_url = $defaultpath."index.php?mid=".Context::get('mid')."&skin=mediaNews&colorset=".Context::get('colorset')}
+<!--@if(Context::get('itemno'))-->
+{@ $mkey = Context::get('itemno')}
+<!--@else-->
+{@ $mkey = 0}
+<!--@end-->
+
+{@ $itemWidth = $media_info->thumbnail_width+($media_info->cm_grbdsize*2)}
+{@ $itemHeight = $media_info->thumbnail_height+($media_info->cm_grbdsize*2)}
+
+<!-- // 전체넓이 -->
+{@ $widget_width = $media_info->media_width+$media_info->titlebox_width}
+<!-- // 리스트박스 높이 = 슬라이드높이 - 정보상자(100px) - 리스트제목(31px) -->
+{@ $listbox_height = $media_info->media_height-100}
+
+{@ $skincssimgpath = getSiteUrl()."widgets/contentsmedia/skins"}
+
+<style type="text/css">
+.textT1_{$skin_id}, .textT1_{$skin_id} a, .textT1_{$skin_id} a:visited {
+	color:{$title_font_color};
+	font-family: {$title_font_family};
+	font-size: {$title_font_size}px;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: normal;
+	text-align:center;
+	overflow:hidden;
+	<!--@if($media_info->show_title=='Y')-->display:block;<!--@else-->display:none;<!--@end-->
+}
+.textT1_{$skin_id} a:hover, .textT1_{$skin_id} a:focus {
+	text-decoration: underline;
+}
+
+.textC1_{$skin_id}, .textC1_{$skin_id} a, .textC1_{$skin_id} a:visited {
+	text-align:justify;
+	color:{$content_font_color};
+	font-family: {$content_font_family};
+	font-size: {$content_font_size}px;
+	text-decoration: none;
+	font-weight: normal;
+	/* height: {$textC1_Height}px; */
+	line-height:normal;
+	overflow:hidden;
+	<!--@if($media_info->show_content=='Y')-->display:block;<!--@else-->display:none;<!--@end-->
+}
+.textC1_{$skin_id} a:hover, .textC1_{$skin_id} a:focus {
+	text-decoration: underline;
+}
+
+#{$skin_id} a, a:visited, a:link, a:active {text-decoration: none;}
+#{$skin_id} { position:relative; width:{$widget_width}px; height:{$media_info->media_height}px;padding:0; overflow:visible; margin: 5px;
+	box-shadow:0px 0px 5px silver; /* Opera */
+	-moz-box-shadow:0px 0px 5px silver; /* Firefox */
+	-webkit-box-shadow:0px 0px 5px silver; /* Safiri, Chrome */
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=silver,direction=135, strength=5); /* IE */
+}
+#{$skin_id} .{$skin_id} { width:{$media_info->media_width}px; height:{$media_info->media_height}px; float:left; display:inline; background:#000; }
+#{$skin_id} #itemViewer { position:relative; width:{$media_info->media_width}px; height:{$media_info->media_height}px; }
+#{$skin_id} .listBox { position:relative; float:left; display:inline; width:{$media_info->titlebox_width}px; height:{$media_info->media_height}px;  }
+#{$skin_id} .postInfo { position:relative; width:auto; height:90px; padding:10px 0 0 20px; overflow:hidden; background:#252525; }
+#{$skin_id} .postInfo em { float:left; border:1px solid #1A1A1A; background-color:#545454; cursor:pointer; text-decoration:none; padding:4px 6px 2px 6px; letter-spacing:-1px; color:#C8C8C8; line-height:11px; margin-right:5px; font:11px 돋움, dotum, sans-serif; }
+#{$skin_id} .postInfo .postTitle { width:auto; margin:2px 0 0 0; font:bold 14px 돋움, dotum, sans-serif; letter-spacing:-1px; overflow:hidden; height:17px; text-overflow:ellipsis; -moz-binding: url('{$skincssimgpath}/mplayer/ellipsis.xml#ellipsis');}
+#{$skin_id} .postInfo .postTitle a { color:#ddd; overflow:hidden;  }
+#{$skin_id} .postInfo dl { width:100%; clear:both; overflow:hidden; float:left; margin:10px 0 0 0; }
+#{$skin_id} .postInfo dt { width:39px; height:20px; display:inline; float:left; font:11px 돋움, dotum, sans-serif; color:#ddd; }
+#{$skin_id} .postInfo dd { width:auto; height:20px; font:12px 굴림, gulim, sans-serif; color:#777; }
+#{$skin_id} .postInfo .postAuthor { letter-spacing:-1px; }
+#{$skin_id} .postInfo .postAuthor strong { float:left; display:inline; font-weight:normal; padding:0 5px 0 0; }
+#{$skin_id} .postInfo .postAuthor strong a { color:#ddd; }
+#{$skin_id} .postInfo .postAuthor .moreView { float:left; display:inline; overflow:hidden; text-indent:-9999px; margin:1px 0 0 0; width:36px; height:10px; background:url('{$skincssimgpath}/mediaNews/images/more.gif') no-repeat; }
+#{$skin_id} .postInfo dd strong { color:#fff; }
+#{$skin_id} .postInfo .postVote {  position:absolute; top:28px; right:15px; float:left; width:80px; height:76px; background:url('{$skincssimgpath}/mediaNews/images/vote.gif') no-repeat; cursor:pointer; }
+#{$skin_id} .postInfo .postVote span { display:block; overflow:hidden; width:auto; text-align:center; margin:9px 0 0; }
+#{$skin_id} .postInfo .postVote span strong { font:bold 24px Arial; text-indent:0; float:none; }
+#{$skin_id} .postInfo .postVote strong { font:bold 26px Arial, Helvetica, sans-serif; letter-spacing:-1px; color:#f6ff00; float:left; display:inline; text-indent:-9999px; }
+
+/* 관련 동영상 목록 영역 (ifrme 페이지의 스타일도 포함) */
+#{$skin_id} .itemsWrap { position:relative; width:{$media_info->titlebox_width}px; height:{$listbox_height}px; overflow:hidden; background:#3a3a3a;  border:none; }
+#{$skin_id} .itemsWrap .listHead { width:{$media_info->titlebox_width}px; height:20px; float:left; padding:8px 0 0 0; background:url('{$skincssimgpath}/mediaNews/images/line_1.gif') no-repeat 0 100%; }
+#{$skin_id} .itemsWrap .listHead span { width:auto; height:20px; margin:0 0 9px 20px; overflow:hidden; display:inline; float:left; color:#fff;line-height: normal; }
+#{$skin_id} .itemsWrap .itemList { position:relative; width:{$media_info->titlebox_width}px; height:{$listbox_height-32}px; margin:7px 0 0 0; overflow:auto; overflow-x:hidden; float:left; 
+	scrollbar-face-color: #a2a2a2; 
+	scrollbar-shadow-color: #a2a2a2; 
+	scrollbar-highlight-color:#a2a2a2;
+	scrollbar-3dlight-color: #a2a2a2; 
+	scrollbar-darkshadow-color: #a2a2a2; 
+	scrollbar-track-color: #555; 
+	scrollbar-arrow-color: #000; }
+#{$skin_id} .itemsWrap dl { position:relative; width:100%; height:{$media_info->thumbnail_height}px; margin:0 0 12px 0; }
+#{$skin_id} .itemsWrap dd { float:left; display:inline; }
+#{$skin_id} .itemsWrap .itemImage { overflow:hidden; width:{$media_info->thumbnail_width}px; height:{$media_info->thumbnail_height}px; margin: 0 0 0 20px; }
+#{$skin_id} .itemsWrap .itemImage img { display:block; }
+#{$skin_id} .itemsWrap dt { float:right; padding:1px 0 0 15px; width:{$media_info->titlebox_width-$media_info->thumbnail_width-55}px; line-height:18px; text-align:left; }
+#{$skin_id} .itemsWrap dt a { color:#ddd; }
+#{$skin_id} .itemsWrap dt span { font-size:10px; color:#289700; }
+#{$skin_id} .itemsWrap .itemMeta { float:right; padding:6px 0 0 0px; margin: 0; width:{$media_info->titlebox_width-$media_info->thumbnail_width-55}px; height:12px;  }
+#{$skin_id} .itemsWrap .itemMeta span { margin:0; letter-spacing:0; color:#ddd; font:11px 돋움, dotum, sans-serif; }
+#{$skin_id} .itemsWrap .itemMeta .vLine { color:#555; padding:0 8px 0 12px; }
+/* contentslider 위젯 : 배워서남준다(http://studyu.cafe24.com)*/
+</style>
+
+<div id="{$skin_id}">
+	<div class="{$skin_id}">
+		<div id="itemViewer">
+			<!--@if($media_info->media_items[$mkey]->getMedia())-->
+				{$media_info->media_items[$mkey]->getMedia()}
+			<!--@elseif($media_info->media_items[$mkey]->getThumbnail() && $media_info->show_thumbnail == "Y")-->
+				<img src="{$media_info->media_items[$mkey]->getImageMax()}" width="{$media_info->media_width}" height="{$media_info->media_height}" />
+			<!--@end-->
+		</div>
+	</div>
+	<div class="listBox">
+		<div class="postInfo">
+			<a href="{getSiteUrl($media_info->media_items[$mkey]->domain, '', 'mid', $media_info->media_items[$mkey]->get('mid'))}"><em class="channelName humorCh">{$media_info->media_items[$mkey]->browser_title}</em></a>
+			<div class="postTitle">
+				<a href="{$media_info->media_items[$mkey]->getLink()}">{$media_info->media_items[$mkey]->getTitle($media_info->subject_cut_size)}</a>
+			</div>
+
+			<dl>
+				<dt>올린이</dt>
+				<dd class="postAuthor">
+					<strong>
+						<a <!--@if($media_info->media_items[$mkey]->getMemberSrl())-->href="#" onclick="return false;" class="author member_{$media_info->media_items[$mkey]->getMemberSrl()}"<!--@else-->href="#" onclick="return false;" class="author member"<!--@end--> >{$media_info->media_items[$mkey]->getNickName()}</a>
+					</strong>
+					<a href="{$media_info->media_items[$mkey]->getLink()}" title="더보기" class="moreView">영상더보기</a>
+				</dd>
+				<dt>작성일</dt>
+				<dd>{$media_info->media_items[$mkey]->getRegdate("Y.m.d H:i")}</dd>
+				<dt>조회수</dt>
+				<dd><!--@if($media_info->media_items[$mkey]->getReadedCount())-->{$media_info->media_items[$mkey]->getReadedCount()}<!--@else-->0<!--@end--></dd>
+			</dl>
+			<div id="postVote" class="postVote" title="추천하기">
+				<a href="#" onclick="doCallModuleAction('document','procDocumentVoteUp','{$media_info->media_items[$mkey]->variables['document_srl']}');return false" >
+				<span>
+					<strong><!--@if($media_info->media_items[$mkey]->getVotedCount())-->+{$media_info->media_items[$mkey]->getVotedCount()}<!--@else-->0<!--@end--></strong>
+				</span>
+				</a>
+			</div>
+		</div>
+		<div class="itemsWrap">
+			<div class="listHead">
+				<span>{$media_info->media_order} 순위</span>
+			</div>
+			<div class="itemList">
+				<!--@foreach($media_info->media_items as $key => $items)-->
+				<!--@if($mkey!=$key)-->
+				<dl>
+					<dd class="itemImage">
+						<a href="{$widget_url}&itemno={$key}"><img src="{$items->getThumbnail()}" width="{$media_info->thumbnail_width}" height="{$media_info->thumbnail_height}" alt='{$items->getTitle($media_info->subject_cut_size)}' title='{$items->getTitle($media_info->subject_cut_size)}'></a>
+					</dd>
+					<dt>
+						<a href="{$items->getLink()}">{$items->getTitle($media_info->subject_cut_size)}</a>
+					</dt>
+					<dd class="itemMeta">
+						<span>조회수 : <!--@if($items->getReadedCount())-->{$items->getReadedCount()}<!--@else-->0<!--@end--></span>
+						<span class="vLine">|</span>
+						<span>추천수 : <!--@if($items->getVotedCount())-->+{$items->getVotedCount()}<!--@else-->0<!--@end--></span>
+					</dd>
+				</dl><!--@end-->
+				<!--@end-->
+			</div>
+			<hr>
+		</div>
+	</div>
+</div>

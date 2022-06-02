@@ -1,0 +1,24 @@
+<!--// 다른 위젯이나 레이아웃에서 로딩된 js 중복 체크 -->
+<!--@foreach(Context::getJsFile() as $key => $jsfile)-->
+	{@ $filename = strtolower($jsfile['file'])}
+	<!--@if(preg_match('/jwplayer.js/',$filename))-->{@$jwpjs='Y'}<!--@end-->
+	<!--@if(preg_match('/swfobject.js/',$filename))-->{@$swfopjs='Y'}<!--@end-->
+	<!--@if(preg_match('/silverlight.js/',$filename))-->{@$silverjs='Y'}<!--@end-->
+	<!--@if(preg_match('/wmvplayer.js/',$filename))-->{@$wmvpjs='Y'}<!--@end-->
+	<!--@if(preg_match('/jquery.media.js/',$filename))-->{@$mediajs='Y'}<!--@end-->
+	<!--@if(preg_match('/flowplayer-3.2.8.min.js/i',$filename))-->{@$flowjs='Y'}<!--@end-->
+<!--@end-->
+<load cond="$jwpjs !='Y'" target="../mplayer/jwplayer.js" />
+<load cond="$silverjs !='Y'" target="../mplayer/silverlight.js" />
+<load cond="$wmvpjs !='Y'" target="../mplayer/wmvplayer.js" />
+<load cond="$mediajs !='Y'" target="../mplayer/jquery.media.js" />
+<load cond="$swfopjs !='Y'" target="../mplayer/swfobject.js" />
+<load cond="$flowjs !='Y'" target="../mplayer/flowplayer-3.2.8.min.js" />
+
+<!--@if($colorset=="default")-->
+	<!--#include("./default.html")-->
+<!--@elseif($colorset=="daumtv")-->
+	<!--#include("./daumtv.html")-->
+<!--@else-->
+	<!--#include("./vimeo.html")-->
+<!--@end-->

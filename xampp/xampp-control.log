@@ -1,0 +1,1257 @@
+오후 7:14:26  [main] 	Initializing Control Panel
+오후 7:14:26  [main] 	Windows Version:  Enterprise  64-bit
+오후 7:14:26  [main] 	XAMPP Version: 7.3.12
+오후 7:14:26  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 7:14:26  [main] 	You are not running with administrator rights! This will work for
+오후 7:14:26  [main] 	most application stuff but whenever you do something with services
+오후 7:14:26  [main] 	there will be a security dialogue or things will break! So think 
+오후 7:14:26  [main] 	about running this application with administrator rights!
+오후 7:14:26  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 7:14:26  [main] 	Checking for prerequisites
+오후 7:14:26  [main] 	All prerequisites found
+오후 7:14:26  [main] 	Initializing Modules
+오후 7:14:26  [main] 	The FileZilla module is disabled
+오후 7:14:26  [main] 	The Mercury module is disabled
+오후 7:14:26  [main] 	Starting Check-Timer
+오후 7:14:26  [main] 	Control Panel Ready
+오후 7:14:29  [mysql] 	Attempting to start MySQL app...
+오후 7:14:30  [Apache] 	Attempting to start Apache app...
+오후 7:14:31  [Apache] 	Status change detected: running
+오후 7:14:31  [mysql] 	Status change detected: running
+오후 8:37:20  [Apache] 	Attempting to stop Apache (PID: 7360)
+오후 8:37:20  [Apache] 	Attempting to stop Apache (PID: 14608)
+오후 8:37:20  [Apache] 	Status change detected: stopped
+오후 8:37:20  [Apache] 	Attempting to start Apache app...
+오후 8:37:21  [Apache] 	Status change detected: running
+오후 9:03:18  [Apache] 	Attempting to stop Apache (PID: 15140)
+오후 9:03:18  [Apache] 	Attempting to stop Apache (PID: 5064)
+오후 9:03:19  [mysql] 	Attempting to stop MySQL app...
+오후 9:03:19  [Apache] 	Status change detected: stopped
+오후 9:03:19  [mysql] 	Status change detected: stopped
+오후 9:03:19  [main] 	Deinitializing Modules
+오후 9:03:19  [main] 	Deinitializing Control Panel
+
+오후 7:59:39  [main] 	Initializing Control Panel
+오후 7:59:39  [main] 	Windows Version:  Enterprise  64-bit
+오후 7:59:39  [main] 	XAMPP Version: 7.3.12
+오후 7:59:39  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 7:59:39  [main] 	You are not running with administrator rights! This will work for
+오후 7:59:39  [main] 	most application stuff but whenever you do something with services
+오후 7:59:39  [main] 	there will be a security dialogue or things will break! So think 
+오후 7:59:39  [main] 	about running this application with administrator rights!
+오후 7:59:39  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 7:59:39  [main] 	Checking for prerequisites
+오후 7:59:39  [main] 	All prerequisites found
+오후 7:59:39  [main] 	Initializing Modules
+오후 7:59:39  [main] 	The FileZilla module is disabled
+오후 7:59:39  [main] 	The Mercury module is disabled
+오후 7:59:39  [main] 	Starting Check-Timer
+오후 7:59:39  [main] 	Control Panel Ready
+오후 7:59:43  [Apache] 	Attempting to start Apache app...
+오후 7:59:43  [mysql] 	Attempting to start MySQL app...
+오후 7:59:43  [Apache] 	Status change detected: running
+오후 7:59:44  [mysql] 	Status change detected: running
+오후 10:44:04  [main] 	Deinitializing Modules
+오후 10:44:05  [main] 	Deinitializing Control Panel
+
+오후 5:13:31  [main] 	Initializing Control Panel
+오후 5:13:31  [main] 	Windows Version:  Enterprise  64-bit
+오후 5:13:31  [main] 	XAMPP Version: 7.3.12
+오후 5:13:31  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 5:13:31  [main] 	You are not running with administrator rights! This will work for
+오후 5:13:31  [main] 	most application stuff but whenever you do something with services
+오후 5:13:31  [main] 	there will be a security dialogue or things will break! So think 
+오후 5:13:31  [main] 	about running this application with administrator rights!
+오후 5:13:31  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 5:13:31  [main] 	Checking for prerequisites
+오후 5:13:33  [main] 	All prerequisites found
+오후 5:13:33  [main] 	Initializing Modules
+오후 5:13:33  [main] 	The FileZilla module is disabled
+오후 5:13:33  [main] 	The Mercury module is disabled
+오후 5:13:34  [Tomcat] 	Java is already running on port 8080!
+오후 5:13:34  [Tomcat] 	Is Tomcat already running?
+오후 5:13:34  [main] 	Starting Check-Timer
+오후 5:13:34  [main] 	Control Panel Ready
+오후 5:13:37  [mysql] 	Attempting to start MySQL app...
+오후 5:13:37  [mysql] 	Status change detected: running
+오후 5:13:37  [Apache] 	Attempting to start Apache app...
+오후 5:13:38  [Apache] 	Status change detected: running
+오후 6:00:03  [Apache] 	Attempting to stop Apache (PID: 9260)
+오후 6:00:03  [Apache] 	Attempting to stop Apache (PID: 13688)
+오후 6:00:04  [Apache] 	Status change detected: stopped
+오후 6:00:05  [mysql] 	Attempting to stop MySQL app...
+오후 6:00:05  [mysql] 	Status change detected: stopped
+오후 6:00:07  [main] 	Deinitializing Modules
+오후 6:00:07  [main] 	Deinitializing Control Panel
+
+오전 10:21:40  [main] 	Initializing Control Panel
+오전 10:21:40  [main] 	Windows Version:  Enterprise  64-bit
+오전 10:21:40  [main] 	XAMPP Version: 7.3.12
+오전 10:21:40  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오전 10:21:40  [main] 	You are not running with administrator rights! This will work for
+오전 10:21:40  [main] 	most application stuff but whenever you do something with services
+오전 10:21:40  [main] 	there will be a security dialogue or things will break! So think 
+오전 10:21:40  [main] 	about running this application with administrator rights!
+오전 10:21:40  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오전 10:21:40  [main] 	Checking for prerequisites
+오전 10:21:40  [main] 	All prerequisites found
+오전 10:21:40  [main] 	Initializing Modules
+오전 10:21:40  [main] 	The FileZilla module is disabled
+오전 10:21:40  [main] 	The Mercury module is disabled
+오전 10:21:40  [main] 	Starting Check-Timer
+오전 10:21:41  [main] 	Control Panel Ready
+오전 10:21:42  [mysql] 	Attempting to start MySQL app...
+오전 10:21:42  [Apache] 	Attempting to start Apache app...
+오전 10:21:43  [Apache] 	Status change detected: running
+오전 10:21:43  [mysql] 	Status change detected: running
+오후 5:37:45  [Apache] 	Attempting to stop Apache (PID: 13108)
+오후 5:37:45  [Apache] 	Attempting to stop Apache (PID: 2776)
+오후 5:37:45  [mysql] 	Attempting to stop MySQL app...
+오후 5:37:45  [Apache] 	Status change detected: stopped
+오후 5:37:45  [mysql] 	Status change detected: stopped
+오후 5:37:46  [main] 	Deinitializing Modules
+오후 5:37:46  [main] 	Deinitializing Control Panel
+
+오전 10:03:42  [main] 	Initializing Control Panel
+오전 10:03:42  [main] 	Windows Version:  Enterprise  64-bit
+오전 10:03:42  [main] 	XAMPP Version: 7.3.12
+오전 10:03:42  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오전 10:03:42  [main] 	You are not running with administrator rights! This will work for
+오전 10:03:42  [main] 	most application stuff but whenever you do something with services
+오전 10:03:42  [main] 	there will be a security dialogue or things will break! So think 
+오전 10:03:42  [main] 	about running this application with administrator rights!
+오전 10:03:42  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오전 10:03:42  [main] 	Checking for prerequisites
+오전 10:03:44  [main] 	All prerequisites found
+오전 10:03:44  [main] 	Initializing Modules
+오전 10:03:44  [main] 	The FileZilla module is disabled
+오전 10:03:44  [main] 	The Mercury module is disabled
+오전 10:03:44  [Tomcat] 	Java is already running on port 8005!
+오전 10:03:44  [Tomcat] 	Is Tomcat already running?
+오전 10:03:44  [Tomcat] 	Java is already running on port 8080!
+오전 10:03:44  [Tomcat] 	Is Tomcat already running?
+오전 10:03:44  [main] 	Starting Check-Timer
+오전 10:03:44  [main] 	Control Panel Ready
+오전 10:03:50  [mysql] 	Attempting to start MySQL app...
+오전 10:03:50  [Apache] 	Attempting to start Apache app...
+오전 10:03:51  [Apache] 	Status change detected: running
+오전 10:03:51  [mysql] 	Status change detected: running
+오후 12:48:43  [main] 	Deinitializing Modules
+오후 12:48:43  [main] 	Deinitializing Control Panel
+
+오후 8:50:34  [main] 	Initializing Control Panel
+오후 8:50:34  [main] 	Windows Version:  Enterprise  64-bit
+오후 8:50:34  [main] 	XAMPP Version: 7.3.12
+오후 8:50:34  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 8:50:35  [main] 	You are not running with administrator rights! This will work for
+오후 8:50:35  [main] 	most application stuff but whenever you do something with services
+오후 8:50:35  [main] 	there will be a security dialogue or things will break! So think 
+오후 8:50:35  [main] 	about running this application with administrator rights!
+오후 8:50:35  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 8:50:35  [main] 	Checking for prerequisites
+오후 8:50:35  [main] 	All prerequisites found
+오후 8:50:35  [main] 	Initializing Modules
+오후 8:50:35  [main] 	The FileZilla module is disabled
+오후 8:50:35  [main] 	The Mercury module is disabled
+오후 8:50:35  [main] 	Starting Check-Timer
+오후 8:50:35  [main] 	Control Panel Ready
+오후 8:52:06  [Apache] 	Attempting to start Apache app...
+오후 8:52:06  [Apache] 	Status change detected: running
+오후 8:52:07  [mysql] 	Attempting to start MySQL app...
+오후 8:52:07  [mysql] 	Status change detected: running
+오후 9:46:18  [Apache] 	Attempting to stop Apache (PID: 10244)
+오후 9:46:18  [Apache] 	Attempting to stop Apache (PID: 3844)
+오후 9:46:18  [Apache] 	Status change detected: stopped
+오후 9:46:18  [mysql] 	Attempting to stop MySQL app...
+오후 9:46:19  [mysql] 	Status change detected: stopped
+오후 9:46:20  [main] 	Deinitializing Modules
+오후 9:46:20  [main] 	Deinitializing Control Panel
+
+오후 10:10:53  [main] 	Initializing Control Panel
+오후 10:10:53  [main] 	Windows Version:  Enterprise  64-bit
+오후 10:10:53  [main] 	XAMPP Version: 7.3.12
+오후 10:10:53  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 10:10:53  [main] 	You are not running with administrator rights! This will work for
+오후 10:10:53  [main] 	most application stuff but whenever you do something with services
+오후 10:10:53  [main] 	there will be a security dialogue or things will break! So think 
+오후 10:10:53  [main] 	about running this application with administrator rights!
+오후 10:10:53  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 10:10:53  [main] 	Checking for prerequisites
+오후 10:10:54  [main] 	All prerequisites found
+오후 10:10:54  [main] 	Initializing Modules
+오후 10:10:54  [main] 	The FileZilla module is disabled
+오후 10:10:54  [main] 	The Mercury module is disabled
+오후 10:10:54  [main] 	Starting Check-Timer
+오후 10:10:54  [main] 	Control Panel Ready
+오후 10:11:16  [mysql] 	Attempting to start MySQL app...
+오후 10:11:16  [mysql] 	Status change detected: running
+오후 10:11:17  [Apache] 	Attempting to start Apache app...
+오후 10:11:17  [Apache] 	Status change detected: running
+오후 10:12:37  [mysql] 	Attempting to stop MySQL app...
+오후 10:12:37  [Apache] 	Attempting to stop Apache (PID: 5568)
+오후 10:12:37  [Apache] 	Attempting to stop Apache (PID: 6968)
+오후 10:12:37  [Apache] 	Status change detected: stopped
+오후 10:12:37  [mysql] 	Status change detected: stopped
+오후 10:12:38  [main] 	Deinitializing Modules
+오후 10:12:38  [main] 	Deinitializing Control Panel
+
+오후 7:44:51  [main] 	Initializing Control Panel
+오후 7:44:52  [main] 	Windows Version:  Enterprise  64-bit
+오후 7:44:52  [main] 	XAMPP Version: 7.3.12
+오후 7:44:52  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 7:44:52  [main] 	You are not running with administrator rights! This will work for
+오후 7:44:52  [main] 	most application stuff but whenever you do something with services
+오후 7:44:52  [main] 	there will be a security dialogue or things will break! So think 
+오후 7:44:52  [main] 	about running this application with administrator rights!
+오후 7:44:52  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 7:44:52  [main] 	Checking for prerequisites
+오후 7:44:52  [main] 	All prerequisites found
+오후 7:44:52  [main] 	Initializing Modules
+오후 7:44:52  [main] 	The FileZilla module is disabled
+오후 7:44:52  [main] 	The Mercury module is disabled
+오후 7:44:52  [main] 	Starting Check-Timer
+오후 7:44:52  [main] 	Control Panel Ready
+오후 7:44:55  [mysql] 	Attempting to start MySQL app...
+오후 7:44:56  [Apache] 	Attempting to start Apache app...
+오후 7:44:56  [Apache] 	Status change detected: running
+오후 7:44:56  [mysql] 	Status change detected: running
+오후 7:45:10  [Apache] 	Attempting to stop Apache (PID: 6572)
+오후 7:45:10  [Apache] 	Attempting to stop Apache (PID: 17776)
+오후 7:45:11  [Apache] 	Status change detected: stopped
+오후 7:45:11  [mysql] 	Attempting to stop MySQL app...
+오후 7:45:11  [mysql] 	Status change detected: stopped
+오후 7:45:16  [main] 	Deinitializing Modules
+오후 7:45:16  [main] 	Deinitializing Control Panel
+
+오후 7:39:51  [main] 	Initializing Control Panel
+오후 7:39:51  [main] 	Windows Version:  Enterprise  64-bit
+오후 7:39:51  [main] 	XAMPP Version: 7.3.12
+오후 7:39:51  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 7:39:51  [main] 	You are not running with administrator rights! This will work for
+오후 7:39:51  [main] 	most application stuff but whenever you do something with services
+오후 7:39:51  [main] 	there will be a security dialogue or things will break! So think 
+오후 7:39:51  [main] 	about running this application with administrator rights!
+오후 7:39:51  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 7:39:51  [main] 	Checking for prerequisites
+오후 7:39:52  [main] 	All prerequisites found
+오후 7:39:52  [main] 	Initializing Modules
+오후 7:39:52  [main] 	The FileZilla module is disabled
+오후 7:39:52  [main] 	The Mercury module is disabled
+오후 7:39:52  [main] 	Starting Check-Timer
+오후 7:39:52  [main] 	Control Panel Ready
+오후 7:39:54  [Apache] 	Attempting to start Apache app...
+오후 7:39:54  [mysql] 	Attempting to start MySQL app...
+오후 7:39:55  [Apache] 	Status change detected: running
+오후 7:39:55  [mysql] 	Status change detected: running
+오후 10:24:47  [Apache] 	Status change detected: stopped
+오후 10:24:47  [Apache] 	Error: Apache shutdown unexpectedly.
+오후 10:24:47  [Apache] 	This may be due to a blocked port, missing dependencies, 
+오후 10:24:47  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+오후 10:24:47  [Apache] 	Press the Logs button to view error logs and check
+오후 10:24:47  [Apache] 	the Windows Event Viewer for more clues
+오후 10:24:47  [Apache] 	If you need more help, copy and post this
+오후 10:24:47  [Apache] 	entire log window on the forums
+오후 10:24:47  [mysql] 	Status change detected: stopped
+오후 10:24:47  [mysql] 	Error: MySQL shutdown unexpectedly.
+오후 10:24:47  [mysql] 	This may be due to a blocked port, missing dependencies, 
+오후 10:24:47  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+오후 10:24:47  [mysql] 	Press the Logs button to view error logs and check
+오후 10:24:47  [mysql] 	the Windows Event Viewer for more clues
+오후 10:24:47  [mysql] 	If you need more help, copy and post this
+오후 10:24:47  [mysql] 	entire log window on the forums
+오후 10:24:52  [main] 	Deinitializing Modules
+오후 10:24:52  [main] 	Deinitializing Control Panel
+
+오후 8:23:20  [main] 	Initializing Control Panel
+오후 8:23:20  [main] 	Windows Version:  Enterprise  64-bit
+오후 8:23:20  [main] 	XAMPP Version: 7.3.12
+오후 8:23:20  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 8:23:20  [main] 	You are not running with administrator rights! This will work for
+오후 8:23:20  [main] 	most application stuff but whenever you do something with services
+오후 8:23:20  [main] 	there will be a security dialogue or things will break! So think 
+오후 8:23:20  [main] 	about running this application with administrator rights!
+오후 8:23:20  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 8:23:20  [main] 	Checking for prerequisites
+오후 8:23:21  [main] 	All prerequisites found
+오후 8:23:21  [main] 	Initializing Modules
+오후 8:23:21  [main] 	The FileZilla module is disabled
+오후 8:23:21  [main] 	The Mercury module is disabled
+오후 8:23:21  [main] 	Starting Check-Timer
+오후 8:23:21  [main] 	Control Panel Ready
+오후 8:23:38  [Apache] 	Attempting to start Apache app...
+오후 8:23:39  [mysql] 	Attempting to start MySQL app...
+오후 8:23:39  [Apache] 	Status change detected: running
+오후 8:23:39  [mysql] 	Status change detected: running
+오후 8:27:53  [Apache] 	Attempting to stop Apache (PID: 14816)
+오후 8:27:53  [Apache] 	Attempting to stop Apache (PID: 17188)
+오후 8:27:54  [Apache] 	Status change detected: stopped
+오후 8:27:54  [mysql] 	Attempting to stop MySQL app...
+오후 8:27:54  [mysql] 	Status change detected: stopped
+오후 8:27:54  [main] 	Deinitializing Modules
+오후 8:27:54  [main] 	Deinitializing Control Panel
+
+오후 9:35:18  [main] 	Initializing Control Panel
+오후 9:35:18  [main] 	Windows Version:  Enterprise  64-bit
+오후 9:35:18  [main] 	XAMPP Version: 7.3.12
+오후 9:35:18  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 9:35:18  [main] 	You are not running with administrator rights! This will work for
+오후 9:35:18  [main] 	most application stuff but whenever you do something with services
+오후 9:35:18  [main] 	there will be a security dialogue or things will break! So think 
+오후 9:35:18  [main] 	about running this application with administrator rights!
+오후 9:35:18  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 9:35:18  [main] 	Checking for prerequisites
+오후 9:35:18  [main] 	All prerequisites found
+오후 9:35:18  [main] 	Initializing Modules
+오후 9:35:18  [main] 	The FileZilla module is disabled
+오후 9:35:18  [main] 	The Mercury module is disabled
+오후 9:35:18  [main] 	Starting Check-Timer
+오후 9:35:18  [main] 	Control Panel Ready
+오후 9:35:33  [Apache] 	Attempting to start Apache app...
+오후 9:35:33  [Apache] 	Status change detected: running
+오후 9:35:33  [mysql] 	Attempting to start MySQL app...
+오후 9:35:33  [mysql] 	Status change detected: running
+오후 10:08:55  [mysql] 	Attempting to stop MySQL app...
+오후 10:08:55  [mysql] 	Status change detected: stopped
+오후 10:08:56  [Apache] 	Attempting to stop Apache (PID: 19368)
+오후 10:08:56  [Apache] 	Attempting to stop Apache (PID: 18428)
+오후 10:08:56  [Apache] 	Status change detected: stopped
+오후 10:08:57  [main] 	Deinitializing Modules
+오후 10:08:57  [main] 	Deinitializing Control Panel
+
+오후 9:30:51  [main] 	Initializing Control Panel
+오후 9:30:51  [main] 	Windows Version:  Enterprise  64-bit
+오후 9:30:51  [main] 	XAMPP Version: 7.3.12
+오후 9:30:51  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 9:30:51  [main] 	You are not running with administrator rights! This will work for
+오후 9:30:51  [main] 	most application stuff but whenever you do something with services
+오후 9:30:51  [main] 	there will be a security dialogue or things will break! So think 
+오후 9:30:51  [main] 	about running this application with administrator rights!
+오후 9:30:51  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 9:30:51  [main] 	Checking for prerequisites
+오후 9:30:51  [main] 	All prerequisites found
+오후 9:30:51  [main] 	Initializing Modules
+오후 9:30:51  [main] 	The FileZilla module is disabled
+오후 9:30:51  [main] 	The Mercury module is disabled
+오후 9:30:51  [main] 	Starting Check-Timer
+오후 9:30:51  [main] 	Control Panel Ready
+오후 9:30:53  [Apache] 	Attempting to start Apache app...
+오후 9:30:54  [Apache] 	Status change detected: running
+오후 9:30:54  [mysql] 	Attempting to start MySQL app...
+오후 9:30:54  [mysql] 	Status change detected: running
+오후 10:05:57  [mysql] 	Attempting to stop MySQL app...
+오후 10:05:57  [Apache] 	Attempting to stop Apache (PID: 16796)
+오후 10:05:57  [Apache] 	Attempting to stop Apache (PID: 19568)
+오후 10:05:57  [Apache] 	Status change detected: stopped
+오후 10:05:57  [mysql] 	Status change detected: stopped
+오후 10:05:58  [main] 	Deinitializing Modules
+오후 10:05:58  [main] 	Deinitializing Control Panel
+
+오후 10:06:03  [main] 	Initializing Control Panel
+오후 10:06:03  [main] 	Windows Version:  Enterprise  64-bit
+오후 10:06:03  [main] 	XAMPP Version: 7.3.12
+오후 10:06:03  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 10:06:03  [main] 	You are not running with administrator rights! This will work for
+오후 10:06:03  [main] 	most application stuff but whenever you do something with services
+오후 10:06:03  [main] 	there will be a security dialogue or things will break! So think 
+오후 10:06:03  [main] 	about running this application with administrator rights!
+오후 10:06:03  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 10:06:03  [main] 	Checking for prerequisites
+오후 10:06:04  [main] 	All prerequisites found
+오후 10:06:04  [main] 	Initializing Modules
+오후 10:06:04  [main] 	The FileZilla module is disabled
+오후 10:06:04  [main] 	The Mercury module is disabled
+오후 10:06:04  [main] 	Starting Check-Timer
+오후 10:06:04  [main] 	Control Panel Ready
+오후 10:06:10  [Apache] 	Attempting to start Apache app...
+오후 10:06:11  [mysql] 	Attempting to start MySQL app...
+오후 10:06:11  [Apache] 	Status change detected: running
+오후 10:06:11  [mysql] 	Status change detected: running
+오후 10:29:09  [mysql] 	Attempting to stop MySQL app...
+오후 10:29:09  [Apache] 	Attempting to stop Apache (PID: 9488)
+오후 10:29:09  [Apache] 	Attempting to stop Apache (PID: 9616)
+오후 10:29:09  [Apache] 	Status change detected: stopped
+오후 10:29:09  [mysql] 	Status change detected: stopped
+오후 10:29:10  [main] 	Deinitializing Modules
+오후 10:29:10  [main] 	Deinitializing Control Panel
+
+오후 9:59:07  [main] 	Initializing Control Panel
+오후 9:59:07  [main] 	Windows Version:  Enterprise  64-bit
+오후 9:59:07  [main] 	XAMPP Version: 7.3.12
+오후 9:59:07  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 9:59:07  [main] 	You are not running with administrator rights! This will work for
+오후 9:59:07  [main] 	most application stuff but whenever you do something with services
+오후 9:59:07  [main] 	there will be a security dialogue or things will break! So think 
+오후 9:59:07  [main] 	about running this application with administrator rights!
+오후 9:59:07  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 9:59:07  [main] 	Checking for prerequisites
+오후 9:59:08  [main] 	All prerequisites found
+오후 9:59:08  [main] 	Initializing Modules
+오후 9:59:08  [main] 	The FileZilla module is disabled
+오후 9:59:08  [main] 	The Mercury module is disabled
+오후 9:59:08  [main] 	Starting Check-Timer
+오후 9:59:08  [main] 	Control Panel Ready
+오후 9:59:11  [mysql] 	Attempting to start MySQL app...
+오후 9:59:11  [Apache] 	Attempting to start Apache app...
+오후 9:59:11  [Apache] 	Status change detected: running
+오후 9:59:11  [mysql] 	Status change detected: running
+오후 10:04:05  [Apache] 	Attempting to stop Apache (PID: 16256)
+오후 10:04:05  [Apache] 	Attempting to stop Apache (PID: 18960)
+오후 10:04:06  [Apache] 	Status change detected: stopped
+오후 10:04:06  [mysql] 	Attempting to stop MySQL app...
+오후 10:04:06  [mysql] 	Status change detected: stopped
+오후 10:04:06  [main] 	Deinitializing Modules
+오후 10:04:06  [main] 	Deinitializing Control Panel
+
+오후 10:35:02  [main] 	Initializing Control Panel
+오후 10:35:02  [main] 	Windows Version:  Enterprise  64-bit
+오후 10:35:02  [main] 	XAMPP Version: 7.3.12
+오후 10:35:02  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 10:35:02  [main] 	You are not running with administrator rights! This will work for
+오후 10:35:02  [main] 	most application stuff but whenever you do something with services
+오후 10:35:02  [main] 	there will be a security dialogue or things will break! So think 
+오후 10:35:02  [main] 	about running this application with administrator rights!
+오후 10:35:02  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 10:35:02  [main] 	Checking for prerequisites
+오후 10:35:02  [main] 	All prerequisites found
+오후 10:35:02  [main] 	Initializing Modules
+오후 10:35:02  [main] 	The FileZilla module is disabled
+오후 10:35:02  [main] 	The Mercury module is disabled
+오후 10:35:02  [main] 	Starting Check-Timer
+오후 10:35:02  [main] 	Control Panel Ready
+오후 10:35:04  [Apache] 	Attempting to start Apache app...
+오후 10:35:04  [Apache] 	Status change detected: running
+오후 10:35:04  [mysql] 	Attempting to start MySQL app...
+오후 10:35:04  [mysql] 	Status change detected: running
+오전 12:09:43  [mysql] 	Attempting to stop MySQL app...
+오전 12:09:43  [mysql] 	Status change detected: stopped
+오전 12:09:43  [Apache] 	Attempting to stop Apache (PID: 21128)
+오전 12:09:43  [Apache] 	Attempting to stop Apache (PID: 24392)
+오전 12:09:43  [Apache] 	Status change detected: stopped
+오전 12:09:44  [main] 	Deinitializing Modules
+오전 12:09:44  [main] 	Deinitializing Control Panel
+
+오후 9:19:29  [main] 	Initializing Control Panel
+오후 9:19:29  [main] 	Windows Version:  Enterprise  64-bit
+오후 9:19:29  [main] 	XAMPP Version: 7.3.12
+오후 9:19:29  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 9:19:29  [main] 	You are not running with administrator rights! This will work for
+오후 9:19:29  [main] 	most application stuff but whenever you do something with services
+오후 9:19:29  [main] 	there will be a security dialogue or things will break! So think 
+오후 9:19:29  [main] 	about running this application with administrator rights!
+오후 9:19:29  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 9:19:29  [main] 	Checking for prerequisites
+오후 9:19:30  [main] 	All prerequisites found
+오후 9:19:30  [main] 	Initializing Modules
+오후 9:19:30  [main] 	The FileZilla module is disabled
+오후 9:19:30  [main] 	The Mercury module is disabled
+오후 9:19:30  [main] 	Starting Check-Timer
+오후 9:19:30  [main] 	Control Panel Ready
+오후 9:19:35  [Apache] 	Attempting to start Apache app...
+오후 9:19:35  [Apache] 	Status change detected: running
+오후 9:19:35  [mysql] 	Attempting to start MySQL app...
+오후 9:19:35  [mysql] 	Status change detected: running
+오후 9:49:29  [Apache] 	Attempting to stop Apache (PID: 2900)
+오후 9:49:29  [Apache] 	Attempting to stop Apache (PID: 17480)
+오후 9:49:29  [mysql] 	Attempting to stop MySQL app...
+오후 9:49:29  [Apache] 	Status change detected: stopped
+오후 9:49:29  [mysql] 	Status change detected: stopped
+오후 9:49:30  [main] 	Deinitializing Modules
+오후 9:49:30  [main] 	Deinitializing Control Panel
+
+오후 10:08:53  [main] 	Initializing Control Panel
+오후 10:08:53  [main] 	Windows Version:  Enterprise  64-bit
+오후 10:08:53  [main] 	XAMPP Version: 7.3.12
+오후 10:08:53  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 10:08:53  [main] 	You are not running with administrator rights! This will work for
+오후 10:08:53  [main] 	most application stuff but whenever you do something with services
+오후 10:08:53  [main] 	there will be a security dialogue or things will break! So think 
+오후 10:08:53  [main] 	about running this application with administrator rights!
+오후 10:08:53  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 10:08:53  [main] 	Checking for prerequisites
+오후 10:08:53  [main] 	All prerequisites found
+오후 10:08:53  [main] 	Initializing Modules
+오후 10:08:53  [main] 	The FileZilla module is disabled
+오후 10:08:53  [main] 	The Mercury module is disabled
+오후 10:08:53  [main] 	Starting Check-Timer
+오후 10:08:53  [main] 	Control Panel Ready
+오후 10:08:57  [Apache] 	Attempting to start Apache app...
+오후 10:08:57  [Apache] 	Status change detected: running
+오후 10:08:57  [mysql] 	Attempting to start MySQL app...
+오후 10:08:57  [mysql] 	Status change detected: running
+오후 10:17:06  [main] 	Deinitializing Modules
+오후 10:17:06  [main] 	Deinitializing Control Panel
+
+오후 9:35:32  [main] 	Initializing Control Panel
+오후 9:35:32  [main] 	Windows Version:  Enterprise  64-bit
+오후 9:35:32  [main] 	XAMPP Version: 7.3.12
+오후 9:35:32  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 9:35:32  [main] 	You are not running with administrator rights! This will work for
+오후 9:35:32  [main] 	most application stuff but whenever you do something with services
+오후 9:35:32  [main] 	there will be a security dialogue or things will break! So think 
+오후 9:35:32  [main] 	about running this application with administrator rights!
+오후 9:35:32  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 9:35:32  [main] 	Checking for prerequisites
+오후 9:35:33  [main] 	All prerequisites found
+오후 9:35:33  [main] 	Initializing Modules
+오후 9:35:33  [main] 	The FileZilla module is disabled
+오후 9:35:33  [main] 	The Mercury module is disabled
+오후 9:35:33  [main] 	Starting Check-Timer
+오후 9:35:33  [main] 	Control Panel Ready
+오후 9:35:35  [mysql] 	Attempting to start MySQL app...
+오후 9:35:35  [Apache] 	Attempting to start Apache app...
+오후 9:35:35  [Apache] 	Status change detected: running
+오후 9:35:35  [mysql] 	Status change detected: running
+오후 11:03:46  [Apache] 	Attempting to stop Apache (PID: 18152)
+오후 11:03:46  [Apache] 	Attempting to stop Apache (PID: 14484)
+오후 11:03:46  [Apache] 	Status change detected: stopped
+오후 11:03:46  [mysql] 	Attempting to stop MySQL app...
+오후 11:03:47  [mysql] 	Status change detected: stopped
+오후 11:03:47  [main] 	Deinitializing Modules
+오후 11:03:47  [main] 	Deinitializing Control Panel
+
+오후 8:47:19  [main] 	Initializing Control Panel
+오후 8:47:19  [main] 	Windows Version:  Enterprise  64-bit
+오후 8:47:19  [main] 	XAMPP Version: 7.3.12
+오후 8:47:19  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 8:47:19  [main] 	You are not running with administrator rights! This will work for
+오후 8:47:19  [main] 	most application stuff but whenever you do something with services
+오후 8:47:19  [main] 	there will be a security dialogue or things will break! So think 
+오후 8:47:19  [main] 	about running this application with administrator rights!
+오후 8:47:19  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 8:47:19  [main] 	Checking for prerequisites
+오후 8:47:19  [main] 	All prerequisites found
+오후 8:47:19  [main] 	Initializing Modules
+오후 8:47:19  [main] 	The FileZilla module is disabled
+오후 8:47:19  [main] 	The Mercury module is disabled
+오후 8:47:19  [main] 	Starting Check-Timer
+오후 8:47:19  [main] 	Control Panel Ready
+오후 8:47:21  [Apache] 	Attempting to start Apache app...
+오후 8:47:21  [Apache] 	Status change detected: running
+오후 8:47:21  [mysql] 	Attempting to start MySQL app...
+오후 8:47:22  [mysql] 	Status change detected: running
+오후 10:11:31  [main] 	Deinitializing Modules
+오후 10:11:31  [main] 	Deinitializing Control Panel
+
+오후 8:36:03  [main] 	Initializing Control Panel
+오후 8:36:03  [main] 	Windows Version:  Enterprise  64-bit
+오후 8:36:03  [main] 	XAMPP Version: 7.3.12
+오후 8:36:03  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 8:36:03  [main] 	You are not running with administrator rights! This will work for
+오후 8:36:03  [main] 	most application stuff but whenever you do something with services
+오후 8:36:03  [main] 	there will be a security dialogue or things will break! So think 
+오후 8:36:03  [main] 	about running this application with administrator rights!
+오후 8:36:03  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 8:36:03  [main] 	Checking for prerequisites
+오후 8:36:03  [main] 	All prerequisites found
+오후 8:36:03  [main] 	Initializing Modules
+오후 8:36:03  [main] 	The FileZilla module is disabled
+오후 8:36:03  [main] 	The Mercury module is disabled
+오후 8:36:03  [main] 	Starting Check-Timer
+오후 8:36:03  [main] 	Control Panel Ready
+오후 8:36:05  [Apache] 	Attempting to start Apache app...
+오후 8:36:05  [Apache] 	Status change detected: running
+오후 8:36:06  [mysql] 	Attempting to start MySQL app...
+오후 8:36:06  [mysql] 	Status change detected: running
+오후 10:01:46  [mysql] 	Attempting to stop MySQL app...
+오후 10:01:46  [mysql] 	Status change detected: stopped
+오후 10:01:46  [Apache] 	Attempting to stop Apache (PID: 9716)
+오후 10:01:46  [Apache] 	Attempting to stop Apache (PID: 9356)
+오후 10:01:46  [Apache] 	Status change detected: stopped
+오후 10:01:47  [main] 	Deinitializing Modules
+오후 10:01:47  [main] 	Deinitializing Control Panel
+
+오후 4:32:05  [main] 	Initializing Control Panel
+오후 4:32:05  [main] 	Windows Version:  Enterprise  64-bit
+오후 4:32:05  [main] 	XAMPP Version: 7.3.12
+오후 4:32:05  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 4:32:05  [main] 	You are not running with administrator rights! This will work for
+오후 4:32:05  [main] 	most application stuff but whenever you do something with services
+오후 4:32:05  [main] 	there will be a security dialogue or things will break! So think 
+오후 4:32:05  [main] 	about running this application with administrator rights!
+오후 4:32:05  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 4:32:05  [main] 	Checking for prerequisites
+오후 4:32:06  [main] 	All prerequisites found
+오후 4:32:06  [main] 	Initializing Modules
+오후 4:32:06  [main] 	The FileZilla module is disabled
+오후 4:32:06  [main] 	The Mercury module is disabled
+오후 4:32:06  [main] 	Starting Check-Timer
+오후 4:32:06  [main] 	Control Panel Ready
+오후 4:32:07  [mysql] 	Attempting to start MySQL app...
+오후 4:32:08  [mysql] 	Status change detected: running
+오후 4:32:08  [Apache] 	Attempting to start Apache app...
+오후 4:32:08  [Apache] 	Status change detected: running
+오후 10:08:55  [mysql] 	Attempting to stop MySQL app...
+오후 10:08:56  [Apache] 	Attempting to stop Apache (PID: 1752)
+오후 10:08:56  [Apache] 	Attempting to stop Apache (PID: 6232)
+오후 10:08:56  [Apache] 	Status change detected: stopped
+오후 10:08:56  [mysql] 	Status change detected: stopped
+오후 10:08:57  [main] 	Deinitializing Modules
+오후 10:08:57  [main] 	Deinitializing Control Panel
+
+오후 9:04:21  [main] 	Initializing Control Panel
+오후 9:04:21  [main] 	Windows Version:  Enterprise  64-bit
+오후 9:04:21  [main] 	XAMPP Version: 7.3.12
+오후 9:04:21  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 9:04:21  [main] 	You are not running with administrator rights! This will work for
+오후 9:04:21  [main] 	most application stuff but whenever you do something with services
+오후 9:04:21  [main] 	there will be a security dialogue or things will break! So think 
+오후 9:04:21  [main] 	about running this application with administrator rights!
+오후 9:04:21  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 9:04:21  [main] 	Checking for prerequisites
+오후 9:04:22  [main] 	All prerequisites found
+오후 9:04:22  [main] 	Initializing Modules
+오후 9:04:22  [main] 	The FileZilla module is disabled
+오후 9:04:22  [main] 	The Mercury module is disabled
+오후 9:04:22  [main] 	Starting Check-Timer
+오후 9:04:22  [main] 	Control Panel Ready
+오후 9:04:24  [mysql] 	Attempting to start MySQL app...
+오후 9:04:24  [Apache] 	Attempting to start Apache app...
+오후 9:04:25  [Apache] 	Status change detected: running
+오후 9:04:25  [mysql] 	Status change detected: running
+오후 10:08:00  [main] 	Deinitializing Modules
+오후 10:08:00  [main] 	Deinitializing Control Panel
+
+오후 8:33:19  [main] 	Initializing Control Panel
+오후 8:33:19  [main] 	Windows Version:  Enterprise  64-bit
+오후 8:33:19  [main] 	XAMPP Version: 7.3.12
+오후 8:33:19  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 8:33:19  [main] 	You are not running with administrator rights! This will work for
+오후 8:33:19  [main] 	most application stuff but whenever you do something with services
+오후 8:33:19  [main] 	there will be a security dialogue or things will break! So think 
+오후 8:33:19  [main] 	about running this application with administrator rights!
+오후 8:33:19  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 8:33:19  [main] 	Checking for prerequisites
+오후 8:33:20  [main] 	All prerequisites found
+오후 8:33:20  [main] 	Initializing Modules
+오후 8:33:20  [main] 	The FileZilla module is disabled
+오후 8:33:20  [main] 	The Mercury module is disabled
+오후 8:33:20  [main] 	Starting Check-Timer
+오후 8:33:20  [main] 	Control Panel Ready
+오후 8:33:21  [Apache] 	Attempting to start Apache app...
+오후 8:33:22  [Apache] 	Status change detected: running
+오후 8:33:22  [mysql] 	Attempting to start MySQL app...
+오후 8:33:22  [mysql] 	Status change detected: running
+오후 10:26:14  [Apache] 	Attempting to stop Apache (PID: 20312)
+오후 10:26:14  [Apache] 	Attempting to stop Apache (PID: 17528)
+오후 10:26:14  [Apache] 	Status change detected: stopped
+오후 10:26:14  [mysql] 	Attempting to stop MySQL app...
+오후 10:26:14  [mysql] 	Status change detected: stopped
+오후 10:26:15  [main] 	Deinitializing Modules
+오후 10:26:15  [main] 	Deinitializing Control Panel
+
+오후 9:50:06  [main] 	Initializing Control Panel
+오후 9:50:06  [main] 	Windows Version:  Enterprise  64-bit
+오후 9:50:06  [main] 	XAMPP Version: 7.3.12
+오후 9:50:06  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 9:50:06  [main] 	You are not running with administrator rights! This will work for
+오후 9:50:06  [main] 	most application stuff but whenever you do something with services
+오후 9:50:06  [main] 	there will be a security dialogue or things will break! So think 
+오후 9:50:06  [main] 	about running this application with administrator rights!
+오후 9:50:06  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 9:50:06  [main] 	Checking for prerequisites
+오후 9:50:07  [main] 	All prerequisites found
+오후 9:50:07  [main] 	Initializing Modules
+오후 9:50:07  [main] 	The FileZilla module is disabled
+오후 9:50:07  [main] 	The Mercury module is disabled
+오후 9:50:07  [main] 	Starting Check-Timer
+오후 9:50:07  [main] 	Control Panel Ready
+오후 9:50:09  [mysql] 	Attempting to start MySQL app...
+오후 9:50:09  [mysql] 	Status change detected: running
+오후 9:50:09  [Apache] 	Attempting to start Apache app...
+오후 9:50:10  [Apache] 	Status change detected: running
+오후 11:02:19  [mysql] 	Attempting to stop MySQL app...
+오후 11:02:19  [mysql] 	Status change detected: stopped
+오후 11:02:19  [Apache] 	Attempting to stop Apache (PID: 21796)
+오후 11:02:19  [Apache] 	Attempting to stop Apache (PID: 9524)
+오후 11:02:20  [Apache] 	Status change detected: stopped
+오후 11:02:20  [main] 	Deinitializing Modules
+오후 11:02:20  [main] 	Deinitializing Control Panel
+
+오후 7:38:50  [main] 	Initializing Control Panel
+오후 7:38:50  [main] 	Windows Version:  Enterprise  64-bit
+오후 7:38:50  [main] 	XAMPP Version: 7.3.12
+오후 7:38:50  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 7:38:50  [main] 	You are not running with administrator rights! This will work for
+오후 7:38:50  [main] 	most application stuff but whenever you do something with services
+오후 7:38:50  [main] 	there will be a security dialogue or things will break! So think 
+오후 7:38:50  [main] 	about running this application with administrator rights!
+오후 7:38:50  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 7:38:51  [main] 	Checking for prerequisites
+오후 7:38:51  [main] 	All prerequisites found
+오후 7:38:51  [main] 	Initializing Modules
+오후 7:38:51  [main] 	The FileZilla module is disabled
+오후 7:38:51  [main] 	The Mercury module is disabled
+오후 7:38:51  [main] 	Starting Check-Timer
+오후 7:38:51  [main] 	Control Panel Ready
+오후 10:12:45  [main] 	Deinitializing Modules
+오후 10:12:45  [main] 	Deinitializing Control Panel
+
+오후 9:17:20  [main] 	Initializing Control Panel
+오후 9:17:20  [main] 	Windows Version:  Enterprise  64-bit
+오후 9:17:20  [main] 	XAMPP Version: 7.3.12
+오후 9:17:20  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 9:17:20  [main] 	You are not running with administrator rights! This will work for
+오후 9:17:20  [main] 	most application stuff but whenever you do something with services
+오후 9:17:20  [main] 	there will be a security dialogue or things will break! So think 
+오후 9:17:20  [main] 	about running this application with administrator rights!
+오후 9:17:20  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 9:17:20  [main] 	Checking for prerequisites
+오후 9:17:21  [main] 	All prerequisites found
+오후 9:17:21  [main] 	Initializing Modules
+오후 9:17:21  [main] 	The FileZilla module is disabled
+오후 9:17:21  [main] 	The Mercury module is disabled
+오후 9:17:21  [main] 	Starting Check-Timer
+오후 9:17:21  [main] 	Control Panel Ready
+오후 9:17:33  [Apache] 	Attempting to start Apache app...
+오후 9:17:33  [mysql] 	Attempting to start MySQL app...
+오후 9:17:33  [Apache] 	Status change detected: running
+오후 9:17:33  [mysql] 	Status change detected: running
+오후 10:23:17  [mysql] 	Attempting to stop MySQL app...
+오후 10:23:17  [mysql] 	Status change detected: stopped
+오후 10:23:17  [Apache] 	Attempting to stop Apache (PID: 21708)
+오후 10:23:17  [Apache] 	Attempting to stop Apache (PID: 22188)
+오후 10:23:18  [Apache] 	Status change detected: stopped
+오후 10:23:18  [main] 	Deinitializing Modules
+오후 10:23:18  [main] 	Deinitializing Control Panel
+
+오후 10:01:44  [main] 	Initializing Control Panel
+오후 10:01:44  [main] 	Windows Version:  Enterprise  64-bit
+오후 10:01:44  [main] 	XAMPP Version: 7.3.12
+오후 10:01:44  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 10:01:44  [main] 	You are not running with administrator rights! This will work for
+오후 10:01:44  [main] 	most application stuff but whenever you do something with services
+오후 10:01:44  [main] 	there will be a security dialogue or things will break! So think 
+오후 10:01:44  [main] 	about running this application with administrator rights!
+오후 10:01:44  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 10:01:44  [main] 	Checking for prerequisites
+오후 10:01:45  [main] 	All prerequisites found
+오후 10:01:45  [main] 	Initializing Modules
+오후 10:01:45  [main] 	The FileZilla module is disabled
+오후 10:01:45  [main] 	The Mercury module is disabled
+오후 10:01:45  [main] 	Starting Check-Timer
+오후 10:01:45  [main] 	Control Panel Ready
+오후 10:01:48  [mysql] 	Attempting to start MySQL app...
+오후 10:01:48  [Apache] 	Attempting to start Apache app...
+오후 10:01:48  [Apache] 	Status change detected: running
+오후 10:01:48  [mysql] 	Status change detected: running
+오후 10:17:38  [mysql] 	Status change detected: stopped
+오후 10:17:38  [mysql] 	Error: MySQL shutdown unexpectedly.
+오후 10:17:38  [mysql] 	This may be due to a blocked port, missing dependencies, 
+오후 10:17:38  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+오후 10:17:38  [mysql] 	Press the Logs button to view error logs and check
+오후 10:17:38  [mysql] 	the Windows Event Viewer for more clues
+오후 10:17:38  [mysql] 	If you need more help, copy and post this
+오후 10:17:39  [mysql] 	entire log window on the forums
+오후 10:17:39  [main] 	Deinitializing Modules
+오후 10:17:39  [main] 	Deinitializing Control Panel
+
+오후 9:30:51  [main] 	Initializing Control Panel
+오후 9:30:51  [main] 	Windows Version:  Enterprise  64-bit
+오후 9:30:51  [main] 	XAMPP Version: 7.3.12
+오후 9:30:51  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 9:30:51  [main] 	You are not running with administrator rights! This will work for
+오후 9:30:51  [main] 	most application stuff but whenever you do something with services
+오후 9:30:51  [main] 	there will be a security dialogue or things will break! So think 
+오후 9:30:51  [main] 	about running this application with administrator rights!
+오후 9:30:51  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 9:30:51  [main] 	Checking for prerequisites
+오후 9:30:52  [main] 	All prerequisites found
+오후 9:30:52  [main] 	Initializing Modules
+오후 9:30:52  [main] 	The FileZilla module is disabled
+오후 9:30:52  [main] 	The Mercury module is disabled
+오후 9:30:52  [main] 	Starting Check-Timer
+오후 9:30:52  [main] 	Control Panel Ready
+오후 9:30:53  [Apache] 	Attempting to start Apache app...
+오후 9:30:54  [Apache] 	Status change detected: running
+오후 9:30:54  [mysql] 	Attempting to start MySQL app...
+오후 9:30:54  [mysql] 	Status change detected: running
+오후 9:45:04  [mysql] 	Attempting to stop MySQL app...
+오후 9:45:04  [Apache] 	Attempting to stop Apache (PID: 14812)
+오후 9:45:04  [Apache] 	Attempting to stop Apache (PID: 6528)
+오후 9:45:04  [Apache] 	Status change detected: stopped
+오후 9:45:04  [mysql] 	Status change detected: stopped
+오후 9:45:05  [main] 	Deinitializing Modules
+오후 9:45:05  [main] 	Deinitializing Control Panel
+
+오후 8:45:38  [main] 	Initializing Control Panel
+오후 8:45:38  [main] 	Windows Version:  Enterprise  64-bit
+오후 8:45:38  [main] 	XAMPP Version: 7.3.12
+오후 8:45:38  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 8:45:38  [main] 	You are not running with administrator rights! This will work for
+오후 8:45:38  [main] 	most application stuff but whenever you do something with services
+오후 8:45:38  [main] 	there will be a security dialogue or things will break! So think 
+오후 8:45:38  [main] 	about running this application with administrator rights!
+오후 8:45:38  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 8:45:38  [main] 	Checking for prerequisites
+오후 8:45:38  [main] 	All prerequisites found
+오후 8:45:38  [main] 	Initializing Modules
+오후 8:45:38  [main] 	The FileZilla module is disabled
+오후 8:45:38  [main] 	The Mercury module is disabled
+오후 8:45:38  [main] 	Starting Check-Timer
+오후 8:45:38  [main] 	Control Panel Ready
+오후 8:45:40  [mysql] 	Attempting to start MySQL app...
+오후 8:45:40  [Apache] 	Attempting to start Apache app...
+오후 8:45:40  [Apache] 	Status change detected: running
+오후 8:45:40  [mysql] 	Status change detected: running
+오후 10:00:04  [mysql] 	Attempting to stop MySQL app...
+오후 10:00:05  [Apache] 	Attempting to stop Apache (PID: 1228)
+오후 10:00:05  [Apache] 	Attempting to stop Apache (PID: 11816)
+오후 10:00:05  [Apache] 	Status change detected: stopped
+오후 10:00:05  [mysql] 	Status change detected: stopped
+오후 10:00:06  [main] 	Deinitializing Modules
+오후 10:00:06  [main] 	Deinitializing Control Panel
+
+오후 9:22:51  [main] 	Initializing Control Panel
+오후 9:22:51  [main] 	Windows Version:  Enterprise  64-bit
+오후 9:22:51  [main] 	XAMPP Version: 7.3.12
+오후 9:22:51  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 9:22:51  [main] 	You are not running with administrator rights! This will work for
+오후 9:22:51  [main] 	most application stuff but whenever you do something with services
+오후 9:22:51  [main] 	there will be a security dialogue or things will break! So think 
+오후 9:22:51  [main] 	about running this application with administrator rights!
+오후 9:22:51  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 9:22:51  [main] 	Checking for prerequisites
+오후 9:22:52  [main] 	All prerequisites found
+오후 9:22:52  [main] 	Initializing Modules
+오후 9:22:52  [main] 	The FileZilla module is disabled
+오후 9:22:52  [main] 	The Mercury module is disabled
+오후 9:22:52  [main] 	Starting Check-Timer
+오후 9:22:52  [main] 	Control Panel Ready
+오후 9:22:54  [Apache] 	Attempting to start Apache app...
+오후 9:22:54  [Apache] 	Status change detected: running
+오후 9:22:55  [mysql] 	Attempting to start MySQL app...
+오후 9:22:55  [mysql] 	Status change detected: running
+오후 9:22:56  [mysql] 	Status change detected: stopped
+오후 9:22:56  [mysql] 	Error: MySQL shutdown unexpectedly.
+오후 9:22:56  [mysql] 	This may be due to a blocked port, missing dependencies, 
+오후 9:22:56  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+오후 9:22:56  [mysql] 	Press the Logs button to view error logs and check
+오후 9:22:56  [mysql] 	the Windows Event Viewer for more clues
+오후 9:22:56  [mysql] 	If you need more help, copy and post this
+오후 9:22:56  [mysql] 	entire log window on the forums
+오후 9:23:07  [mysql] 	Attempting to start MySQL app...
+오후 9:23:08  [mysql] 	Status change detected: running
+오후 9:33:59  [Apache] 	Attempting to stop Apache (PID: 1760)
+오후 9:33:59  [Apache] 	Attempting to stop Apache (PID: 6412)
+오후 9:33:59  [Apache] 	Status change detected: stopped
+오후 9:33:59  [mysql] 	Attempting to stop MySQL app...
+오후 9:34:00  [main] 	Deinitializing Modules
+오후 9:34:00  [main] 	Deinitializing Control Panel
+
+오후 9:35:56  [main] 	Initializing Control Panel
+오후 9:35:56  [main] 	Windows Version:  Enterprise  64-bit
+오후 9:35:56  [main] 	XAMPP Version: 7.3.12
+오후 9:35:56  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 9:35:56  [main] 	You are not running with administrator rights! This will work for
+오후 9:35:56  [main] 	most application stuff but whenever you do something with services
+오후 9:35:56  [main] 	there will be a security dialogue or things will break! So think 
+오후 9:35:56  [main] 	about running this application with administrator rights!
+오후 9:35:56  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 9:35:56  [main] 	Checking for prerequisites
+오후 9:35:56  [main] 	All prerequisites found
+오후 9:35:56  [main] 	Initializing Modules
+오후 9:35:56  [main] 	The FileZilla module is disabled
+오후 9:35:56  [main] 	The Mercury module is disabled
+오후 9:35:56  [main] 	Starting Check-Timer
+오후 9:35:56  [main] 	Control Panel Ready
+오후 9:36:02  [Apache] 	Attempting to start Apache app...
+오후 9:36:03  [Apache] 	Status change detected: running
+오후 9:36:03  [mysql] 	Attempting to start MySQL app...
+오후 9:36:03  [mysql] 	Status change detected: running
+오후 10:04:23  [mysql] 	Attempting to stop MySQL app...
+오후 10:04:24  [mysql] 	Status change detected: stopped
+오후 10:04:24  [Apache] 	Attempting to stop Apache (PID: 14592)
+오후 10:04:24  [Apache] 	Attempting to stop Apache (PID: 1348)
+오후 10:04:24  [Apache] 	Status change detected: stopped
+오후 10:04:25  [main] 	Deinitializing Modules
+오후 10:04:25  [main] 	Deinitializing Control Panel
+
+오후 10:18:11  [main] 	Initializing Control Panel
+오후 10:18:11  [main] 	Windows Version:  Enterprise  64-bit
+오후 10:18:11  [main] 	XAMPP Version: 7.3.12
+오후 10:18:11  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 10:18:11  [main] 	You are not running with administrator rights! This will work for
+오후 10:18:11  [main] 	most application stuff but whenever you do something with services
+오후 10:18:11  [main] 	there will be a security dialogue or things will break! So think 
+오후 10:18:11  [main] 	about running this application with administrator rights!
+오후 10:18:11  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 10:18:11  [main] 	Checking for prerequisites
+오후 10:18:12  [main] 	All prerequisites found
+오후 10:18:12  [main] 	Initializing Modules
+오후 10:18:12  [main] 	The FileZilla module is disabled
+오후 10:18:12  [main] 	The Mercury module is disabled
+오후 10:18:12  [main] 	Starting Check-Timer
+오후 10:18:12  [main] 	Control Panel Ready
+오후 10:18:14  [Apache] 	Attempting to start Apache app...
+오후 10:18:14  [Apache] 	Status change detected: running
+오후 10:18:14  [mysql] 	Attempting to start MySQL app...
+오후 10:18:14  [mysql] 	Status change detected: running
+오후 11:03:59  [mysql] 	Attempting to stop MySQL app...
+오후 11:03:59  [mysql] 	Status change detected: stopped
+오후 11:03:59  [Apache] 	Attempting to stop Apache (PID: 8064)
+오후 11:03:59  [Apache] 	Attempting to stop Apache (PID: 2080)
+오후 11:03:59  [Apache] 	Status change detected: stopped
+오후 11:04:00  [main] 	Deinitializing Modules
+오후 11:04:00  [main] 	Deinitializing Control Panel
+
+오후 8:48:06  [main] 	Initializing Control Panel
+오후 8:48:06  [main] 	Windows Version:  Enterprise  64-bit
+오후 8:48:06  [main] 	XAMPP Version: 7.3.12
+오후 8:48:06  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 8:48:06  [main] 	You are not running with administrator rights! This will work for
+오후 8:48:06  [main] 	most application stuff but whenever you do something with services
+오후 8:48:06  [main] 	there will be a security dialogue or things will break! So think 
+오후 8:48:06  [main] 	about running this application with administrator rights!
+오후 8:48:06  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 8:48:06  [main] 	Checking for prerequisites
+오후 8:48:07  [main] 	All prerequisites found
+오후 8:48:07  [main] 	Initializing Modules
+오후 8:48:07  [main] 	The FileZilla module is disabled
+오후 8:48:07  [main] 	The Mercury module is disabled
+오후 8:48:07  [main] 	Starting Check-Timer
+오후 8:48:07  [main] 	Control Panel Ready
+오후 8:48:08  [mysql] 	Attempting to start MySQL app...
+오후 8:48:08  [Apache] 	Attempting to start Apache app...
+오후 8:48:08  [Apache] 	Status change detected: running
+오후 8:48:08  [mysql] 	Status change detected: running
+오후 8:48:09  [Apache] 	Attempting to stop Apache (PID: 19892)
+오후 8:48:09  [Apache] 	Status change detected: stopped
+오후 8:48:09  [Apache] 	Attempting to start Apache app...
+오후 8:48:09  [Apache] 	Status change detected: running
+오후 9:42:05  [Apache] 	Attempting to stop Apache (PID: 1720)
+오후 9:42:05  [Apache] 	Attempting to stop Apache (PID: 10568)
+오후 9:42:05  [mysql] 	Attempting to stop MySQL app...
+오후 9:42:06  [Apache] 	Status change detected: stopped
+오후 9:42:06  [mysql] 	Status change detected: stopped
+오후 9:42:06  [main] 	Deinitializing Modules
+오후 9:42:06  [main] 	Deinitializing Control Panel
+
+오후 9:13:54  [main] 	Initializing Control Panel
+오후 9:13:54  [main] 	Windows Version:  Enterprise  64-bit
+오후 9:13:54  [main] 	XAMPP Version: 7.3.12
+오후 9:13:54  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 9:13:54  [main] 	You are not running with administrator rights! This will work for
+오후 9:13:54  [main] 	most application stuff but whenever you do something with services
+오후 9:13:54  [main] 	there will be a security dialogue or things will break! So think 
+오후 9:13:54  [main] 	about running this application with administrator rights!
+오후 9:13:54  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 9:13:54  [main] 	Checking for prerequisites
+오후 9:13:55  [main] 	All prerequisites found
+오후 9:13:55  [main] 	Initializing Modules
+오후 9:13:55  [main] 	The FileZilla module is disabled
+오후 9:13:55  [main] 	The Mercury module is disabled
+오후 9:13:55  [Tomcat] 	Java is already running on port 8005!
+오후 9:13:55  [Tomcat] 	Is Tomcat already running?
+오후 9:13:55  [Tomcat] 	Java is already running on port 8080!
+오후 9:13:55  [Tomcat] 	Is Tomcat already running?
+오후 9:13:55  [main] 	Starting Check-Timer
+오후 9:13:55  [main] 	Control Panel Ready
+오후 9:14:17  [main] 	Deinitializing Modules
+오후 9:14:17  [main] 	Deinitializing Control Panel
+
+오후 11:08:01  [main] 	Initializing Control Panel
+오후 11:08:01  [main] 	Windows Version:  Enterprise  64-bit
+오후 11:08:01  [main] 	XAMPP Version: 7.3.12
+오후 11:08:01  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 11:08:01  [main] 	You are not running with administrator rights! This will work for
+오후 11:08:01  [main] 	most application stuff but whenever you do something with services
+오후 11:08:01  [main] 	there will be a security dialogue or things will break! So think 
+오후 11:08:01  [main] 	about running this application with administrator rights!
+오후 11:08:02  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 11:08:02  [main] 	Checking for prerequisites
+오후 11:08:02  [main] 	All prerequisites found
+오후 11:08:02  [main] 	Initializing Modules
+오후 11:08:02  [mysql] 	Problem detected!
+오후 11:08:02  [mysql] 	Port 3306 in use by ""C:\Program Files\MariaDB 10.6\bin\mysqld.exe" "--defaults-file=C:\Program Files\MariaDB 10.6\data\my.ini" "MariaDB""!
+오후 11:08:02  [mysql] 	MySQL WILL NOT start without the configured ports free!
+오후 11:08:02  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
+오후 11:08:02  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
+오후 11:08:02  [main] 	The FileZilla module is disabled
+오후 11:08:02  [main] 	The Mercury module is disabled
+오후 11:08:02  [main] 	Starting Check-Timer
+오후 11:08:02  [main] 	Control Panel Ready
+오후 11:08:06  [main] 	Deinitializing Modules
+오후 11:08:06  [main] 	Deinitializing Control Panel
+
+오후 11:07:01  [main] 	Initializing Control Panel
+오후 11:07:01  [main] 	Windows Version:  Enterprise  64-bit
+오후 11:07:01  [main] 	XAMPP Version: 7.3.12
+오후 11:07:01  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 11:07:01  [main] 	You are not running with administrator rights! This will work for
+오후 11:07:01  [main] 	most application stuff but whenever you do something with services
+오후 11:07:01  [main] 	there will be a security dialogue or things will break! So think 
+오후 11:07:01  [main] 	about running this application with administrator rights!
+오후 11:07:01  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 11:07:01  [main] 	Checking for prerequisites
+오후 11:07:01  [main] 	All prerequisites found
+오후 11:07:01  [main] 	Initializing Modules
+오후 11:07:01  [main] 	The FileZilla module is disabled
+오후 11:07:01  [main] 	The Mercury module is disabled
+오후 11:07:01  [main] 	Starting Check-Timer
+오후 11:07:01  [main] 	Control Panel Ready
+오후 11:07:03  [mysql] 	Attempting to start MySQL app...
+오후 11:07:03  [Apache] 	Attempting to start Apache app...
+오후 11:07:03  [Apache] 	Status change detected: running
+오후 11:07:03  [mysql] 	Status change detected: running
+오후 11:07:04  [mysql] 	Status change detected: stopped
+오후 11:07:04  [mysql] 	Error: MySQL shutdown unexpectedly.
+오후 11:07:04  [mysql] 	This may be due to a blocked port, missing dependencies, 
+오후 11:07:04  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+오후 11:07:04  [mysql] 	Press the Logs button to view error logs and check
+오후 11:07:04  [mysql] 	the Windows Event Viewer for more clues
+오후 11:07:04  [mysql] 	If you need more help, copy and post this
+오후 11:07:04  [mysql] 	entire log window on the forums
+오후 11:07:12  [mysql] 	Attempting to start MySQL app...
+오후 11:07:12  [mysql] 	Status change detected: running
+오후 11:49:38  [Apache] 	Attempting to stop Apache (PID: 15672)
+오후 11:49:38  [Apache] 	Attempting to stop Apache (PID: 20524)
+오후 11:49:38  [Apache] 	Status change detected: stopped
+오후 11:49:38  [mysql] 	Attempting to stop MySQL app...
+오후 11:49:39  [mysql] 	Status change detected: stopped
+오후 11:49:39  [main] 	Deinitializing Modules
+오후 11:49:39  [main] 	Deinitializing Control Panel
+
+오후 10:44:42  [main] 	Initializing Control Panel
+오후 10:44:42  [main] 	Windows Version:  Enterprise  64-bit
+오후 10:44:42  [main] 	XAMPP Version: 7.3.12
+오후 10:44:42  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 10:44:42  [main] 	You are not running with administrator rights! This will work for
+오후 10:44:42  [main] 	most application stuff but whenever you do something with services
+오후 10:44:42  [main] 	there will be a security dialogue or things will break! So think 
+오후 10:44:42  [main] 	about running this application with administrator rights!
+오후 10:44:42  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 10:44:42  [main] 	Checking for prerequisites
+오후 10:44:43  [main] 	All prerequisites found
+오후 10:44:43  [main] 	Initializing Modules
+오후 10:44:43  [main] 	The FileZilla module is disabled
+오후 10:44:43  [main] 	The Mercury module is disabled
+오후 10:44:43  [main] 	Starting Check-Timer
+오후 10:44:43  [main] 	Control Panel Ready
+오후 10:44:44  [Apache] 	Attempting to start Apache app...
+오후 10:44:44  [Apache] 	Status change detected: running
+오후 10:44:44  [mysql] 	Attempting to start MySQL app...
+오후 10:44:45  [mysql] 	Status change detected: running
+오후 10:51:29  [mysql] 	Attempting to stop MySQL app...
+오후 10:51:29  [mysql] 	Status change detected: stopped
+오후 10:51:29  [Apache] 	Attempting to stop Apache (PID: 5488)
+오후 10:51:29  [Apache] 	Attempting to stop Apache (PID: 15124)
+오후 10:51:30  [Apache] 	Status change detected: stopped
+오후 10:51:30  [main] 	Deinitializing Modules
+오후 10:51:30  [main] 	Deinitializing Control Panel
+
+오후 9:17:11  [main] 	Initializing Control Panel
+오후 9:17:11  [main] 	Windows Version:  Enterprise  64-bit
+오후 9:17:11  [main] 	XAMPP Version: 7.3.12
+오후 9:17:11  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 9:17:11  [main] 	You are not running with administrator rights! This will work for
+오후 9:17:11  [main] 	most application stuff but whenever you do something with services
+오후 9:17:11  [main] 	there will be a security dialogue or things will break! So think 
+오후 9:17:11  [main] 	about running this application with administrator rights!
+오후 9:17:11  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 9:17:11  [main] 	Checking for prerequisites
+오후 9:17:11  [main] 	All prerequisites found
+오후 9:17:11  [main] 	Initializing Modules
+오후 9:17:11  [main] 	The FileZilla module is disabled
+오후 9:17:11  [main] 	The Mercury module is disabled
+오후 9:17:11  [main] 	Starting Check-Timer
+오후 9:17:11  [main] 	Control Panel Ready
+오후 9:17:12  [mysql] 	Attempting to start MySQL app...
+오후 9:17:12  [mysql] 	Status change detected: running
+오후 9:17:13  [Apache] 	Attempting to start Apache app...
+오후 9:17:13  [Apache] 	Status change detected: running
+오후 11:57:48  [Apache] 	Attempting to stop Apache (PID: 29692)
+오후 11:57:48  [Apache] 	Attempting to stop Apache (PID: 11704)
+오후 11:57:48  [Apache] 	Status change detected: stopped
+오후 11:57:48  [mysql] 	Attempting to stop MySQL app...
+오후 11:57:49  [mysql] 	Status change detected: stopped
+오후 11:57:49  [main] 	Deinitializing Modules
+오후 11:57:49  [main] 	Deinitializing Control Panel
+
+오후 3:19:50  [main] 	Initializing Control Panel
+오후 3:19:50  [main] 	Windows Version:  Enterprise  64-bit
+오후 3:19:50  [main] 	XAMPP Version: 7.3.12
+오후 3:19:50  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 3:19:50  [main] 	You are not running with administrator rights! This will work for
+오후 3:19:50  [main] 	most application stuff but whenever you do something with services
+오후 3:19:50  [main] 	there will be a security dialogue or things will break! So think 
+오후 3:19:50  [main] 	about running this application with administrator rights!
+오후 3:19:50  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 3:19:50  [main] 	Checking for prerequisites
+오후 3:19:50  [main] 	All prerequisites found
+오후 3:19:50  [main] 	Initializing Modules
+오후 3:19:50  [Apache] 	Problem detected!
+오후 3:19:50  [Apache] 	Port 80 in use by "C:\SPRO-Project_HANYANG\tools\Java\jre1.8.0_261\bin\javaw.exe" with PID 28376!
+오후 3:19:50  [Apache] 	Apache WILL NOT start without the configured ports free!
+오후 3:19:50  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+오후 3:19:50  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+오후 3:19:50  [main] 	The FileZilla module is disabled
+오후 3:19:50  [main] 	The Mercury module is disabled
+오후 3:19:50  [Tomcat] 	Java is already running on port 8005!
+오후 3:19:50  [Tomcat] 	Is Tomcat already running?
+오후 3:19:50  [Tomcat] 	Java is already running on port 8009!
+오후 3:19:50  [Tomcat] 	Is Tomcat already running?
+오후 3:19:50  [main] 	Starting Check-Timer
+오후 3:19:50  [main] 	Control Panel Ready
+오후 3:19:52  [mysql] 	Attempting to start MySQL app...
+오후 3:19:53  [mysql] 	Status change detected: running
+오후 3:19:53  [Apache] 	Problem detected!
+오후 3:19:53  [Apache] 	Port 80 in use by "C:\SPRO-Project_HANYANG\tools\Java\jre1.8.0_261\bin\javaw.exe" with PID 28376!
+오후 3:19:53  [Apache] 	Apache WILL NOT start without the configured ports free!
+오후 3:19:53  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+오후 3:19:53  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+오후 3:19:53  [Apache] 	Attempting to start Apache app...
+오후 3:19:53  [Apache] 	Status change detected: running
+오후 3:19:57  [Apache] 	Status change detected: stopped
+오후 3:19:57  [Apache] 	Error: Apache shutdown unexpectedly.
+오후 3:19:57  [Apache] 	This may be due to a blocked port, missing dependencies, 
+오후 3:19:57  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+오후 3:19:57  [Apache] 	Press the Logs button to view error logs and check
+오후 3:19:57  [Apache] 	the Windows Event Viewer for more clues
+오후 3:19:57  [Apache] 	If you need more help, copy and post this
+오후 3:19:57  [Apache] 	entire log window on the forums
+오후 3:19:58  [mysql] 	Attempting to stop MySQL app...
+오후 3:19:58  [mysql] 	Status change detected: stopped
+오후 3:19:59  [main] 	Deinitializing Modules
+오후 3:19:59  [main] 	Deinitializing Control Panel
+
+오후 3:20:21  [main] 	Initializing Control Panel
+오후 3:20:21  [main] 	Windows Version:  Enterprise  64-bit
+오후 3:20:21  [main] 	XAMPP Version: 7.3.12
+오후 3:20:21  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 3:20:21  [main] 	You are not running with administrator rights! This will work for
+오후 3:20:21  [main] 	most application stuff but whenever you do something with services
+오후 3:20:21  [main] 	there will be a security dialogue or things will break! So think 
+오후 3:20:21  [main] 	about running this application with administrator rights!
+오후 3:20:21  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 3:20:21  [main] 	Checking for prerequisites
+오후 3:20:21  [main] 	All prerequisites found
+오후 3:20:21  [main] 	Initializing Modules
+오후 3:20:21  [main] 	The FileZilla module is disabled
+오후 3:20:21  [main] 	The Mercury module is disabled
+오후 3:20:21  [main] 	Starting Check-Timer
+오후 3:20:21  [main] 	Control Panel Ready
+오후 3:20:22  [mysql] 	Attempting to start MySQL app...
+오후 3:20:23  [Apache] 	Attempting to start Apache app...
+오후 3:20:23  [Apache] 	Status change detected: running
+오후 3:20:23  [mysql] 	Status change detected: running
+오후 3:20:23  [mysql] 	Status change detected: stopped
+오후 3:20:23  [mysql] 	Error: MySQL shutdown unexpectedly.
+오후 3:20:23  [mysql] 	This may be due to a blocked port, missing dependencies, 
+오후 3:20:23  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+오후 3:20:23  [mysql] 	Press the Logs button to view error logs and check
+오후 3:20:23  [mysql] 	the Windows Event Viewer for more clues
+오후 3:20:23  [mysql] 	If you need more help, copy and post this
+오후 3:20:23  [mysql] 	entire log window on the forums
+오후 3:20:23  [main] 	Deinitializing Modules
+오후 3:20:23  [main] 	Deinitializing Control Panel
+
+오후 3:20:26  [main] 	Initializing Control Panel
+오후 3:20:26  [main] 	Windows Version:  Enterprise  64-bit
+오후 3:20:26  [main] 	XAMPP Version: 7.3.12
+오후 3:20:26  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 3:20:26  [main] 	You are not running with administrator rights! This will work for
+오후 3:20:26  [main] 	most application stuff but whenever you do something with services
+오후 3:20:26  [main] 	there will be a security dialogue or things will break! So think 
+오후 3:20:26  [main] 	about running this application with administrator rights!
+오후 3:20:26  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 3:20:26  [main] 	Checking for prerequisites
+오후 3:20:26  [main] 	All prerequisites found
+오후 3:20:26  [main] 	Initializing Modules
+오후 3:20:26  [main] 	The FileZilla module is disabled
+오후 3:20:26  [main] 	The Mercury module is disabled
+오후 3:20:26  [main] 	Starting Check-Timer
+오후 3:20:26  [main] 	Control Panel Ready
+오후 3:20:28  [mysql] 	Attempting to start MySQL app...
+오후 3:20:28  [mysql] 	Status change detected: running
+오전 12:47:00  [mysql] 	Attempting to stop MySQL app...
+오전 12:47:01  [mysql] 	Status change detected: stopped
+오전 12:47:01  [Apache] 	Attempting to stop Apache (PID: 29392)
+오전 12:47:01  [Apache] 	Attempting to stop Apache (PID: 30436)
+오전 12:47:01  [Apache] 	Status change detected: stopped
+오전 12:47:01  [main] 	Deinitializing Modules
+오전 12:47:01  [main] 	Deinitializing Control Panel
+
+오후 9:59:19  [main] 	Initializing Control Panel
+오후 9:59:19  [main] 	Windows Version:  Enterprise  64-bit
+오후 9:59:19  [main] 	XAMPP Version: 7.3.12
+오후 9:59:19  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 9:59:19  [main] 	You are not running with administrator rights! This will work for
+오후 9:59:19  [main] 	most application stuff but whenever you do something with services
+오후 9:59:19  [main] 	there will be a security dialogue or things will break! So think 
+오후 9:59:19  [main] 	about running this application with administrator rights!
+오후 9:59:19  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 9:59:19  [main] 	Checking for prerequisites
+오후 9:59:20  [main] 	All prerequisites found
+오후 9:59:20  [main] 	Initializing Modules
+오후 9:59:20  [main] 	The FileZilla module is disabled
+오후 9:59:20  [main] 	The Mercury module is disabled
+오후 9:59:20  [main] 	Starting Check-Timer
+오후 9:59:20  [main] 	Control Panel Ready
+오후 9:59:22  [Apache] 	Attempting to start Apache app...
+오후 9:59:22  [mysql] 	Attempting to start MySQL app...
+오후 9:59:22  [Apache] 	Status change detected: running
+오후 9:59:22  [mysql] 	Status change detected: running
+오후 11:26:55  [mysql] 	Attempting to stop MySQL app...
+오후 11:26:55  [Apache] 	Attempting to stop Apache (PID: 26912)
+오후 11:26:55  [Apache] 	Attempting to stop Apache (PID: 20124)
+오후 11:26:55  [Apache] 	Status change detected: stopped
+오후 11:26:55  [mysql] 	Status change detected: stopped
+오후 11:26:56  [main] 	Deinitializing Modules
+오후 11:26:56  [main] 	Deinitializing Control Panel
+
+오후 11:18:50  [main] 	Initializing Control Panel
+오후 11:18:50  [main] 	Windows Version:  Enterprise  64-bit
+오후 11:18:50  [main] 	XAMPP Version: 7.3.12
+오후 11:18:50  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 11:18:50  [main] 	You are not running with administrator rights! This will work for
+오후 11:18:50  [main] 	most application stuff but whenever you do something with services
+오후 11:18:50  [main] 	there will be a security dialogue or things will break! So think 
+오후 11:18:50  [main] 	about running this application with administrator rights!
+오후 11:18:50  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 11:18:50  [main] 	Checking for prerequisites
+오후 11:18:50  [main] 	All prerequisites found
+오후 11:18:50  [main] 	Initializing Modules
+오후 11:18:50  [main] 	The FileZilla module is disabled
+오후 11:18:50  [main] 	The Mercury module is disabled
+오후 11:18:50  [main] 	Starting Check-Timer
+오후 11:18:50  [main] 	Control Panel Ready
+오후 11:18:52  [Apache] 	Attempting to start Apache app...
+오후 11:18:52  [Apache] 	Status change detected: running
+오후 11:18:52  [mysql] 	Attempting to start MySQL app...
+오후 11:18:52  [mysql] 	Status change detected: running
+오후 11:31:21  [mysql] 	Attempting to stop MySQL app...
+오후 11:31:22  [mysql] 	Status change detected: stopped
+오후 11:31:22  [Apache] 	Attempting to stop Apache (PID: 15548)
+오후 11:31:22  [Apache] 	Attempting to stop Apache (PID: 7220)
+오후 11:31:23  [Apache] 	Status change detected: stopped
+오후 11:31:23  [main] 	Deinitializing Modules
+오후 11:31:23  [main] 	Deinitializing Control Panel
+
+오후 9:47:45  [main] 	Initializing Control Panel
+오후 9:47:45  [main] 	Windows Version:  Enterprise  64-bit
+오후 9:47:45  [main] 	XAMPP Version: 7.3.12
+오후 9:47:45  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 9:47:45  [main] 	You are not running with administrator rights! This will work for
+오후 9:47:45  [main] 	most application stuff but whenever you do something with services
+오후 9:47:45  [main] 	there will be a security dialogue or things will break! So think 
+오후 9:47:45  [main] 	about running this application with administrator rights!
+오후 9:47:45  [main] 	XAMPP Installation Directory: "d:\xampp\"
+오후 9:47:45  [main] 	Checking for prerequisites
+오후 9:47:46  [main] 	All prerequisites found
+오후 9:47:46  [main] 	Initializing Modules
+오후 9:47:46  [main] 	The FileZilla module is disabled
+오후 9:47:46  [main] 	The Mercury module is disabled
+오후 9:47:46  [main] 	Starting Check-Timer
+오후 9:47:46  [main] 	Control Panel Ready
+오후 9:47:47  [mysql] 	Attempting to start MySQL app...
+오후 9:47:47  [Apache] 	Attempting to start Apache app...
+오후 9:47:47  [Apache] 	Status change detected: running
+오후 9:47:47  [mysql] 	Status change detected: running
+오후 11:06:05  [mysql] 	Attempting to stop MySQL app...
+오후 11:06:05  [mysql] 	Status change detected: stopped
+오후 11:06:05  [Apache] 	Attempting to stop Apache (PID: 25304)
+오후 11:06:05  [Apache] 	Attempting to stop Apache (PID: 32332)
+오후 11:06:06  [Apache] 	Status change detected: stopped
+오후 11:06:06  [main] 	Deinitializing Modules
+오후 11:06:06  [main] 	Deinitializing Control Panel
+

@@ -1,0 +1,14 @@
+<load target="css/outdatedbrowser.min.css" />
+<load target="js/outdatedbrowser.min.js" type="body" />
+<div id="outdated"></div>
+<script>
+jQuery(document).ready(function() {
+	outdatedBrowser({
+<!--@if($addon_info->iev)-->		lowerThan: '{$addon_info->iev}',<!--@endif-->
+		bgColor: '#f25648',
+		color: '#ffffff',
+		lowerThan: 'transform',
+		languagePath: 'addons/outdated_browser/lang/{$lang_type}.html'
+	})
+})
+</script>
