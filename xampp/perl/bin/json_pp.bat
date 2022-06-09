@@ -26,7 +26,7 @@ goto endofperl
 @rem ';
 #!perl
 #line 29
-    eval 'exec \xampp\perl\bin\perl.exe -S $0 ${1+"$@"}'
+    eval 'exec \github\php_xampp\xampp\perl\bin\perl.exe -S $0 ${1+"$@"}'
 	if $running_under_some_shell;
 #!/usr/bin/perl
 

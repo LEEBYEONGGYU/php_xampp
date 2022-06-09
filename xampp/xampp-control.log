@@ -1255,3 +1255,68 @@
 오후 11:06:06  [main] 	Deinitializing Modules
 오후 11:06:06  [main] 	Deinitializing Control Panel
 
+오전 11:21:31  [main] 	Initializing Control Panel
+오전 11:21:31  [main] 	Windows Version:  Enterprise  64-bit
+오전 11:21:31  [main] 	XAMPP Version: 7.3.12
+오전 11:21:31  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오전 11:21:31  [main] 	You are not running with administrator rights! This will work for
+오전 11:21:31  [main] 	most application stuff but whenever you do something with services
+오전 11:21:31  [main] 	there will be a security dialogue or things will break! So think 
+오전 11:21:31  [main] 	about running this application with administrator rights!
+오전 11:21:31  [main] 	XAMPP Installation Directory: "d:\github\php_xampp\xampp\"
+오전 11:21:31  [main] 	Checking for prerequisites
+오전 11:21:33  [main] 	All prerequisites found
+오전 11:21:33  [main] 	Initializing Modules
+오전 11:21:33  [main] 	The FileZilla module is disabled
+오전 11:21:33  [main] 	The Mercury module is disabled
+오전 11:21:33  [main] 	Starting Check-Timer
+오전 11:21:33  [main] 	Control Panel Ready
+오전 11:21:35  [Apache] 	Attempting to start Apache app...
+오전 11:21:35  [Apache] 	Status change detected: running
+오전 11:21:35  [mysql] 	Attempting to start MySQL app...
+오전 11:21:35  [mysql] 	Status change detected: running
+오전 11:21:37  [mysql] 	Status change detected: stopped
+오전 11:21:37  [mysql] 	Error: MySQL shutdown unexpectedly.
+오전 11:21:37  [mysql] 	This may be due to a blocked port, missing dependencies, 
+오전 11:21:37  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+오전 11:21:37  [mysql] 	Press the Logs button to view error logs and check
+오전 11:21:37  [mysql] 	the Windows Event Viewer for more clues
+오전 11:21:37  [mysql] 	If you need more help, copy and post this
+오전 11:21:37  [mysql] 	entire log window on the forums
+오전 11:21:42  [mysql] 	Attempting to start MySQL app...
+오전 11:21:42  [mysql] 	Status change detected: running
+오전 11:21:44  [mysql] 	Status change detected: stopped
+오전 11:21:44  [mysql] 	Error: MySQL shutdown unexpectedly.
+오전 11:21:44  [mysql] 	This may be due to a blocked port, missing dependencies, 
+오전 11:21:44  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+오전 11:21:44  [mysql] 	Press the Logs button to view error logs and check
+오전 11:21:44  [mysql] 	the Windows Event Viewer for more clues
+오전 11:21:44  [mysql] 	If you need more help, copy and post this
+오전 11:21:44  [mysql] 	entire log window on the forums
+오전 11:22:01  [main] 	Executing "services.msc"
+오전 11:22:06  [mysql] 	Attempting to start MySQL app...
+오전 11:22:06  [mysql] 	Status change detected: running
+오전 11:22:07  [mysql] 	Status change detected: stopped
+오전 11:22:07  [mysql] 	Error: MySQL shutdown unexpectedly.
+오전 11:22:07  [mysql] 	This may be due to a blocked port, missing dependencies, 
+오전 11:22:07  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+오전 11:22:07  [mysql] 	Press the Logs button to view error logs and check
+오전 11:22:07  [mysql] 	the Windows Event Viewer for more clues
+오전 11:22:07  [mysql] 	If you need more help, copy and post this
+오전 11:22:07  [mysql] 	entire log window on the forums
+오전 11:22:08  [mysql] 	Attempting to start MySQL app...
+오전 11:22:08  [mysql] 	Status change detected: running
+오전 11:22:10  [mysql] 	Status change detected: stopped
+오전 11:22:10  [mysql] 	Error: MySQL shutdown unexpectedly.
+오전 11:22:10  [mysql] 	This may be due to a blocked port, missing dependencies, 
+오전 11:22:10  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+오전 11:22:10  [mysql] 	Press the Logs button to view error logs and check
+오전 11:22:10  [mysql] 	the Windows Event Viewer for more clues
+오전 11:22:10  [mysql] 	If you need more help, copy and post this
+오전 11:22:10  [mysql] 	entire log window on the forums
+오후 5:17:32  [Apache] 	Attempting to stop Apache (PID: 25040)
+오후 5:17:32  [Apache] 	Attempting to stop Apache (PID: 22588)
+오후 5:17:32  [Apache] 	Status change detected: stopped
+오후 5:17:33  [main] 	Deinitializing Modules
+오후 5:17:33  [main] 	Deinitializing Control Panel
+

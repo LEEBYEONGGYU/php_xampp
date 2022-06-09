@@ -83,7 +83,7 @@ sub AUTOLOAD {
 
 # tie returns the object, so the value returned to require will be true.
 tie %Config, 'Config', {
-    archlibexp => '\\xampp\\perl\\lib',
+    archlibexp => '\\github\\php_xampp\\xampp\\perl\\lib',
     archname => 'MSWin32-x64-multi-thread',
     cc => 'gcc',
     d_readlink => undef,
@@ -95,14 +95,14 @@ tie %Config, 'Config', {
     inc_version_list => '',
     intsize => '4',
     ldlibpthname => '',
-    libpth => '\\xampp\\c\\lib \\xampp\\c\\x86_64-w64-mingw32\\lib',
+    libpth => '\\github\\php_xampp\\xampp\\c\\lib \\xampp\\c\\x86_64-w64-mingw32\\lib',
     osname => 'MSWin32',
     osvers => '4.0',
     path_sep => ';',
-    privlibexp => '\\xampp\\perl\\lib',
-    scriptdir => '\\xampp\\perl\\bin',
-    sitearchexp => '\\xampp\\perl\\site\\lib',
-    sitelibexp => '\\xampp\\perl\\site\\lib',
+    privlibexp => '\\github\\php_xampp\\xampp\\perl\\lib',
+    scriptdir => '\\github\\php_xampp\\xampp\\perl\\bin',
+    sitearchexp => '\\github\\php_xampp\\xampp\\perl\\site\\lib',
+    sitelibexp => '\\github\\php_xampp\\xampp\\perl\\site\\lib',
     so => 'dll',
     useithreads => 'define',
     usevendorprefix => 'define',

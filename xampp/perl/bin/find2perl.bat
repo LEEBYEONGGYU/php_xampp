@@ -26,10 +26,10 @@ goto endofperl
 @rem ';
 #!perl
 #line 29
-    eval 'exec \xampp\perl\bin\perl.exe -S $0 ${1+"$@"}'
+    eval 'exec \github\php_xampp\xampp\perl\bin\perl.exe -S $0 ${1+"$@"}'
       if $running_under_some_shell;
 (my $perlpath = <<'/../') =~ s/\s*\z//;
-\xampp\perl\bin\perl.exe
+\github\php_xampp\xampp\perl\bin\perl.exe
 /../
 use strict;
 use vars qw/$statdone/;
