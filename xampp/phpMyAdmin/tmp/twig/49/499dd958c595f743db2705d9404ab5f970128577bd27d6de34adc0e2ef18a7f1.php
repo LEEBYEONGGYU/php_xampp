@@ -72,6 +72,6 @@ class __TwigTemplate_c2833aa7a6440df868ba0f630eb0f02e14ff78bc370f1176d771b409a79
 
     public function getSourceContext()
     {
-        return new Source("", "filter.twig", "D:\\xampp\\phpMyAdmin\\templates\\filter.twig");
+        return new Source("", "filter.twig", "D:\\github\\php_xampp\\xampp\\phpMyAdmin\\templates\\filter.twig");
     }
 }

@@ -1,208 +1,115 @@
-* {
-	margin:0 auto;
-	padding:0;
-}
-ul li {
-	list-style:none;
-}
-a {
-	color:#333;
-	text-decoration:none;
-}
-img {
-	vertical-align: top;
-	border:0;
-}
-
-.blank30 {
-	margin-top:30px;
-}
-/*header*/
 header {
-	width:100%;
-	background: #0b1b5d;
-	
-}
-#header_in {
-	width:1200px;
-	height:200px;
-	position:relative;
+    width:1200px;
+    border:solid 1px red;
+    margin:0 auto;
 }
 #logo {
-	padding-top:40px;
+    font-size:36px;
+    margin-top:10px;
+    margin-left:20px;
 }
-#search_bar {
-	margin-top:-70px;
-	margin-left:180px;
+#search_area {
+    margin-top:-40px;
+    margin-left:250px;
 }
-#search_bar input{
-	height:50px;
-	width:740px;
-	border-radius: 10px;
-	border:solid 4px #5a8fc5;
-	background:white;
-	font-size:22px;
-	padding-left:10px;
+#search_area > #search_input {
+    padding:10px;
+    border-radius:50px;
+    width:700px;
 }
-#search_bt {
-	position:absolute;
-	top:55px;
-	right:200px;
-	cursor:pointer;
+#search_area > img {
+    margin-top:-40px;
+    margin-left:730px;
 }
-#header_in2 {
-	width:1200px;
-	height:50px;
-	position:absolute;
-	bottom:0;
-	background:#003e7e;
+#catagory {
+    width:250px;
+    height:300px;
+    border:solid 1px red;
+    background:#0099ff;
+    color:white;
+    position:relative;
 }
-#service_menu {
-	font: 16px 'malgun gothic';
-	color:white;
-	position:absolute;
-	left:20px;
-	bottom:15px;
+#catagory_title {
+    padding:10px;
+    background:#0066cc;
 }
-#service_menu > ul li {
-	float:left;
-	width:100px;
+#menu {
+    position:absolute;
+    left:-40px;
+    top:25px;
 }
-nav {
-	font:16px 'malgun gothic';
-	color:white;
-	position:absolute;
-	right:15px;
-	bottom:15px;
+#menu > ul {
+    list-style: none;
 }
-nav > ul li {
-	float:left;
-	margin-left:40px;
+#menu > ul > li {
+    width:250px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-bottom:solid 2px white;
 }
-nav a {
-	color:white;
+#menu > ul > li:hover {
+    background:#58c1fd;
 }
-#visual {
-	width:1200px;
-	height:500px;
-	background:gainsboro;
-	position:relative;
+#catagory_hover_img {
+    width:950px;
+    height:300px;
+    border:solid 1px red;
+    float:right;
+    margin-top:-300px;
 }
 
-#recent_list {
-	width:1200px;
-	height:350px;
-	margin-top:20px;
-	position:relative;
+section {
+    width:1200px;
+    height:375px;
+    margin: 0 auto;
+    margin-top:20px;
+}
+#sec1_title {
+    margin-top:10px;
+    font:bold 24px  'malgun gothic';
+
+}
+#sec1_update {
+    float:right;
+    margin-top:-20px;
+}
+#sec1_product {
+    margin: 0 auto;
+    margin-top:30px;
+}
+.product_info {
+    height:300px;
+    width:200px;
+    border:solid 1px red;
+}
+.product_rank {
+    background:#70c2ec;
+    width:50px;
+    height:50px;
+    text-align:center;
+    color:white;
+    font:bold 24px 'malgun gothic';
+    line-height:50px;
+}
+#sec1_product > .product_info {
+    float:left;
+    margin-left:20px;
+}
+.product_img {
+    margin-top:-50px;
+    width:200px;
+    height:200px;
+    border:solid 1px red;
+}
+.product_title {
+    font:bold 18px 'malgun gothic';
+}
+.product_price {
+    font: 16px 'malgun gothic';
 }
 
-.grid-container {
-	float:left;
-	width: 220px;
-	height: 202px;
-	border-top: solid 2px #345391;
-	border-left: solid 1px #daddde;
-	border-right: solid 1px #daddde;
-	border-bottom: solid 1px #daddde;
-	vertical-align: top;
-	margin-left:15px;
-  }
-
-#shopList {
-	  margin-top:10px;
-	  height:225px;
-  }
-#shopList2 {
-	margin-top:10px;
-	height:440px;
-}
-.productImg {
-	  width:220px;
-	  height:140px;
-  }
-.productInfo {
-	  font:15px 'malgun gothic';
-	  margin-top:2px;
-	  margin-left:5px;
-  }
-.productInfo > li {
-	padding-top:5px;
-  }
-.productInfo li:nth-child(1) {
-	  font-weight: bold;
-  }
-.productInfo li:nth-child(2){
-	  color:red;
-  }
-
-#catagory_list {
-	width:1200px;
-	height:300px;
-	margin-top:20px;
-}
-#catagory_wrap {
-	margin-left:10px;
-}
-.catagory_container {
-	float:left;
-	width: 125px;
-	height: 160px;
-	border-top: solid 2px #345391;
-	border-left: solid 1px #daddde;
-	border-right: solid 1px #daddde;
-	border-bottom: solid 1px #daddde;
-	vertical-align: top;
-	margin-left:20px;
-	text-align: center;
-	font:bold 16px 'malgun gothic';
-  }
-#catagory_wrap {
-	  margin-top:10px;
-  }
-.catagory_img {
-	  width:125px;
-	  height:170px;
-  }
-.catagory_title {
-	  font:15px 'malgun gothic';
-	  margin-top:2px;
-  }
-#best_list {
-	width:1200px;
-	height:570px;
-	margin-top:20px;
-}
-.more_bt {
-	width:150px;
-	height:60px;
-	border:solid 1px gray;
-	border-radius: 50px;
-	font:bold 20px 'malgun gothic';
-	line-height: 60px;
-	text-align: center;
-}
-.more_bt:hover {
-	cursor:pointer;
-	transition:1s;
-	background:#32822c;
-	color:white;
-}
 footer {
-	width:100%;
-	background:#333;
-	margin-top:20px;
-	position:relative;
-}
-#footer_in {
-	width:1200px;
-	height:100px;
-}
-#footer_logo {
-	position:absolute;
-	top:15px;
-}
-#copyright {
-	text-align:center;
-	line-height:100px;
-	color:white;
+    background:#333;
+    margin-top:30px;
+    height:100px;
 }

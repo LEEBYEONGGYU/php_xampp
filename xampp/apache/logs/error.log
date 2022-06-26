@@ -1300,3 +1300,29 @@
 [Thu Jun 09 11:21:40.364626 2022] [ssl:warn] [pid 22588:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Thu Jun 09 11:21:40.409507 2022] [mpm_winnt:notice] [pid 22588:tid 620] AH00354: Child: Starting 150 worker threads.
 [Thu Jun 09 17:17:32.489019 2022] [mpm_winnt:crit] [pid 22588:tid 620] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jun 26 16:04:52.639522 2022] [ssl:warn] [pid 11420:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 26 16:04:52.680531 2022] [core:warn] [pid 11420:tid 652] AH00098: pid file D:/github/php_xampp/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 26 16:04:52.681531 2022] [ssl:warn] [pid 11420:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 26 16:04:53.205649 2022] [mpm_winnt:notice] [pid 11420:tid 652] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 configured -- resuming normal operations
+[Sun Jun 26 16:04:53.205649 2022] [mpm_winnt:notice] [pid 11420:tid 652] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Jun 26 16:04:53.205649 2022] [core:notice] [pid 11420:tid 652] AH00094: Command line: 'd:\\github\\php_xampp\\xampp\\apache\\bin\\httpd.exe -d D:/github/php_xampp/xampp/apache'
+[Sun Jun 26 16:04:53.211651 2022] [mpm_winnt:notice] [pid 11420:tid 652] AH00418: Parent: Created child process 15312
+[Sun Jun 26 16:04:54.452931 2022] [ssl:warn] [pid 15312:tid 508] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 26 16:04:54.490939 2022] [ssl:warn] [pid 15312:tid 508] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 26 16:04:54.513944 2022] [mpm_winnt:notice] [pid 15312:tid 508] AH00354: Child: Starting 150 worker threads.
+[Sun Jun 26 16:08:35.168369 2022] [mpm_winnt:crit] [pid 15312:tid 508] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jun 26 16:10:54.114258 2022] [ssl:warn] [pid 16020:tid 608] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 26 16:10:54.153267 2022] [core:warn] [pid 16020:tid 608] AH00098: pid file D:/github/php_xampp/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 26 16:10:54.154268 2022] [ssl:warn] [pid 16020:tid 608] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 26 16:10:54.173272 2022] [mpm_winnt:notice] [pid 16020:tid 608] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 configured -- resuming normal operations
+[Sun Jun 26 16:10:54.173272 2022] [mpm_winnt:notice] [pid 16020:tid 608] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Jun 26 16:10:54.173272 2022] [core:notice] [pid 16020:tid 608] AH00094: Command line: 'd:\\github\\php_xampp\\xampp\\apache\\bin\\httpd.exe -d D:/github/php_xampp/xampp/apache'
+[Sun Jun 26 16:10:54.179274 2022] [mpm_winnt:notice] [pid 16020:tid 608] AH00418: Parent: Created child process 10220
+[Sun Jun 26 16:10:55.269450 2022] [ssl:warn] [pid 10220:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 26 16:10:55.305458 2022] [ssl:warn] [pid 10220:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 26 16:10:55.327464 2022] [mpm_winnt:notice] [pid 10220:tid 628] AH00354: Child: Starting 150 worker threads.
+[Sun Jun 26 16:33:29.823601 2022] [php7:warn] [pid 10220:tid 1860] [client ::1:13197] PHP Warning:  include(D:/github/php_xampp/xampp/htdocs/include/db.php): failed to open stream: No such file or directory in D:\\github\\php_xampp\\xampp\\htdocs\\include\\header.php on line 1
+[Sun Jun 26 16:33:29.824602 2022] [php7:warn] [pid 10220:tid 1860] [client ::1:13197] PHP Warning:  include(): Failed opening 'D:/github/php_xampp/xampp/htdocs/include/db.php' for inclusion (include_path='\\github\\php_xampp\\xampp\\php\\PEAR') in D:\\github\\php_xampp\\xampp\\htdocs\\include\\header.php on line 1
+[Sun Jun 26 16:33:30.305492 2022] [php7:warn] [pid 10220:tid 1860] [client ::1:13197] PHP Warning:  include(D:/github/php_xampp/xampp/htdocs/include/db.php): failed to open stream: No such file or directory in D:\\github\\php_xampp\\xampp\\htdocs\\include\\header.php on line 1
+[Sun Jun 26 16:33:30.305492 2022] [php7:warn] [pid 10220:tid 1860] [client ::1:13197] PHP Warning:  include(): Failed opening 'D:/github/php_xampp/xampp/htdocs/include/db.php' for inclusion (include_path='\\github\\php_xampp\\xampp\\php\\PEAR') in D:\\github\\php_xampp\\xampp\\htdocs\\include\\header.php on line 1
+[Sun Jun 26 21:33:55.287502 2022] [mpm_winnt:crit] [pid 10220:tid 628] AH02538: Child: Parent process exited abruptly. Child process is ending

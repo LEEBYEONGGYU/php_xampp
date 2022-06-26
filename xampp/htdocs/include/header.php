@@ -1,43 +1,31 @@
-<?php
-	include  $_SERVER['DOCUMENT_ROOT']."/include/db.php";
-?>
+<?php include $_SERVER['DOCUMENT_ROOT']."/include/db.php"; ?>
 <!DOCTYPE html>
 <head>
-	<meta charset="utf-8" />
-	<title>땡땡 쇼핑</title>
-	<link rel="stylesheet" href="/css/common.css" />
-	<link rel="stylesheet" href="/css/sub.css" />
+    <title></title>
+<link rel="stylesheet" href="/css/common.css" />
+<script></script>
 </head>
 <body>
 <header>
-	<div id="header_in">
-		<div id="logo">
-			<a href="/"><img src="/imgs/logo.png" alt="logo" title="logo" /></a>
-		</div>
-		<form action="" method="get">
-			<div id="search_bar">
-				<input type="text" />
-			</div>
-			<div id="search_bt">
-				<img src="/imgs/search_bt.png" alt="search_bt" title="search_bt" />
-			</div>
-		</form>
-		<div id="header_in2">
-			<div id="service_menu">
-				<ul>
-					<li>로그인</li>
-					<li>회원가입</li>
-				</ul>
-			</div>
-			<nav>
-				<ul>
-					<li><a href="">내 정보</a></li>
-					<li><a href="">주문조회</a></li>
-					<li><a href="">장바구니</a></li>
-					<li><a href="">고객센터</a></li>
-					<li><a href="">로그아웃</a></li>
-				</ul>
-			</nav>
-		</div>
-	</div>
+    <div id="logo">LOGO</div>
+    <div id="search_area">
+        <input type="text" id="search_input" name="keyword" >
+        <img src="/imgs/main_member.png" />
+    </div>
+
+    <div id="catagory">
+        <div id="catagory_title">카테고리</div>
+        <nav id="menu">
+            <ul>
+                <li>가전, TV</li>
+                <li>컴퓨터 노트북, 조립PC</li>
+                <li>모바일</li>
+                <li>카메라</li>
+                <li>자전거, 스포츠</li>
+            </ul>
+        </nav>
+    </div>
+    <div id="catagory_hover_img">
+        <img src="/upload/admin/catagory/cat1_img.png" />
+    </div>
 </header>

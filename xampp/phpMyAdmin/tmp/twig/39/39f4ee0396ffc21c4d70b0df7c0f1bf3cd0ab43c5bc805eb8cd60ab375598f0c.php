@@ -66,6 +66,6 @@ if (typeof configScriptLoaded !== \"undefined\" && configInlineParams) loadInlin
 
     public function getSourceContext()
     {
-        return new Source("", "javascript/display.twig", "D:\\xampp\\phpMyAdmin\\templates\\javascript\\display.twig");
+        return new Source("", "javascript/display.twig", "D:\\github\\php_xampp\\xampp\\phpMyAdmin\\templates\\javascript\\display.twig");
     }
 }
