@@ -1423,3 +1423,56 @@
 오후 9:33:56  [main] 	Deinitializing Modules
 오후 9:33:56  [main] 	Deinitializing Control Panel
 
+오후 8:22:34  [main] 	Initializing Control Panel
+오후 8:22:34  [main] 	Windows Version:  Enterprise  64-bit
+오후 8:22:34  [main] 	XAMPP Version: 7.3.12
+오후 8:22:34  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 8:22:34  [main] 	You are not running with administrator rights! This will work for
+오후 8:22:34  [main] 	most application stuff but whenever you do something with services
+오후 8:22:34  [main] 	there will be a security dialogue or things will break! So think 
+오후 8:22:34  [main] 	about running this application with administrator rights!
+오후 8:22:34  [main] 	XAMPP Installation Directory: "d:\github\php_xampp\xampp\"
+오후 8:22:34  [main] 	Checking for prerequisites
+오후 8:22:34  [main] 	All prerequisites found
+오후 8:22:34  [main] 	Initializing Modules
+오후 8:22:34  [main] 	The FileZilla module is disabled
+오후 8:22:34  [main] 	The Mercury module is disabled
+오후 8:22:34  [Tomcat] 	Problem detected!
+오후 8:22:34  [Tomcat] 	Port 8005 in use by "C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe"!
+오후 8:22:34  [Tomcat] 	Tomcat WILL NOT start without the configured ports free!
+오후 8:22:34  [Tomcat] 	You need to uninstall/disable/reconfigure the blocking application
+오후 8:22:34  [Tomcat] 	or reconfigure Tomcat and the Control Panel to listen on a different port
+오후 8:22:34  [Tomcat] 	Problem detected!
+오후 8:22:34  [Tomcat] 	Port 8009 in use by "C:\Program Files\Adobe\Adobe Premiere Pro 2022\Adobe Premiere Pro.exe"!
+오후 8:22:34  [Tomcat] 	Tomcat WILL NOT start without the configured ports free!
+오후 8:22:34  [Tomcat] 	You need to uninstall/disable/reconfigure the blocking application
+오후 8:22:34  [Tomcat] 	or reconfigure Tomcat and the Control Panel to listen on a different port
+오후 8:22:34  [main] 	Starting Check-Timer
+오후 8:22:34  [main] 	Control Panel Ready
+오후 8:22:48  [Apache] 	Attempting to start Apache app...
+오후 8:22:48  [Apache] 	Status change detected: running
+오후 8:22:49  [mysql] 	Attempting to start MySQL app...
+오후 8:22:49  [mysql] 	Status change detected: running
+오후 8:22:50  [mysql] 	Status change detected: stopped
+오후 8:22:50  [mysql] 	Error: MySQL shutdown unexpectedly.
+오후 8:22:50  [mysql] 	This may be due to a blocked port, missing dependencies, 
+오후 8:22:50  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+오후 8:22:50  [mysql] 	Press the Logs button to view error logs and check
+오후 8:22:50  [mysql] 	the Windows Event Viewer for more clues
+오후 8:22:50  [mysql] 	If you need more help, copy and post this
+오후 8:22:50  [mysql] 	entire log window on the forums
+오후 8:23:16  [Apache] 	Attempting to stop Apache (PID: 1712)
+오후 8:23:16  [Apache] 	Attempting to stop Apache (PID: 8028)
+오후 8:23:17  [Apache] 	Status change detected: stopped
+오후 8:23:17  [mysql] 	Attempting to start MySQL app...
+오후 8:23:17  [mysql] 	Status change detected: running
+오후 8:23:17  [Apache] 	Attempting to start Apache app...
+오후 8:23:18  [Apache] 	Status change detected: running
+오후 10:59:54  [mysql] 	Attempting to stop MySQL app...
+오후 10:59:54  [mysql] 	Status change detected: stopped
+오후 10:59:54  [Apache] 	Attempting to stop Apache (PID: 17500)
+오후 10:59:54  [Apache] 	Attempting to stop Apache (PID: 8772)
+오후 10:59:54  [Apache] 	Status change detected: stopped
+오후 10:59:55  [main] 	Deinitializing Modules
+오후 10:59:55  [main] 	Deinitializing Control Panel
+

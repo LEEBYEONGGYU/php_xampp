@@ -7,12 +7,15 @@
 </head>
 <body>
 <header>
+    <div id="header_in">
+
+    
     <div id="logo">LOGO</div>
     <div id="search_area">
         <input type="text" id="search_input" name="keyword" >
         <img src="/imgs/main_member.png" />
     </div>
-
+    </div>
     <div id="catagory">
         <div id="catagory_title">카테고리</div>
         <nav id="menu">

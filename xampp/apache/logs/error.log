@@ -1326,3 +1326,25 @@
 [Sun Jun 26 16:33:30.305492 2022] [php7:warn] [pid 10220:tid 1860] [client ::1:13197] PHP Warning:  include(D:/github/php_xampp/xampp/htdocs/include/db.php): failed to open stream: No such file or directory in D:\\github\\php_xampp\\xampp\\htdocs\\include\\header.php on line 1
 [Sun Jun 26 16:33:30.305492 2022] [php7:warn] [pid 10220:tid 1860] [client ::1:13197] PHP Warning:  include(): Failed opening 'D:/github/php_xampp/xampp/htdocs/include/db.php' for inclusion (include_path='\\github\\php_xampp\\xampp\\php\\PEAR') in D:\\github\\php_xampp\\xampp\\htdocs\\include\\header.php on line 1
 [Sun Jun 26 21:33:55.287502 2022] [mpm_winnt:crit] [pid 10220:tid 628] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Jun 28 20:22:50.461534 2022] [ssl:warn] [pid 1712:tid 600] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 28 20:22:50.499047 2022] [core:warn] [pid 1712:tid 600] AH00098: pid file D:/github/php_xampp/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jun 28 20:22:50.500047 2022] [ssl:warn] [pid 1712:tid 600] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 28 20:22:50.701879 2022] [mpm_winnt:notice] [pid 1712:tid 600] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 configured -- resuming normal operations
+[Tue Jun 28 20:22:50.701879 2022] [mpm_winnt:notice] [pid 1712:tid 600] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue Jun 28 20:22:50.701879 2022] [core:notice] [pid 1712:tid 600] AH00094: Command line: 'd:\\github\\php_xampp\\xampp\\apache\\bin\\httpd.exe -d D:/github/php_xampp/xampp/apache'
+[Tue Jun 28 20:22:50.704880 2022] [mpm_winnt:notice] [pid 1712:tid 600] AH00418: Parent: Created child process 8028
+[Tue Jun 28 20:22:51.746717 2022] [ssl:warn] [pid 8028:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 28 20:22:51.779724 2022] [ssl:warn] [pid 8028:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 28 20:22:51.800729 2022] [mpm_winnt:notice] [pid 8028:tid 624] AH00354: Child: Starting 150 worker threads.
+[Tue Jun 28 20:23:16.827000 2022] [mpm_winnt:crit] [pid 8028:tid 624] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Jun 28 20:23:18.913720 2022] [ssl:warn] [pid 17500:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 28 20:23:18.958805 2022] [core:warn] [pid 17500:tid 440] AH00098: pid file D:/github/php_xampp/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jun 28 20:23:18.960805 2022] [ssl:warn] [pid 17500:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 28 20:23:18.979809 2022] [mpm_winnt:notice] [pid 17500:tid 440] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 configured -- resuming normal operations
+[Tue Jun 28 20:23:18.979809 2022] [mpm_winnt:notice] [pid 17500:tid 440] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue Jun 28 20:23:18.979809 2022] [core:notice] [pid 17500:tid 440] AH00094: Command line: 'd:\\github\\php_xampp\\xampp\\apache\\bin\\httpd.exe -d D:/github/php_xampp/xampp/apache'
+[Tue Jun 28 20:23:18.983809 2022] [mpm_winnt:notice] [pid 17500:tid 440] AH00418: Parent: Created child process 8772
+[Tue Jun 28 20:23:20.129140 2022] [ssl:warn] [pid 8772:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 28 20:23:20.166149 2022] [ssl:warn] [pid 8772:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 28 20:23:20.188154 2022] [mpm_winnt:notice] [pid 8772:tid 620] AH00354: Child: Starting 150 worker threads.
+[Tue Jun 28 22:59:54.641176 2022] [mpm_winnt:crit] [pid 8772:tid 620] AH02538: Child: Parent process exited abruptly. Child process is ending
