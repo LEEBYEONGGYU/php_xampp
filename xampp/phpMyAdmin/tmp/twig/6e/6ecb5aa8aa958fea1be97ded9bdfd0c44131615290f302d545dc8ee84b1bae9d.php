@@ -83,6 +83,6 @@ class __TwigTemplate_c10a8ab8ec51d3c4ab09b1aa25ff9efe6867ca00652e5adf3d3facd2a6f
 
     public function getSourceContext()
     {
-        return new Source("", "display/export/options_output_separate_files.twig", "D:\\xampp\\phpMyAdmin\\templates\\display\\export\\options_output_separate_files.twig");
+        return new Source("", "display/export/options_output_separate_files.twig", "D:\\github\\php_xampp\\xampp\\phpMyAdmin\\templates\\display\\export\\options_output_separate_files.twig");
     }
 }

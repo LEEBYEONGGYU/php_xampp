@@ -1,9 +1,10 @@
-DIR = \github\php_xampp\xampp
-xampp = ?.?.?
+DIR = D:\github\php_xampp\xampp
+xampp = 7.3.12
+
 server = 1.8.0
 perl = 0
 python = 0
 utils = 0
 java = 0
 other = 0
-usbstick = 1
+usbstick = 0

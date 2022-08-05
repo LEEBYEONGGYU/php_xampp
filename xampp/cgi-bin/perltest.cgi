@@ -1,4 +1,4 @@
-#!"\github\php_xampp\xampp\perl\bin\perl.exe"
+#!"D:\github\php_xampp\xampp\perl\bin\perl.exe"
 
 print "Content-type: text/html\n\n";
 print '<html>';

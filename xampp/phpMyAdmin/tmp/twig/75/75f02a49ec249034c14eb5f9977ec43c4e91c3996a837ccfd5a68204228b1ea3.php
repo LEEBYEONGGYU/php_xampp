@@ -92,6 +92,6 @@ $context["charset"] == ($context["export_charset"] ?? null)))) {
 
     public function getSourceContext()
     {
-        return new Source("", "display/export/options_output_charset.twig", "D:\\xampp\\phpMyAdmin\\templates\\display\\export\\options_output_charset.twig");
+        return new Source("", "display/export/options_output_charset.twig", "D:\\github\\php_xampp\\xampp\\phpMyAdmin\\templates\\display\\export\\options_output_charset.twig");
     }
 }

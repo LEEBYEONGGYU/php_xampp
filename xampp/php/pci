@@ -1,4 +1,4 @@
-#!\github\php_xampp\xampp\php\.\php.exe
+#!D:\github\php_xampp\xampp\php\.\php.exe
 <?php
 /**
  * Get the Compatibility info from PHP CLI

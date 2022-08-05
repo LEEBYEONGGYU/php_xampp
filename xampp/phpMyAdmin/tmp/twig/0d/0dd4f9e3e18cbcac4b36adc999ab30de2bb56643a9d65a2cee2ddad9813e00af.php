@@ -446,6 +446,6 @@ $context["charset"] == ($context["import_charset"] ?? null)))) {
 
     public function getSourceContext()
     {
-        return new Source("", "display/import/import.twig", "D:\\xampp\\phpMyAdmin\\templates\\display\\import\\import.twig");
+        return new Source("", "display/import/import.twig", "D:\\github\\php_xampp\\xampp\\phpMyAdmin\\templates\\display\\import\\import.twig");
     }
 }

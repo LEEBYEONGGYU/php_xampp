@@ -1,7 +1,4 @@
 ###### ApacheFriends XAMPP Version 7.3.12 ######
- 
-Hinweis: Die Portable Version enthält nicht den FileZilla FTP und den Mercury Mail Server. Die Installation als Dienste sind ebenfalls deaktiviert.
-
 
 Wichtig! PHP in diesem Paket benötigt die Microsoft Visual C++ 2015 Redistributable Erweiterung von
 http://www.microsoft.com/en-us/download/. Bitte stellen Sie sicher das die VC++ 2015
