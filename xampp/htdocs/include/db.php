@@ -6,8 +6,7 @@
 	$db = new mysqli("localhost","root","","shopping"); 
 	$db->set_charset("utf8");
 
-	function mq($sql)
-	{
+	function mq($sql){
 		global $db;
 		return $db->query($sql);
 	}

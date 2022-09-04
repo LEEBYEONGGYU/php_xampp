@@ -18,3 +18,39 @@
 [Tue Aug 09 19:53:31.604900 2022] [ssl:warn] [pid 13848:tid 564] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Tue Aug 09 19:53:31.645592 2022] [ssl:warn] [pid 13848:tid 564] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Tue Aug 09 19:53:31.669121 2022] [mpm_winnt:notice] [pid 13848:tid 564] AH00354: Child: Starting 150 worker threads.
+[Tue Aug 30 15:35:55.588950 2022] [ssl:warn] [pid 15580:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Aug 30 15:35:55.635824 2022] [core:warn] [pid 15580:tid 636] AH00098: pid file D:/github/php_xampp/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Aug 30 15:35:55.637839 2022] [ssl:warn] [pid 15580:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Aug 30 15:35:55.682708 2022] [mpm_winnt:notice] [pid 15580:tid 636] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 configured -- resuming normal operations
+[Tue Aug 30 15:35:55.682708 2022] [mpm_winnt:notice] [pid 15580:tid 636] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue Aug 30 15:35:55.682708 2022] [core:notice] [pid 15580:tid 636] AH00094: Command line: 'd:\\github\\php_xampp\\xampp\\apache\\bin\\httpd.exe -d D:/github/php_xampp/xampp/apache'
+[Tue Aug 30 15:35:55.689696 2022] [mpm_winnt:notice] [pid 15580:tid 636] AH00418: Parent: Created child process 15100
+[Tue Aug 30 15:35:56.398808 2022] [ssl:warn] [pid 15100:tid 616] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Aug 30 15:35:56.441996 2022] [ssl:warn] [pid 15100:tid 616] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Aug 30 15:35:56.470899 2022] [mpm_winnt:notice] [pid 15100:tid 616] AH00354: Child: Starting 150 worker threads.
+[Fri Sep 02 09:47:28.001950 2022] [ssl:warn] [pid 2164:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 02 09:47:28.041649 2022] [core:warn] [pid 2164:tid 580] AH00098: pid file D:/github/php_xampp/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Sep 02 09:47:28.042654 2022] [ssl:warn] [pid 2164:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 02 09:47:28.138434 2022] [mpm_winnt:notice] [pid 2164:tid 580] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 configured -- resuming normal operations
+[Fri Sep 02 09:47:28.138434 2022] [mpm_winnt:notice] [pid 2164:tid 580] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Fri Sep 02 09:47:28.138434 2022] [core:notice] [pid 2164:tid 580] AH00094: Command line: 'd:\\github\\php_xampp\\xampp\\apache\\bin\\httpd.exe -d D:/github/php_xampp/xampp/apache'
+[Fri Sep 02 09:47:28.140430 2022] [mpm_winnt:notice] [pid 2164:tid 580] AH00418: Parent: Created child process 15980
+[Fri Sep 02 09:47:28.897437 2022] [ssl:warn] [pid 15980:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 02 09:47:28.935055 2022] [ssl:warn] [pid 15980:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 02 09:47:28.958050 2022] [mpm_winnt:notice] [pid 15980:tid 604] AH00354: Child: Starting 150 worker threads.
+[Fri Sep 02 16:56:45.476957 2022] [mpm_winnt:crit] [pid 15980:tid 604] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Sep 04 14:17:02.360879 2022] [ssl:warn] [pid 20008:tid 588] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 04 14:17:02.423381 2022] [core:warn] [pid 20008:tid 588] AH00098: pid file D:/github/php_xampp/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Sep 04 14:17:02.426373 2022] [ssl:warn] [pid 20008:tid 588] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 04 14:17:02.517674 2022] [mpm_winnt:notice] [pid 20008:tid 588] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 configured -- resuming normal operations
+[Sun Sep 04 14:17:02.517674 2022] [mpm_winnt:notice] [pid 20008:tid 588] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Sep 04 14:17:02.517674 2022] [core:notice] [pid 20008:tid 588] AH00094: Command line: 'd:\\github\\php_xampp\\xampp\\apache\\bin\\httpd.exe -d D:/github/php_xampp/xampp/apache'
+[Sun Sep 04 14:17:02.521663 2022] [mpm_winnt:notice] [pid 20008:tid 588] AH00418: Parent: Created child process 19652
+[Sun Sep 04 14:17:03.442633 2022] [ssl:warn] [pid 19652:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 04 14:17:03.493568 2022] [ssl:warn] [pid 19652:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 04 14:17:03.525544 2022] [mpm_winnt:notice] [pid 19652:tid 584] AH00354: Child: Starting 150 worker threads.
+[Sun Sep 04 20:54:53.801165 2022] [php7:error] [pid 19652:tid 1856] [client ::1:8205] PHP Fatal error:  Cannot redeclare mq() (previously declared in D:\\github\\php_xampp\\xampp\\htdocs\\include\\db.php:9) in D:\\github\\php_xampp\\xampp\\htdocs\\include\\db.php on line 13, referer: http://localhost/
+[Sun Sep 04 20:55:14.985870 2022] [php7:error] [pid 19652:tid 1848] [client ::1:8219] PHP Fatal error:  Cannot redeclare mq() (previously declared in D:\\github\\php_xampp\\xampp\\htdocs\\include\\db.php:9) in D:\\github\\php_xampp\\xampp\\htdocs\\include\\db.php on line 13, referer: http://localhost/
+[Sun Sep 04 20:55:15.827200 2022] [php7:error] [pid 19652:tid 1848] [client ::1:8219] PHP Fatal error:  Cannot redeclare mq() (previously declared in D:\\github\\php_xampp\\xampp\\htdocs\\include\\db.php:9) in D:\\github\\php_xampp\\xampp\\htdocs\\include\\db.php on line 13, referer: http://localhost/
+[Sun Sep 04 20:55:41.919913 2022] [php7:error] [pid 19652:tid 1856] [client ::1:8230] PHP Fatal error:  Cannot redeclare mq() (previously declared in D:\\github\\php_xampp\\xampp\\htdocs\\include\\db.php:9) in D:\\github\\php_xampp\\xampp\\htdocs\\include\\db.php on line 12, referer: http://localhost/
+[Sun Sep 04 20:55:44.920797 2022] [php7:error] [pid 19652:tid 1856] [client ::1:8230] PHP Fatal error:  Cannot redeclare mq() (previously declared in D:\\github\\php_xampp\\xampp\\htdocs\\include\\db.php:9) in D:\\github\\php_xampp\\xampp\\htdocs\\include\\db.php on line 12, referer: http://localhost/

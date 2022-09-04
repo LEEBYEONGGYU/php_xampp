@@ -93,3 +93,76 @@
 오후 9:59:00  [main] 	Deinitializing Modules
 오후 9:59:00  [main] 	Deinitializing Control Panel
 
+오후 3:35:51  [main] 	Initializing Control Panel
+오후 3:35:51  [main] 	Windows Version:  Enterprise  64-bit
+오후 3:35:51  [main] 	XAMPP Version: 7.3.12
+오후 3:35:51  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 3:35:51  [main] 	You are not running with administrator rights! This will work for
+오후 3:35:51  [main] 	most application stuff but whenever you do something with services
+오후 3:35:51  [main] 	there will be a security dialogue or things will break! So think 
+오후 3:35:51  [main] 	about running this application with administrator rights!
+오후 3:35:51  [main] 	XAMPP Installation Directory: "d:\github\php_xampp\xampp\"
+오후 3:35:51  [main] 	Checking for prerequisites
+오후 3:35:53  [main] 	All prerequisites found
+오후 3:35:53  [main] 	Initializing Modules
+오후 3:35:53  [main] 	Starting Check-Timer
+오후 3:35:53  [main] 	Control Panel Ready
+오후 3:35:54  [Apache] 	Attempting to start Apache app...
+오후 3:35:54  [Apache] 	Status change detected: running
+오후 3:35:55  [mysql] 	Attempting to start MySQL app...
+오후 3:35:55  [mysql] 	Status change detected: running
+오후 5:39:23  [main] 	Deinitializing Modules
+오후 5:39:23  [main] 	Deinitializing Control Panel
+
+오전 9:47:00  [main] 	Initializing Control Panel
+오전 9:47:00  [main] 	Windows Version:  Enterprise  64-bit
+오전 9:47:00  [main] 	XAMPP Version: 7.3.12
+오전 9:47:00  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오전 9:47:00  [main] 	You are not running with administrator rights! This will work for
+오전 9:47:00  [main] 	most application stuff but whenever you do something with services
+오전 9:47:00  [main] 	there will be a security dialogue or things will break! So think 
+오전 9:47:00  [main] 	about running this application with administrator rights!
+오전 9:47:00  [main] 	XAMPP Installation Directory: "d:\github\php_xampp\xampp\"
+오전 9:47:00  [main] 	Checking for prerequisites
+오전 9:47:01  [main] 	All prerequisites found
+오전 9:47:01  [main] 	Initializing Modules
+오전 9:47:01  [main] 	Starting Check-Timer
+오전 9:47:01  [main] 	Control Panel Ready
+오전 9:47:26  [mysql] 	Attempting to start MySQL app...
+오전 9:47:26  [Apache] 	Attempting to start Apache app...
+오전 9:47:27  [Apache] 	Status change detected: running
+오전 9:47:27  [mysql] 	Status change detected: running
+오후 4:56:45  [mysql] 	Attempting to stop MySQL app...
+오후 4:56:45  [mysql] 	Status change detected: stopped
+오후 4:56:45  [Apache] 	Attempting to stop Apache (PID: 2164)
+오후 4:56:45  [Apache] 	Attempting to stop Apache (PID: 15980)
+오후 4:56:45  [Apache] 	Status change detected: stopped
+오후 4:56:46  [main] 	Deinitializing Modules
+오후 4:56:46  [main] 	Deinitializing Control Panel
+
+오후 2:16:56  [main] 	Initializing Control Panel
+오후 2:16:56  [main] 	Windows Version:  Enterprise  64-bit
+오후 2:16:56  [main] 	XAMPP Version: 7.3.12
+오후 2:16:56  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 2:16:56  [main] 	You are not running with administrator rights! This will work for
+오후 2:16:56  [main] 	most application stuff but whenever you do something with services
+오후 2:16:56  [main] 	there will be a security dialogue or things will break! So think 
+오후 2:16:56  [main] 	about running this application with administrator rights!
+오후 2:16:56  [main] 	XAMPP Installation Directory: "d:\github\php_xampp\xampp\"
+오후 2:16:56  [main] 	Checking for prerequisites
+오후 2:16:57  [main] 	All prerequisites found
+오후 2:16:57  [main] 	Initializing Modules
+오후 2:16:57  [main] 	Starting Check-Timer
+오후 2:16:57  [main] 	Control Panel Ready
+오후 2:17:00  [mysql] 	Attempting to start MySQL app...
+오후 2:17:00  [mysql] 	Status change detected: running
+오후 2:17:01  [Apache] 	Attempting to start Apache app...
+오후 2:17:01  [Apache] 	Status change detected: running
+오후 10:54:30  [mysql] 	Attempting to stop MySQL app...
+오후 10:54:30  [mysql] 	Status change detected: stopped
+오후 10:54:30  [Apache] 	Attempting to stop Apache (PID: 20008)
+오후 10:54:30  [Apache] 	Attempting to stop Apache (PID: 19652)
+오후 10:54:31  [Apache] 	Status change detected: stopped
+오후 10:54:31  [main] 	Deinitializing Modules
+오후 10:54:31  [main] 	Deinitializing Control Panel
+
