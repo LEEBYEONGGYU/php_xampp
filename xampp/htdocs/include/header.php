@@ -1,18 +1,9 @@
-<?php include $_SERVER['DOCUMENT_ROOT']."/include/db.php"; ?>
 <!DOCTYPE html>
 <head>
-	<title>PHP 쇼핑몰</title>
-<link rel="stylesheet" href="/css/common.css" />
-<link rel="stylesheet" href="/css/sub.css" />
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<title>INDEX</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="/css/common.css">
+<script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/js/common.js"></script>
 </head>
 <body>
-<header>
-	<div id="header_in">
-	<div id="logo">LOGO</div>
-	<div id="search_area">
-		<input type="text" id="search_input" name="keyword" >
-		<img src="/imgs/main_member.png" />
-	</div>
-	</div>
-	
