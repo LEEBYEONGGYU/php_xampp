@@ -1,4 +1,0 @@
-<?php
-	$sql = mq("insert into hagi(cof001, cof002, cof003, cof004, cof005, cof006, cof007, cof008, cof009, cof010, cof011, cof012, cof013, cof014, cof015, cof016, t, d) values('".$_POST['cof001']."', '".$_POST['cof002']."', '".$_POST['cof003']."', '".$_POST['cof004']."', '".$_POST['cof005']."', '".$_POST['cof006']."', '".$_POST['cof007']."', '".$_POST['cof008']."', '".$_POST['cof009']."', '".$_POST['cof010']."', '".$_POST['cof011']."', '".$_POST['cof012']."', '".$_POST['cof013']."', '".$_POST['cof014']."', '".$_POST['cof015']."', '".$_POST['cof016']."', '".$_POST['t']."', '".$_POST['d']."')");
-?>
-<meta http-equiv="refresh" content="0 url=/" />

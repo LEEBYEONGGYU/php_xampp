@@ -1,2 +1,0 @@
-RewriteEngine on
-RewriteRule ^([^\.]+)$ ./index.php?params=$1 [L]

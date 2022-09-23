@@ -1,1 +1,0 @@
-<div class="fb">준비중입니다</div>
