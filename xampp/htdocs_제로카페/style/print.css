@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*PRINT CSS*/
+
+header, #fontsize, footer {display:none; visibility:hidden; margin:0; padding:0; border:0; header:0;}

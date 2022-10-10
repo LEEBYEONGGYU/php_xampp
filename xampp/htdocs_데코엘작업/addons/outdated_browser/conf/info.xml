@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+	<title xml:lang="ko">오래된 브라우저 알림 애드온</title>
+	<description xml:lang="ko">오래된 브라우저로 접속시 업그레이드를 권고합니다.</description>
+	<version>1.1.1</version>
+	<date>2015-06-23</date>
+	<author email_address="jinhwat@gmail.com" link="http://www.treasurej.com/">
+		<name xml:lang="ko">TREASUREJ</name>
+	</author>
+	<extra_vars>
+		<group>
+			<title>설정</title>
+			<var name="iev" type="select">
+				<title xml:lang="ko">애드온 활성 IE 버전</title>
+				<options value="IE8">
+					<title xml:lang="ko">IE8 포함 이하(CSS borderSpacing 미지원 IE)</title>
+				</options>
+				<options value="IE9">
+					<title xml:lang="ko">IE9 포함 이하(CSS boxShadow 미지원 IE)</title>
+				</options>
+				<options value="IE10">
+					<title xml:lang="ko">IE10 포함 이하(CSS transform 미지원 IE)</title>
+				</options>
+				<options value="IE11">
+					<title xml:lang="ko">IE11 포함 이하(CSS borderImage 미지원 IE)</title>
+				</options>
+			</var>
+		</group>
+	</extra_vars>
+</addon>

@@ -1,0 +1,286 @@
+* {margin: 0 auto; padding: 0;  vertical-align: top;}
+ ul li {list-style: none; }
+ a {color:#333; text-decoration: none; }
+
+body {
+	background:#171a1e;
+}
+ header {
+ 	width:100%; 
+ 	position: relative;
+ 	margin-top: 170px;
+ }
+
+ #logo {
+ 	width:100px;
+ 	height: 100px;
+ 	border:solid 1px white;
+ 	border-radius: 100%;
+ 	animation-name: vis;
+	animation-duration: 3s;
+	margin-top:100px;
+	background:url("../logo.png") no-repeat;
+	background-position: 50%;
+	animation-name: logorotate;
+	animation-duration: 3s;
+ 	 
+}
+@keyframes logorotate{
+	0%{
+		transform:rotate(130deg);
+	}
+	100% {
+		transform:rotate(360deg);
+	}
+
+}
+#bot1 {
+	animation-name: vi;
+	animation-duration: 3s;
+	margin-top:100px;
+	
+}
+#bot2 {
+	animation-name: vi2;
+	animation-duration: 3s;
+	margin-top:80px;
+	
+}
+#l_line {
+	width: 1px;
+	height:70px;
+	background:white;
+}
+#l_line2 {
+	width: 700px;
+	height:1px;
+	background:white;
+	
+}
+#content {
+	font:bold 48px 'malgun gothic';
+	text-align: center;
+	color:white;
+	animation-name:cont;
+	animation-duration: 3s;
+	   
+}
+#c_p2 {
+	font-size: 26px;
+}
+#l_line3 {
+	width: 700px;
+	height:1px;
+	background:white;
+}
+#l_line4 {
+	width: 1px;
+	height:70px;
+	background:white;
+}
+
+/* 로고 애니메이션 키프레임 */
+@keyframes vis {
+	0% {
+		opacity: 0;
+		margin-top:300px;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+/*상단부분 묶음 키프레임*/
+@keyframes vi {
+	0% {
+		opacity: 0;
+		margin-top:-180px;
+	}
+	100%{
+		opacity: 1;
+		margin-top:0px;
+	}
+}
+@keyframes vi2 {
+	0% {
+		opacity: 0;
+		margin-top:-40px;
+	}
+	100%{
+		opacity: 1;
+		margin-top:80px;
+	}
+}
+
+/*컨텐츠 내용 키프레임 */
+@keyframes cont{
+	0% {
+		opacity: 0;
+	
+	}
+	100% {
+		opacity: 1;
+		
+	}
+}
+#join {
+	width:130px;
+	height:50px;
+	border:solid 1px white;
+	text-align: center;
+	font-family: 'malgun gothic';
+	color:white;
+	line-height: 50px;
+	font-size: 18px;
+	margin-left: -3px;
+}
+#login {
+	width:130px;
+	height:50px;
+	border:solid 1px white;
+	text-align: center;
+	font-family: 'malgun gothic';
+	color:white;
+	line-height: 50px;
+	font-size: 18px;
+}
+#form_area {
+	position: relative;
+	width:260px;
+	left: 2px;
+}
+#join {
+	position:absolute;
+	top: 0;
+	left: 0;
+	color:white;
+}
+#join a {
+	color:white;
+}
+#join:hover {
+	transition: 1s;
+	background:white;
+	color:black;
+}
+#join a:hover {
+	transition: 1s;
+	color:black;
+}
+#login {
+	position:absolute;
+	top: 0;
+	right: 0;
+	color:white;
+}
+#login a {
+	color:white;
+}
+#login:hover {
+	transition: 1s;
+	background:white;
+	color:black;
+}
+#login a:hover{
+	color:black;
+}
+
+
+/*회원가입 부분 */
+.logi_user {
+	position:absolute;
+	top:80px;
+	font:14px 'malgun gothic';
+}
+.join_frm {
+	display:none;
+	z-index:1000;
+}
+.join_frm  .frm_con ul:first-child{
+	border-top:solid 1px #ccc;
+}
+.join_frm  .frm_con ul{
+	clear:left;
+	float:left;
+	width:100%;
+	border-bottom:solid 1px #ccc;
+}
+.join_frm  .frm_con ul li{
+	float:left;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-right:15px;
+}
+.join_frm  .frm_con ul li:first-child{
+	float:left;
+	width:15%;
+	text-align:right;
+	margin-right:10px;
+	border-right:solid 1px #ccc;
+	background-color:#36b6db;
+}
+.join_frm  .frm_con ul li input[type="text"]{
+	border:solid 1px #ccc;
+}
+.join_frm  .frm_con ul li input[type="password"]{
+	border:solid 1px #ccc;
+}
+.join_bbb{float:left;}
+.join_bbb > ul > li{float:left;}
+.join_bbb > ul > li input{padding:10px 20px;
+	background-color:#66b8e1;
+	border:solid 1px #096797;
+	color:#fff; margin-right:5px;
+	margin-top:10px;
+	float:right;
+}
+
+
+.join_frm2 {
+	display:none;
+	z-index:10;
+}
+#in_box {
+	text-align: center;
+	margin-top:15px;
+	
+}
+.idpw_box input {
+	width:400px;
+	height:50px;
+	border:solid 1px #BDBDBD;
+	margin-top:15px;
+	font-size:14px;
+	padding-left:10px;
+}
+#idpw_find {
+	position: absolute;
+	font-size:14px;
+	margin-left:30px;
+	margin-top:30px; 
+	color:#2E9AFE;
+}
+#idpw_find a{
+	color:#2E9AFE;
+}
+#join_mem{
+	position: absolute;
+	font-size:14px;
+	margin-left:370px;
+	margin-top:30px;
+	color:#2E9AFE;
+}
+#join_mem a{
+	color:#2E9AFE;
+}
+#log_box_bot button {
+	width:420px;
+	height:60px;
+	background:#258663;
+	text-align: center;
+	color:white;
+	font-size: 26px;
+	border: 0;
+	margin-top:83px;
+	margin-left: 10px;
+}

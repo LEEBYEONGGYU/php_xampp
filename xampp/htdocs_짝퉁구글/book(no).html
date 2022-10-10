@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body {margin:0; padding:0;}
+ul {overflow:hidden; list-style:none; margin:0; padding:0;}
+li {float:left; margin:0; padding:6px;}
+img {width:100px; height:100px;}
+#view_box {background:#ccc; height:100px;}
+</style>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(function(){
+	$("#grid li").on("click",function(){
+		var data = $(this).attr("id").split("_");
+		var ul_id = "#row_" + data[1];
+		var view_box = $("#view_box");
+		$(ul_id).after(view_box);
+		var t = (new Date()).getTime();
+		view_box.load("view.php?no="+data[2]+"&t="+t+"#article")
+	});
+})
+</script>
+</head>
+<body>
+<div id="grid">
+	<ul id="row1">	
+		<li id="item_1_1"><img src="/imgs/1.jpg" /></li>
+		<li id="item_1_2"><img src="/imgs/2.jpg" /></li>
+		<li id="item_1_3"><img src="/imgs/3.jpg" /></li>
+	</ul>
+	<ul id="row2">
+		<li id="item_2_4"><img src="/imgs/1.jpg" /></li>
+		<li id="item_2_5"><img src="/imgs/2.jpg" /></li>
+		<li id="item_2_6"><img src="/imgs/3.jpg" /></li>
+	</ul>
+	<ul id="row3">
+		<li id="item_3_7"><img src="/imgs/1.jpg" /></li>
+		<li id="item_3_8"><img src="/imgs/2.jpg" /></li>
+		<li id="item_3_9"><img src="/imgs/3.jpg" /></li>
+	</ul>
+	<div id="view_box">
+	</div>
+</div>
+</body>
+</html>

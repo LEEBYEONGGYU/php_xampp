@@ -1,0 +1,223 @@
+/* option */
+*{margin:0;padding:0;}
+ul li {list-style:none;}
+a {text-decoration:none;}
+img {border:0;}
+
+body {background:#cccccc;}
+
+select::-ms-expand {
+
+    display: none;
+
+} 
+
+.fl {float:left;}
+
+.tc {text-align:center;}
+button {padding:10px 15px;}
+li.w2 > a {color:black;}
+.w2 > button {background:#e9ba00; border:solid 2px black; height:25px; line-height:20px; padding:0 10px;}
+
+.w1 {width:20%; text-align:center; font:1em "Malgun Gothic"; height:60px; line-height:60px;}
+.w3 {width:20%; text-align:center; font:1em "Malgun Gothic"; height:100px; line-height:100px;}
+.w2 {height:60px; font:1em "Malgun Gothic"; line-height:60px;}
+.w4 {height:100px; font:1em "Malgun Gothic"; line-height:150px;}
+
+.w5 {width:18%; text-align:center; height:50px; line-height:50px;}
+
+.fb2 {font:bold 1em "malgun gothic"; margin-top:5px; border-bottom:solid 1px gray;}
+
+.w4 > textarea {font:0.8em "Malgun Gothic"; padding:5px 10px; border-radius:10px; border:1px gray solid; background:white;}
+.w2 > input[type="text"],input[type="password"] {padding:5px 10px; font:0.8em "Malgun Gothic"; border-radius:10px; border:1px gray solid; background:white;}
+
+.w10 {width:10%;}
+.w20 {width:20%;}
+.w30 {width:30%;}
+.w40 {width:40%;}
+.w50 {width:50%;}
+.w60 {width:60%;}
+.w70 {width:70%;}
+.w80 {width:80%;}
+.w90 {width:90%;}
+.w100 {width:100%;}
+
+.but1 > button {padding:10px 20px; margin-left:20px; background:#e9ba00; border:solid 3px #e9ba00; font:bold 15px "Malgun gothic"; color:white; cursor:pointer;}
+
+/* option */
+header {width:100%; background:url("/img/header_bg.png") repeat-x;}
+.header {width:1160px; position:relative; height:115px; margin:0 auto;} 
+.logo {position:absolute; left:50px; top:30px;}
+.menu {position:absolute; right:1px; top:50px; z-index:10;}
+.menu > ul > li {float:left; width:170px; height:40px; text-align:center; font:bold 15px "malgun gothic"; color:white; z-index:10; line-height:40px; transition:0.5s;}
+.menu > ul > li > a {color:white;}
+.menu > ul > li:hover {background:#fff;}
+.menu > ul > li:hover > a {color:black; cursor:pointer;}
+.menu > ul > li > ul {display:none; position:absolute;transition:0.5s;}
+.menu > ul > li:hover > ul {display:block;transition:0.5s;} 
+.menu > ul > li > ul > li { width:170px; height:40px; text-align:center; font:bold 15px "malgun gothic"; color:white; line-height:40px; background:black; transition:0.5s;}
+.menu > ul > li > ul > li > a {color:white; transition:0.5s;}
+.menu > ul > li > ul > li:hover {background:#fff; transition:0.5s;}
+.menu > ul > li > ul > li:hover > a {color:#000; transition:0.5s;}
+
+
+/* content */
+.main {width:100%; background:url("/img/content_bg2.png") repeat-x;}
+.main_inner {width:1160px; position:relative; height:1350px; margin:0 auto; background:white; box-shadow:20px 0 50px #707070,-20px 0 50px #707070;} 
+.flash {width:1160px; height:635px; position:absolute; z-index:1;}
+	.flash_img {position:absolute;}
+		.flash_img > ul > li {float:left; width:1160px; height:635px; overflow:hidden;}
+	.flash_but {position:absolute; top:250px;}
+		.flash_left {position:absolute; left:20px;}
+		.flash_right {position:absolute; left:1080px;}
+	.flash_sel {position:absolute; bottom:100px; right:50px;}
+		.flash_sel > ul > li {float:left; margin-right:15px;}
+
+	.slideshow {
+		background-color:#000;
+		height:635px;
+		min-width:1160px;
+		overflow:hidden;
+		position:relative;
+	}
+	.slideshow-slides {
+		height:100%;
+		position:absolute;
+		width:100%;
+	}
+	.slideshow-slides .slide {
+		height:100%;
+		overflow:hidden;
+		position:absolute;
+		width:100%;
+	}
+	.slideshow-slides .slide img {
+		left:50%;
+		margin-left:-580px;
+		position:absolute;
+	}
+
+	.slideshow-nav a,
+	.slideshow-indicator a {
+		overflow:hidden;
+	}
+	.slideshow-nav a:before,
+	.slideshow-indicator a:before {
+		display:inline-block;
+		font-size:0;
+		line-height:0;
+	}
+	
+	.slideshow-nav a {
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:59px;
+	height:91px;
+	margin-top:-36px;
+	}
+
+	.slideshow-nav a.prev {
+		margin-left:-560px;
+	}
+	.slideshow-nav a.prev:before {margin-left:-20px}
+	.slideshow-nav a.next {
+		margin-left:480px;
+	}
+	.slideshow_nav a.next:before {margin-left:-80px; margin-top:-20px;}
+	.slideshow-nav a.disabled {
+		display:none;
+	}
+
+	.slideshow-indicator {
+		bottom: 30px;
+		height:29px;
+		left:0;
+		position:absolute;
+		right:0;
+		text-align:center;
+	}
+
+	.slideshow-indicator a {
+		display:inline-block;
+		width:29px;
+		height:29px;
+		margin-left:3px;
+		margin-right:3px;
+	}
+
+	.slideshow-indicator a.active{
+		cursor : default;
+	}
+
+	.slideshow-indicator a:before{
+		margin-left:-110px;
+	}
+
+	.slideshow-indicator a.active:befofe {
+		margin-left:-130px;
+	}
+
+.nav {width:1160px; height:440px; position:absolute; top:635px;}
+	.nav_con1 {position:absolute; width:490px; height:155px; background:#ff7372; left:63px; top:50px;}
+	.nav_con2 {position:absolute; width:490px; height:155px; background:#eab815; left:585px; top:50px;}
+	.nav_con3 {position:absolute; width:490px; height:155px; background:#0fcabf; left:63px; top:240px;}
+	.nav_con4 {position:absolute; width:490px; height:155px; background:#7cc144; left:585px; top:240px;}
+	.nav_pic {position:absolute; left:10px; top:10px;}
+	.nav_title {position:absolute; left:180px; top:10px; font:bold 15px "malgun gothic"; color:white;}
+	.nav_word {position:absolute; left:180px; top:40px; font:normal 13px "dotum";color:white; line-height:20px;}
+	.nav_read {position:absolute; left:180px; top:110px;}
+/* .greeting {width:1160px; height:475px; position:absolute; top:1080px; background:#e5e5e5;}
+	.greet_han {margin-top:50px;}
+	.greet_eng {margin-top:50px;}
+	.greet_title {font:bold 25px "Malgun gothic";}
+	.greet_word {font:bold 20px "malgun gothic"; line-height:35px; } */
+.search {width:1160px; position:absolute; top:1100px; height:281px;}
+	.search_title {font:bold 20px "malgun gothic"; text-align:center; margin-top:20px; height:50px;}
+	.search_input {text-align:center; margin-top:30px;}
+	.search_input > input[type="text"] {height:50px; font:15px "dotum"; border:3px solid #e9ba00;}
+	.search_input > button {padding:15px 25px; margin-left:20px; background:#e9ba00; border:solid 3px #e9ba00; font:bold 15px "Malgun gothic"; color:white; cursor:pointer;}
+	.search_input > select {padding:15px 25px; margin-right:20px; border:solid 3px #e9ba00; font:bold 15px "Malgun gothic"; text-align:center;}
+
+/* sub */
+.sub {width:100%; background:url("/img/content_bg2.png") repeat-x;}
+.sub_inner {width:1160px; position:relative; min-height:800px; margin:0 auto; background:white; box-shadow:20px 0 50px #707070,-20px 0 50px #707070;} 
+.sub_flash {width:1160px; height:305px; position:relative;}
+.search2 {width:1160px; position:relative; margin-top:30px;}
+
+	.search2 > ul > li > input[type="text"] {border-radius:1.5em; padding:5px 10px; font:14px "malgun gothic"; box-shadow:}
+
+.fb {font:bold 25px "Malgun Gothic"; text-align:center; margin-top:50px;}
+
+.chkc > span {margin-left:10px;}
+
+#list {position:relative; margin-left:180px;}
+
+.omg {margin-left:80px;}
+
+#search_list {position:relative; width:1160px;}
+	.search_title2 > th {width:200px;}
+	
+	.list_body > ul{}
+	.list_body > ul {height:100px; padding-top:25px;}
+	.list_body > ul:nth-child(2n-1) { background-color:#FFFFFF; }
+	.list_body > ul:nth-child(2n) { background-color:#EEEEEE; }
+
+.good {margin-top:40px;}
+	.goood2 {}
+
+.list_style:nth-child(2n-1) { background-color:#FFFFFF; }
+.list_style:nth-child(2n) { background-color:#EEEEEE; }
+
+/* #search_con > ul:nth-child(2n-1) {background-color:#FFFFFF;}
+#search_con > ul:nth-child(2n) {background-color:#eeeeee;} */
+
+/* footer */
+footer {width:100%; background:url("/img/footer_bg2.png") repeat-x;}
+	.footer {width:1160px; position:relative; height:113px; margin:0 auto;} 
+		.footer_logo {position:absolute; left:50px; top:20px;}
+		.footer_bold {position:absolute; left:250px; top:35px;}
+			.footer_bold > ul > li {float:left; color:white; font:bold 11px "Dotum"; margin-right:15px;}
+		.footer_word {position:absolute; top:60px; left:250px; font:11px "Dotum"; color:white;}
+
+

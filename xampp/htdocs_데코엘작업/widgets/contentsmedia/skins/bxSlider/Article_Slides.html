@@ -1,0 +1,374 @@
+<!--// 멀티스킨 사용을 위해 변수 또는 ID 랜덤 지정 -->
+{@ $slide_id = mt_rand()}
+{@ $skin_id = "cm04_".$slide_id}
+
+<!--// 제목 폰트 크기 정의 -->
+<!--@if(!$media_info->title_font_size)-->
+	{@ $title_font_size = 12}
+<!--@else-->
+	{@ $title_font_size = $media_info->title_font_size}
+<!--@end-->
+
+<!--// 제목 폰트 색 정의 -->
+<!--@if(!$media_info->title_font_color)-->
+	{@ $title_font_color = '#222'}
+<!--@else-->
+	{@ $title_font_color = $media_info->title_font_color}
+<!--@end-->
+
+<!--// 제목 글꼴 정의 -->
+<!--@if($media_info->title_font_family=='Default')-->
+	{@ $title_font_family = "굴림,Arial,Helevtica,Verdana,san-serif"}
+<!--@else-->
+	{@ $title_font_family = $media_info->title_font_family}
+<!--@end-->
+
+<!--// 사용자 폰트인 경우 -->
+<!--@if($media_info->title_font_user)-->
+	{@ $title_font_family = $media_info->title_font_user}
+<!--@end-->
+
+<!--// 제목+카테고리 높이(35px) -->
+<!--@if(!$media_info->title_height)-->
+	{@ $textT1_Height = 35}
+<!--@else-->
+	{@ $textT1_Height = $media_info->title_height}
+<!--@end-->
+
+<!--// 내용의 폰트 크기 정의 -->
+<!--@if(!$media_info->content_font_size)-->
+	{@ $content_font_size = 11}
+<!--@else-->
+	{@ $content_font_size = $media_info->content_font_size}
+<!--@end-->
+
+<!--// 내용의 폰트 색 정의 -->
+<!--@if(!$media_info->content_font_color)-->
+	{@ $content_font_color = '#000'}
+<!--@else-->
+	{@ $content_font_color = $media_info->content_font_color}
+<!--@end-->
+
+<!--// 내용의 폰트 스타일 정의 -->
+<!--@if($media_info->content_font_family=='Default')-->
+	{@ $content_font_family = "돋움,Arial,Helevtica,Verdana,san-serif"}
+<!--@else-->
+	{@ $content_font_family = $media_info->content_font_family}
+<!--@end-->
+
+<!--// 내용 폰트 직접 입력인 경우 -->
+<!--@if($media_info->content_font_user)-->
+	{@ $content_font_family = $media_info->content_font_user}
+<!--@end-->
+
+<!--// 내용 높이(75px) -->
+<!--@if(!$media_info->content_height)-->
+	{@ $textC1_Height = 75}
+<!--@else-->
+	{@ $textC1_Height = $media_info->content_height}
+<!--@end-->
+
+<!--// 외부여백(기본 5px) -->
+{@ $outermargin = 5*2}
+
+<!--// 이미지 내부 여백(4px) -->
+{@ $img_outer = 4*2}
+
+{@ $itemWidth = $media_info->thumbnail_width+$img_outer+($media_info->cm_grbdsize*2)}
+{@ $itemHeight = $media_info->thumbnail_height+$img_outer+($media_info->cm_grbdsize*2)+$outermargin}
+{@ $widgetWidth = ($itemWidth*$media_info->rows_list_count)+($media_info->rows_list_count*$outermargin)}
+
+<!--// 모듈 이름 높이(20px) -->
+<!--@if($media_info->show_browser_title=='Y')-->
+{@ $bxModuleheight = 20}
+<!--@end-->
+{@ $itemHeight = $itemHeight+$bxModuleheight}
+
+<!--@if($media_info->show_content_title=='Y')-->
+	<!--@if($media_info->show_title=='Y')-->
+	{@ $itemHeight = $itemHeight+$textT1_Height} <!--// 제목 2줄(35px) 출력됨 -->
+	<!--@end-->
+
+	<!--@if($media_info->show_content=='Y')-->
+	{@ $itemHeight = $itemHeight+$textC1_Height} <!--// 내용 4줄(80px) 출력됨 -->
+	<!--@end-->
+<!--@end-->
+
+{@ $skincssimgpath = getSiteUrl()."widgets/contentsmedia/skins"} <!--// 배경 이미지 경로 -->
+
+<style type="text/css">
+.textT1_{$skin_id}, .textT1_{$skin_id} a, .textT1_{$skin_id} a:visited {
+	color:{$title_font_color};
+	font-family: {$title_font_family};
+	font-size: {$title_font_size}px;
+	text-decoration: none;
+	height: {$textT1_Height}px;
+	text-align:center;
+	overflow:hidden;
+	line-height:normal;
+	font-weight: bold;
+	<!--@if($media_info->show_title=='Y')-->display:block;<!--@else-->display:none;<!--@end-->
+}
+.textT1_{$skin_id} a:hover, .textT1_{$skin_id} a:focus {
+	text-decoration: underline;
+}
+
+.textC1_{$skin_id}, .textC1_{$skin_id} a, .textC1_{$skin_id} a:visited {
+	text-align:justify;
+	color:{$content_font_color};
+	font-family: {$content_font_family};
+	font-size: {$content_font_size}px;
+	text-decoration: none;
+	font-weight: normal;
+	<!--@if($media_info->show_content=='Y')-->display:block;<!--@else-->display:none;<!--@end-->
+}
+.textC1_{$skin_id} a:hover, .textC1_{$skin_id} a:focus {
+	text-decoration: underline;
+}
+
+#wrap_{$skin_id} {
+	width:{$widgetWidth}px;
+	margin:0 auto;
+}
+
+#{$skin_id} {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+#{$skin_id} li {
+	padding: {$outermargin}px; /* 썸네일 간격 */
+	margin: 0;
+	zoom:1;
+	width: {$itemWidth}px;
+}
+
+#wrap_{$skin_id} h4 a, #wrap_{$skin_id} h4 a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+/* 모듈 이름 */
+#wrap_{$skin_id} li h4 { 
+	position:relative;
+	z-index:1;
+	font-size:0.95em;
+	letter-spacing:-1px;
+	width:{$itemWidth}px;
+	height:{$bxModuleheight}px;
+	margin-bottom:-2px;
+	font-size:12px;
+	color:#2f3743;
+	overflow:hidden
+}
+
+/* 이미지+제목+내용 출력부분 */
+#wrap_{$skin_id} li .{$skin_id} {
+	display:block;
+	overflow:hidden;
+}
+
+/* 이미지 출력부분 썸네일 테투리 두께와 색, 배경, 여백 지정 */
+#wrap_{$skin_id} .{$skin_id}_img {
+	float: left;
+	border: {$media_info->cm_grbdsize}px solid {$media_info->cm_grbdcolor}; /* 썸네일 테투리 두께와 색 지정 */
+	background: {$media_info->cm_grbgcolor};
+	padding: {$img_outer/2}px;
+<!--@if($media_info->cm_shadow=='Y')-->
+	box-shadow:0px 0px 3px silver; /* Opera */
+	-moz-box-shadow:0px 0px 3px silver; /* Firefox */
+	-webkit-box-shadow:0px 0px 3px silver; /* Safiri, Chrome */
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=silver,direction=135, strength=3); /* IE */
+<!--@end-->
+}
+
+/* 제목 출력부분 */
+#wrap_{$skin_id} .{$skin_id}_title {
+	position:relative;
+	width:{$itemWidth}px;
+	padding-top:5px;
+}
+
+/* 내용 출력부분 */
+#wrap_{$skin_id} .{$skin_id}_content {
+	width:{$itemWidth}px;
+	overflow:hidden;
+}
+
+/* gray, blue, green, orange, purple, red, yellow */
+/*next button*/
+#wrap_{$skin_id} .bx-next {
+	position:absolute;
+	top:30%; /* 좌우 컨트롤 버튼 높이 */
+	right:-27px; /* 좌우 컨트롤 버튼 간격 */
+	z-index:999;
+	width: 17px;
+	height: 22px;
+	text-indent: -999999px;
+	background: url('{$skincssimgpath}/bxSlider/images/btn_next.gif') no-repeat;
+}
+
+/*previous button*/
+#wrap_{$skin_id} .bx-prev {
+	position:absolute;
+	top:30%; /* 좌우 컨트롤 버튼 높이 */
+	left:-27px; /* 좌우 컨트롤 버튼 간격 */
+	z-index:999;
+	width: 17px;
+	height: 22px;
+	text-indent: -999999px;
+	background: url('{$skincssimgpath}/bxSlider/images/btn_prev.gif') no-repeat;
+}
+
+/*pager links*/
+#wrap_{$skin_id} .bx-pager a {
+	margin-right: 5px;
+	color: #fff;
+	padding: 3px 8px 3px 6px;
+	font-size: 12px;
+	zoom:1;
+	background: url('{$skincssimgpath}/bxSlider/images/gray_pager.png') no-repeat 0 -20px;
+}
+
+/*auto start button*/
+#wrap_{$skin_id} .bx-auto .start {
+	background: url('{$skincssimgpath}/bxSlider/images/gray_auto.png') no-repeat 0 2px;
+	padding-left: 13px;
+}
+
+/*auto stop button*/
+#wrap_{$skin_id} .bx-auto .stop {
+	background: url('{$skincssimgpath}/bxSlider/images/gray_auto.png') no-repeat 0 -14px;
+	padding-left: 13px;
+}
+
+/*
+ * End color scheme styles
+ */
+
+/*pager links hover and active states*/
+#wrap_{$skin_id} .bx-pager .pager-active,
+#wrap_{$skin_id} .bx-pager a:hover {
+	background-position: 0 0;
+}
+
+/*pager wrapper*/
+#wrap_{$skin_id} .bx-pager {
+	text-align:center;
+	padding-top: 7px;
+	font-size:12px;
+	color:#666;
+}
+
+/*captions*/
+#wrap_{$skin_id} .bx-captions {
+	text-align:center;
+	font-size: 12px;
+	padding: 7px 0;
+	color: #666;
+}
+
+/*auto controls*/
+#wrap_{$skin_id} .bx-auto {
+	text-align: center;
+	padding-top: 15px;
+}
+
+#wrap_{$skin_id} .bx-auto a {
+	color: #666;
+	font-size: 12px;
+}
+
+#wrap_{$skin_id} .lightbox_image {
+	width:{$media_info->thumbnail_width}px;
+	height:{$media_info->thumbnail_height}px;
+	float:left;
+	background:url('{$skincssimgpath}/mplayer/images/magnify.png') no-repeat center center;
+}
+
+#wrap_{$skin_id} .lightbox_video {
+	width:{$media_info->thumbnail_width}px;
+	height:{$media_info->thumbnail_height}px;
+	float:left;
+	background:url('{$skincssimgpath}/mplayer/images/video.png') no-repeat center center;
+}
+
+#wrap_{$skin_id} .no_image {
+	width:{$media_info->thumbnail_width}px;
+	height:{$media_info->thumbnail_height}px;
+	float:left;
+	background:url('{$skincssimgpath}/mplayer/images/no_image.png') no-repeat center center;
+}
+
+#wrap_{$skin_id} .open_doc {
+	width:{$media_info->thumbnail_width}px;
+	height:{$media_info->thumbnail_height}px;
+	float:left;
+	background:url('{$skincssimgpath}/mplayer/images/document.png') no-repeat center center;
+}
+
+/* Image rounded corners */
+.rounded-all { -moz-border-radius: 3px 3px 3px 3px; -webkit-border-radius: 3px 3px 3px 3px; -khtml-border-radius: 3px 3px 3px 3px; border-radius: 3px 3px 3px 3px; }
+.rounded-top { -moz-border-radius: 3px 3px 0 0; -webkit-border-radius: 3px 3px 0 0; -khtml-border-radius: 3px 3px 0 0; border-radius: 3px 3px 0 0; }
+.rounded-bottom { -moz-border-radius: 0 0 3px 3px; -webkit-border-radius: 0 0 3px 3px; -khtml-border-radius: 0 0 3px 3px; border-radius: 0 0 3px 3px; }
+.rounded-left { -moz-border-radius: 3px 0 0 0; -webkit-border-radius: 3px 0 0 0; -khtml-border-radius: 3px 0 0 0; border-radius: 3px 0 0 0; }
+.rounded-right { -moz-border-radius: 0 3px 0 0; -webkit-border-radius: 0 3px 0 0; -khtml-border-radius: 0 3px 0 0; border-radius: 0 3px 0 0; }
+/* contentslider 위젯 : 배워서남준다(http://studyu.cafe24.com)*/
+</style>
+
+<!--@if($media_info->items_shuffle=='Y')-->
+	{@ shuffle($media_info->media_items)}
+<!--@end-->
+
+<div id="wrap_{$skin_id}">
+<ul id="{$skin_id}">
+<!--@foreach($media_info->media_items as $key => $item)-->
+	<li>
+	<!--@if($media_info->show_browser_title=='Y')-->
+	<h4><a href="{getSiteUrl($item->domain, '', 'mid', $item->get('mid'))}">{$item->getBrowserTitle()}</a></h4>
+	<!--@end-->
+	<div class="{$skin_id}">
+		<div class="{$skin_id}_img rounded-all">
+		<!--@if($item->getMedia())-->
+			{$item->getMedia()}
+		<!--@elseif($item->getThumbnail()&&$media_info->show_thumbnail == "Y")-->
+			<a <!--@if($item->getLink())-->href="{$item->getLink()}"<!--@end--> title='{$item->getTitle($media_info->subject_cut_size)}'>
+			<img src="{$item->getThumbnail()}" width="{$media_info->thumbnail_width}" height="{$media_info->thumbnail_height}" class="rounded-all" title='{$item->getTitle($media_info->subject_cut_size)}' />
+			</a>
+		<!--@else-->
+			<img src="{$skincssimgpath}/mplayer/images/blank.gif" style="width:{$media_info->thumbnail_width}px; height:{$media_info->thumbnail_height}px;" class="no_image" />
+		<!--@end-->
+		</div>
+		<!--@if($media_info->show_content_title=='Y')-->
+		<!--@if($media_info->show_title=='Y')-->
+		<div class="{$skin_id}_title textT1_{$skin_id}">
+		<a href="{$item->getLinkDoc()}">{$item->getTitle($media_info->subject_cut_size)}</a>
+			<!--@if($item->getCategory())-->
+			<a href="{getSiteUrl($item->domain,'','mid',$item->get('mid'),'category',$item->get('category_srl'))}">{$item->getCategory()}</a>
+			<!--@end-->
+		</div><!--@end-->
+		<!--@if($media_info->show_content=='Y')-->
+		<div class="{$skin_id}_content textC1_{$skin_id}"><a href="{$item->getLinkDoc()}">{$item->getContent($media_info->content_cut_size)}</a></div><!--@end-->
+		<!--@end-->
+	</div>
+	</li>
+<!--@end-->
+</ul>
+</div>
+
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$('#{$skin_id}').bxSlider({
+			auto: false,
+			autoHover: true,
+			infiniteLoop: true,
+			bxMaxHeight: {$itemHeight},
+			controls: {$media_info->show_control},
+			pause: 5000,
+			displaySlideQty: {$media_info->rows_list_count},
+			moveSlideQty: 1
+		});
+	});
+</script>
