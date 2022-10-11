@@ -129,3 +129,13 @@
 [Mon Oct 10 21:15:13.236960 2022] [ssl:warn] [pid 3884:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Mon Oct 10 21:15:13.353614 2022] [ssl:warn] [pid 3884:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Mon Oct 10 21:15:13.447203 2022] [mpm_winnt:notice] [pid 3884:tid 624] AH00354: Child: Starting 150 worker threads.
+[Tue Oct 11 19:45:54.740250 2022] [ssl:warn] [pid 4496:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 11 19:45:54.846965 2022] [core:warn] [pid 4496:tid 624] AH00098: pid file D:/github/php_xampp/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Oct 11 19:45:54.849959 2022] [ssl:warn] [pid 4496:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 11 19:45:55.004300 2022] [mpm_winnt:notice] [pid 4496:tid 624] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 configured -- resuming normal operations
+[Tue Oct 11 19:45:55.005814 2022] [mpm_winnt:notice] [pid 4496:tid 624] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue Oct 11 19:45:55.005814 2022] [core:notice] [pid 4496:tid 624] AH00094: Command line: 'd:\\github\\php_xampp\\xampp\\apache\\bin\\httpd.exe -d D:/github/php_xampp/xampp/apache'
+[Tue Oct 11 19:45:55.014840 2022] [mpm_winnt:notice] [pid 4496:tid 624] AH00418: Parent: Created child process 16372
+[Tue Oct 11 19:45:58.088797 2022] [ssl:warn] [pid 16372:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 11 19:45:58.194772 2022] [ssl:warn] [pid 16372:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 11 19:45:58.244074 2022] [mpm_winnt:notice] [pid 16372:tid 592] AH00354: Child: Starting 150 worker threads.
