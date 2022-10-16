@@ -139,3 +139,13 @@
 [Tue Oct 11 19:45:58.088797 2022] [ssl:warn] [pid 16372:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Tue Oct 11 19:45:58.194772 2022] [ssl:warn] [pid 16372:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Tue Oct 11 19:45:58.244074 2022] [mpm_winnt:notice] [pid 16372:tid 592] AH00354: Child: Starting 150 worker threads.
+[Sun Oct 16 17:14:12.382787 2022] [ssl:warn] [pid 21476:tid 96] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 16 17:14:12.452849 2022] [core:warn] [pid 21476:tid 96] AH00098: pid file D:/github/php_xampp/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Oct 16 17:14:12.454844 2022] [ssl:warn] [pid 21476:tid 96] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 16 17:14:12.568992 2022] [mpm_winnt:notice] [pid 21476:tid 96] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 configured -- resuming normal operations
+[Sun Oct 16 17:14:12.568992 2022] [mpm_winnt:notice] [pid 21476:tid 96] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Oct 16 17:14:12.568992 2022] [core:notice] [pid 21476:tid 96] AH00094: Command line: 'd:\\github\\php_xampp\\xampp\\apache\\bin\\httpd.exe -d D:/github/php_xampp/xampp/apache'
+[Sun Oct 16 17:14:12.575985 2022] [mpm_winnt:notice] [pid 21476:tid 96] AH00418: Parent: Created child process 1504
+[Sun Oct 16 17:14:14.536560 2022] [ssl:warn] [pid 1504:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 16 17:14:14.610339 2022] [ssl:warn] [pid 1504:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 16 17:14:14.644909 2022] [mpm_winnt:notice] [pid 1504:tid 620] AH00354: Child: Starting 150 worker threads.

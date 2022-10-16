@@ -20,7 +20,7 @@ header {
 }
 .sec_header {
 	width:100%;
-	background:#f2f2f2
+	background:#F7F8E0
 }
 #logo {
 	font-size:36px;
@@ -47,14 +47,14 @@ header {
 #catagory {
 	width:250px;
 	height:300px;
-	background:#0099ff;
+	background:#81DAF5;
 	color:white;
 	position:relative;
 	margin-left:0;
 }
 #catagory_title {
 	padding:10px;
-	background:gray;
+	background:#2E9AFE;
 }
 #menu {
 	position:absolute;

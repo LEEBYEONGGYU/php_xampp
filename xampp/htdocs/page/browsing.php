@@ -3,7 +3,16 @@
 	<div id="sub_content_in">
 		<div id="sub_object">
 			<div id="sub_title">가전, TV에 대한 상품 50개를 찾았어요
-			<div id="sub_View">Show View </div>
+			<div id="sub_View">
+			<select name="speed" id="speed">
+				<option>10</option>
+				<option>20</option>
+				<option selected="selected">40</option>
+				<option>80</option>
+				<option>100</option>
+    		</select>
+
+			</div>
 			<div id="sub_Sort">Sort</div>
 		</div>
 	</div>
@@ -105,3 +114,18 @@
 		$("#catagory_hover_img").show();
 	});
 </script>
+
+<script>
+  $( function() {
+    $( "#speed" ).selectmenu();
+ 
+    $( "#files" ).selectmenu();
+ 
+    $( "#number" )
+      .selectmenu()
+      .selectmenu( "menuWidget" )
+        .addClass( "overflow" );
+ 
+    $( "#salutation" ).selectmenu();
+  } );
+  </script>
