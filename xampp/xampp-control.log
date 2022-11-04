@@ -405,3 +405,26 @@
 오후 9:42:59  [main] 	Deinitializing Modules
 오후 9:42:59  [main] 	Deinitializing Control Panel
 
+오후 5:11:59  [main] 	Initializing Control Panel
+오후 5:11:59  [main] 	Windows Version:  Enterprise  64-bit
+오후 5:11:59  [main] 	XAMPP Version: 7.3.12
+오후 5:11:59  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 5:11:59  [main] 	Running with Administrator rights - good!
+오후 5:11:59  [main] 	XAMPP Installation Directory: "d:\github\php_xampp\xampp\"
+오후 5:11:59  [main] 	Checking for prerequisites
+오후 5:12:00  [main] 	All prerequisites found
+오후 5:12:00  [main] 	Initializing Modules
+오후 5:12:00  [main] 	Starting Check-Timer
+오후 5:12:00  [main] 	Control Panel Ready
+오후 5:12:01  [mysql] 	Attempting to start MySQL app...
+오후 5:12:02  [mysql] 	Status change detected: running
+오후 5:12:02  [Apache] 	Attempting to start Apache app...
+오후 5:12:02  [Apache] 	Status change detected: running
+오후 5:50:41  [Apache] 	Attempting to stop Apache (PID: 8580)
+오후 5:50:41  [Apache] 	Attempting to stop Apache (PID: 21560)
+오후 5:50:41  [mysql] 	Attempting to stop MySQL app...
+오후 5:50:41  [Apache] 	Status change detected: stopped
+오후 5:50:41  [mysql] 	Status change detected: stopped
+오후 5:50:42  [main] 	Deinitializing Modules
+오후 5:50:42  [main] 	Deinitializing Control Panel
+
