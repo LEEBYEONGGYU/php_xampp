@@ -15,9 +15,7 @@
   /* 검색 변수 */
   $catagory = $_GET['catgo'];
   $search_con = $_GET['search'];
-  //
-  $cloumnName = $_GET['columnName'];
-  $sortType = $_GET['sortType'];
+
 ?>
   <h1><?php echo $catagory; ?>에서 '<?php echo $search_con; ?>'검색결과</h1>
   <h4 style="margin-top:30px;"><a href="/">홈으로</a></h4>
@@ -32,7 +30,7 @@
             </tr>
         </thead>
         <?php
-          $sql2 = mq("select * from board where $catagory like '%$search_con%' order by $cloumnName $sortType");
+          $sql2 = mq("select * from board where $catagory like '%$search_con%' order by idx desc");
           while($board = $sql2->fetch_array()){
            
           $title=$board["title"]; 

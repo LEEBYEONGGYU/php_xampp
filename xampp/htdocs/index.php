@@ -14,35 +14,89 @@
     <table class="list-table">
       <thead>
           <tr>
+          
             <?php 
+
+
+              /* 2022.11.06 컬럼정렬 추가 */
+              //GET sortType이 있는지 체크
               if(isset($_GET['sortType'])){
+                //있다면 GET에서 받아온 데이터 넣음
                 $sortType = $_GET['sortType'];
+                //sortType이 desc일 경우 문자넣기
+                switch($sortType){
+                  case "desc" :  $sortText = '▼';
+                  break;
+                  case "asc" :  $sortText = '▲';
+                }
               }else{
+                //그 외 기본
                 $sortType = 'desc';
+                $sortText = '▼';
               }
             
             ?>
-              <th width="70"><a onclick="b_sort('idx','<?php echo $sortType ?>')" href="#">번호</th>
-                <th width="500"><a onclick="b_sort('title','<?php echo $sortType ?>')" href="#">제목</th>
-                <th width="120"><a onclick="b_sort('writer','<?php echo $sortType ?>')" href="#">글쓴이</th>
-                <th width="100"><a onclick="b_sort('date','<?php echo $sortType ?>')" href="#">작성일</th>
-                <th width="100"><a onclick="b_sort('hit','<?php echo $sortType ?>')" href="#">조회수</th>
+              <th width="70"><a onclick="b_sort('idx','<?php echo $sortType ?>')" href="#">번호<span style="color:red;">
+                <?php  
+                  //cloumnName GET데이터가 있으면
+                  if(isset($_GET['cloumnName'])){
+                    //이 GET데이터가 각 컬럼명과 같으면 sortText변수 표시
+                    if($_GET['cloumnName']=="idx") 
+                      echo $sortText;
+                    }else{
+                      echo $sortText;
+                  } 
+                  ?>
+              </style></th>
+                <th width="500"><a onclick="b_sort('title','<?php echo $sortType ?>')" href="#">제목<span style="color:red;">
+                  <?php  
+                    //위와 같은 방식 하지만 기본정렬은 idx이므로 cloumnName값 체크시 else는 필요가 없다
+                    if(isset($_GET['cloumnName'])){
+                       if($_GET['cloumnName']=="title") 
+                        echo $sortText;
+                       }
+                  ?>
+                </style></th>
+                <th width="120"><a onclick="b_sort('name','<?php echo $sortType ?>')" href="#">글쓴이<span style="color:red;">
+                  <?php  
+                    if(isset($_GET['cloumnName'])){
+                       if($_GET['cloumnName']=="name") 
+                        echo $sortText;
+                       }
+                  ?>
+                </style></th>
+                <th width="100"><a onclick="b_sort('date','<?php echo $sortType ?>')" href="#">작성일<span style="color:red;">
+                  <?php  
+                    if(isset($_GET['cloumnName'])){
+                       if($_GET['cloumnName']=="date") 
+                        echo $sortText;
+                       }
+                  ?>
+                </style></th>
+                <th width="100"><a onclick="b_sort('hit','<?php echo $sortType ?>')" href="#">조회수<span style="color:red;">
+                  <?php  
+                    if(isset($_GET['cloumnName'])){
+                       if($_GET['cloumnName']=="hit") 
+                        echo $sortText;
+                       }
+                  /* 2022.11.06 컬럼정렬 추가 끝 */
+                  ?>
+                </style></th>
             </tr>
         </thead>
-        <?php echo $sortColumn = $_GET['cloumnName'];
-         echo $sortType = $_GET['sortType']; ?>
         <?php
         
             if(isset($_GET['page'])){
               $page = $_GET['page'];
-                  $sortColumn = $_GET['cloumnName'];
-                  $sortType = $_GET['sortType'];
                 }else{
                   $page = 1;
-                  $sortColumn = 'idx';
-                  $sortType = 'desc';
                 }
-                  
+                
+                /* 2022.11.06 컬럼정렬 추가 */
+                  //sortColumn, sortType변수 선언 
+                  $sortColumn="";
+                  $sortType="";
+
 
                   $sql = mq("select * from board");
                   $row_num = mysqli_num_rows($sql); //게시판 총 레코드 수
@@ -58,7 +112,18 @@
                   $total_block = ceil($total_page/$block_ct); //블럭 총 개수
                   $start_num = ($page-1) * $list; //시작번호 (page-1)에서 $list를 곱한다.
 
-                  $sql2 = mq("select * from board order by $sortColumn $sortType limit $start_num, $list");  
+                  /* 2022.11.06 컬럼정렬 추가 */
+                  if(isset($_GET['cloumnName']) && isset($_GET['sortType'])){ //isset으로 cloumnName과 sortType을 체크하고
+                    //값이 잇다면 해당변수에 GET데이터 넣고 쿼리문에 order by영역에 각 변수로 세팅 
+                    $sortColumn = $_GET['cloumnName'];
+                    $sortType = $_GET['sortType'];
+                    $sql2 = mq("select * from board order by $sortColumn $sortType limit $start_num, $list");  
+                  }else{
+                    //아닌경우 idx(번호)기준 desc
+                    $sql2 = mq("select * from board order by idx desc limit $start_num, $list");  
+                  }
+                  /* 2022.11.06 컬럼정렬 추가 끝*/
+                 
                   while($board = $sql2->fetch_array()){
                   $title=$board["title"]; 
                     if(strlen($title)>30)
@@ -90,7 +155,7 @@
           }
           ?>
         <!-- 추가부분 18.08.01 END -->
-        <a href='/page/board/read.php?idx=<?php echo $board["idx"]; ?>'><?php echo $title; }?><span class="re_ct">[<?php echo $rep_count;?>]<?php echo $img; ?> </span></a></td>
+        <a href='/page/board/read.php?idx=<?php echo $board["idx"]; ?>'><?php echo $title; }?><span class="re_ct">[<?php echo $rep_count;?>] </span></a></td>
           <td width="120"><?php echo $board['name']?></td>
           <td width="100"><?php echo $board['date']?></td>
           <td width="100"><?php echo $board['hit']; ?></td>
@@ -100,6 +165,8 @@
     </table>
     <div id="page_num">
         <?php
+
+      
           if($page <= 1)
           { //만약 page가 1보다 크거나 같다면
             echo "<span class='fo_re'>처음</span>"; //처음이라는 글자에 빨간색 표시 
@@ -111,25 +178,28 @@
             
           }else{
           $pre = $page-1; //pre변수에 page-1을 해준다 만약 현재 페이지가 3인데 이전버튼을 누르면 2번페이지로 갈 수 있게 함
-            echo "<a href='?page=$pre'>이전</a>"; //이전글자에 pre변수를 링크한다. 이러면 이전버튼을 누를때마다 현재 페이지에서 -1하게 된다.
+            /* 2022.11.06 컬럼정렬 추가 */
+            echo "<a href='?page=$pre&cloumnName=$sortColumn&sortType=$sortType'>이전</a>"; //이전글자에 pre변수를 링크한다. 이러면 이전버튼을 누를때마다 현재 페이지에서 -1하게 된다.
           }
           for($i=$block_start; $i<=$block_end; $i++){ 
             //for문 반복문을 사용하여, 초기값을 블록의 시작번호를 조건으로 블록시작번호가 마지박블록보다 작거나 같을 때까지 $i를 반복시킨다
             if($page == $i){ //만약 page가 $i와 같다면 
               echo "<span class='fo_re'>[$i]</span>"; //현재 페이지에 해당하는 번호에 굵은 빨간색을 적용한다
             }else{
-              echo "<a href='?page=$i'>[$i]</a>"; //아니라면 $i
+              /* 2022.11.06 컬럼정렬 추가 */
+              echo "<a href='?page=$i&cloumnName=$sortColumn&sortType=$sortType'>[$i]</a>"; //아니라면 $i
             }
           }
           if($block_num >= $total_block){ //만약 현재 블록이 블록 총개수보다 크거나 같다면 빈 값
           }else{
             $next = $page + 1; //next변수에 page + 1을 해준다.
-            echo "<a href='?page=$next'>다음</a>"; //다음글자에 next변수를 링크한다. 현재 4페이지에 있다면 +1하여 5페이지로 이동하게 된다.
+            echo "<a href='?page=$next&cloumnName=$sortColumn&sortType=$sortType'>다음</a>"; //다음글자에 next변수를 링크한다. 현재 4페이지에 있다면 +1하여 5페이지로 이동하게 된다.
           }
           if($page >= $total_page){ //만약 page가 페이지수보다 크거나 같다면
             echo "<span class='fo_re'>마지막</span>"; //마지막 글자에 긁은 빨간색을 적용한다.
           }else{
-            echo "<a href='?page=$total_page'>마지막</a>"; //아니라면 마지막글자에 total_page를 링크한다.
+            /* 2022.11.06 컬럼정렬 추가 */
+            echo "<a href='?page=$total_page&cloumnName=$sortColumn&sortType=$sortType'>마지막</a>"; //아니라면 마지막글자에 total_page를 링크한다.
           }
         ?>
     </div>
@@ -148,7 +218,7 @@
       <button id="b_searchBtn">검색</button>
     </form>
 
-    <form action="/index.php" method="get" id="sortForm">
+    <form action="/" method="get" id="sortForm">
       <input type="hidden" name="cloumnName" id="cloumnName" value="" />
       <input type="hidden" name="sortType" id="sortType" value="desc" />
     </form>
