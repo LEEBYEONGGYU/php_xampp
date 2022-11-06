@@ -629,3 +629,13 @@
 [Sun Nov 06 00:11:09.129945 2022] [php7:notice] [pid 13880:tid 1836] [client ::1:1295] PHP Notice:  Undefined variable: sortType in D:\\github\\php_xampp\\xampp\\htdocs\\page\\board\\search_result.php on line 33, referer: http://localhost/
 [Sun Nov 06 00:11:09.129945 2022] [php7:error] [pid 13880:tid 1836] [client ::1:1295] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in D:\\github\\php_xampp\\xampp\\htdocs\\page\\board\\search_result.php:34\nStack trace:\n#0 {main}\n  thrown in D:\\github\\php_xampp\\xampp\\htdocs\\page\\board\\search_result.php on line 34, referer: http://localhost/
 [Sun Nov 06 00:11:51.260837 2022] [mpm_winnt:crit] [pid 13880:tid 608] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Nov 06 21:53:36.778298 2022] [ssl:warn] [pid 11804:tid 608] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 06 21:53:36.799808 2022] [core:warn] [pid 11804:tid 608] AH00098: pid file D:/github/php_xampp/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 06 21:53:36.800808 2022] [ssl:warn] [pid 11804:tid 608] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 06 21:53:36.945465 2022] [mpm_winnt:notice] [pid 11804:tid 608] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 configured -- resuming normal operations
+[Sun Nov 06 21:53:36.945465 2022] [mpm_winnt:notice] [pid 11804:tid 608] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Nov 06 21:53:36.945465 2022] [core:notice] [pid 11804:tid 608] AH00094: Command line: 'd:\\github\\php_xampp\\xampp\\apache\\bin\\httpd.exe -d D:/github/php_xampp/xampp/apache'
+[Sun Nov 06 21:53:36.947465 2022] [mpm_winnt:notice] [pid 11804:tid 608] AH00418: Parent: Created child process 10028
+[Sun Nov 06 21:53:37.383736 2022] [ssl:warn] [pid 10028:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 06 21:53:37.404244 2022] [ssl:warn] [pid 10028:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 06 21:53:37.419248 2022] [mpm_winnt:notice] [pid 10028:tid 424] AH00354: Child: Starting 150 worker threads.
