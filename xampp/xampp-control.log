@@ -517,3 +517,52 @@
 오후 4:17:24  [main] 	Deinitializing Modules
 오후 4:17:24  [main] 	Deinitializing Control Panel
 
+오후 8:15:07  [main] 	Initializing Control Panel
+오후 8:15:07  [main] 	Windows Version:  Enterprise  64-bit
+오후 8:15:07  [main] 	XAMPP Version: 7.3.12
+오후 8:15:07  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 8:15:07  [main] 	You are not running with administrator rights! This will work for
+오후 8:15:07  [main] 	most application stuff but whenever you do something with services
+오후 8:15:07  [main] 	there will be a security dialogue or things will break! So think 
+오후 8:15:07  [main] 	about running this application with administrator rights!
+오후 8:15:07  [main] 	XAMPP Installation Directory: "d:\github\php_xampp\xampp\"
+오후 8:15:07  [main] 	Checking for prerequisites
+오후 8:15:08  [main] 	All prerequisites found
+오후 8:15:08  [main] 	Initializing Modules
+오후 8:15:08  [main] 	Starting Check-Timer
+오후 8:15:08  [main] 	Control Panel Ready
+오후 8:15:09  [Apache] 	Attempting to start Apache app...
+오후 8:15:09  [Apache] 	Status change detected: running
+오후 8:15:10  [mysql] 	Attempting to start MySQL app...
+오후 8:15:10  [mysql] 	Status change detected: running
+오후 8:17:35  [Apache] 	Attempting to stop Apache (PID: 8656)
+오후 8:17:35  [Apache] 	Attempting to stop Apache (PID: 9044)
+오후 8:17:35  [Apache] 	Status change detected: stopped
+오후 8:17:36  [Apache] 	Attempting to start Apache app...
+오후 8:17:36  [Apache] 	Status change detected: running
+오후 9:56:34  [mysql] 	Attempting to stop MySQL app...
+오후 9:56:34  [mysql] 	Status change detected: stopped
+오후 9:56:34  [Apache] 	Attempting to stop Apache (PID: 16868)
+오후 9:56:34  [Apache] 	Attempting to stop Apache (PID: 3428)
+오후 9:56:34  [Apache] 	Status change detected: stopped
+오후 9:56:36  [mysql] 	Attempting to start MySQL app...
+오후 9:56:37  [Apache] 	Attempting to start Apache app...
+오후 9:56:37  [Apache] 	Status change detected: running
+오후 9:56:37  [mysql] 	Status change detected: running
+오후 9:58:07  [Apache] 	Attempting to stop Apache (PID: 5484)
+오후 9:58:07  [Apache] 	Attempting to stop Apache (PID: 19412)
+오후 9:58:07  [Apache] 	Status change detected: stopped
+오후 9:58:07  [mysql] 	Attempting to stop MySQL app...
+오후 9:58:07  [mysql] 	Status change detected: stopped
+오후 9:58:11  [Apache] 	Attempting to start Apache app...
+오후 9:58:11  [mysql] 	Attempting to start MySQL app...
+오후 9:58:11  [Apache] 	Status change detected: running
+오후 9:58:11  [mysql] 	Status change detected: running
+오후 10:35:43  [Apache] 	Attempting to stop Apache (PID: 16648)
+오후 10:35:43  [Apache] 	Attempting to stop Apache (PID: 5412)
+오후 10:35:44  [Apache] 	Status change detected: stopped
+오후 10:35:44  [mysql] 	Attempting to stop MySQL app...
+오후 10:35:44  [mysql] 	Status change detected: stopped
+오후 10:35:45  [main] 	Deinitializing Modules
+오후 10:35:45  [main] 	Deinitializing Control Panel
+

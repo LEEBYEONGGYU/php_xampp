@@ -852,3 +852,72 @@
 [Tue Nov 08 15:02:56.410271 2022] [php7:notice] [pid 11436:tid 1888] [client 127.0.0.1:52543] PHP Notice:  Undefined variable: content in D:\\github\\php_xampp\\xampp\\htdocs\\page\\file\\phpboard.php on line 38, referer: http://localhost/
 [Tue Nov 08 15:02:56.410271 2022] [php7:notice] [pid 11436:tid 1888] [client 127.0.0.1:52543] PHP Notice:  Undefined variable: title in D:\\github\\php_xampp\\xampp\\htdocs\\page\\file\\phpboard.php on line 26, referer: http://localhost/
 [Tue Nov 08 15:02:56.410271 2022] [php7:notice] [pid 11436:tid 1888] [client 127.0.0.1:52543] PHP Notice:  Undefined variable: content in D:\\github\\php_xampp\\xampp\\htdocs\\page\\file\\phpboard.php on line 38, referer: http://localhost/
+[Tue Nov 08 20:15:10.952371 2022] [ssl:warn] [pid 8656:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 08 20:15:10.974487 2022] [core:warn] [pid 8656:tid 620] AH00098: pid file D:/github/php_xampp/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Nov 08 20:15:10.975490 2022] [ssl:warn] [pid 8656:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 08 20:15:11.126235 2022] [mpm_winnt:notice] [pid 8656:tid 620] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 configured -- resuming normal operations
+[Tue Nov 08 20:15:11.126235 2022] [mpm_winnt:notice] [pid 8656:tid 620] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue Nov 08 20:15:11.126235 2022] [core:notice] [pid 8656:tid 620] AH00094: Command line: 'd:\\github\\php_xampp\\xampp\\apache\\bin\\httpd.exe -d D:/github/php_xampp/xampp/apache'
+[Tue Nov 08 20:15:11.129237 2022] [mpm_winnt:notice] [pid 8656:tid 620] AH00418: Parent: Created child process 9044
+[Tue Nov 08 20:15:11.586415 2022] [ssl:warn] [pid 9044:tid 600] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 08 20:15:11.607746 2022] [ssl:warn] [pid 9044:tid 600] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 08 20:15:11.623765 2022] [mpm_winnt:notice] [pid 9044:tid 600] AH00354: Child: Starting 150 worker threads.
+[Tue Nov 08 20:16:33.972948 2022] [php7:error] [pid 9044:tid 1880] [client ::1:8001] PHP Fatal error:  Cannot redeclare mq() (previously declared in D:\\github\\php_xampp\\xampp\\htdocs\\include\\db.php:9) in D:\\github\\php_xampp\\xampp\\htdocs\\include\\db.php on line 12, referer: http://localhost/page/note/recv_read.php?idx=34
+[Tue Nov 08 20:17:36.721998 2022] [ssl:warn] [pid 16868:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 08 20:17:36.743744 2022] [core:warn] [pid 16868:tid 604] AH00098: pid file D:/github/php_xampp/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Nov 08 20:17:36.744926 2022] [ssl:warn] [pid 16868:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 08 20:17:36.761210 2022] [mpm_winnt:notice] [pid 16868:tid 604] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 configured -- resuming normal operations
+[Tue Nov 08 20:17:36.761210 2022] [mpm_winnt:notice] [pid 16868:tid 604] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue Nov 08 20:17:36.761210 2022] [core:notice] [pid 16868:tid 604] AH00094: Command line: 'd:\\github\\php_xampp\\xampp\\apache\\bin\\httpd.exe -d D:/github/php_xampp/xampp/apache'
+[Tue Nov 08 20:17:36.763715 2022] [mpm_winnt:notice] [pid 16868:tid 604] AH00418: Parent: Created child process 3428
+[Tue Nov 08 20:17:37.225069 2022] [ssl:warn] [pid 3428:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 08 20:17:37.245227 2022] [ssl:warn] [pid 3428:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 08 20:17:37.260744 2022] [mpm_winnt:notice] [pid 3428:tid 604] AH00354: Child: Starting 150 worker threads.
+[Tue Nov 08 20:18:29.591354 2022] [php7:error] [pid 3428:tid 1880] [client ::1:8194] PHP Fatal error:  Cannot redeclare mq() (previously declared in D:\\github\\php_xampp\\xampp\\htdocs\\include\\db.php:9) in D:\\github\\php_xampp\\xampp\\htdocs\\include\\db.php on line 12, referer: http://localhost/page/note/recv_read.php?idx=34
+[Tue Nov 08 20:26:58.813976 2022] [php7:error] [pid 3428:tid 1868] [client ::1:8674] PHP Fatal error:  Cannot redeclare mq() (previously declared in D:\\github\\php_xampp\\xampp\\htdocs\\include\\db.php:9) in D:\\github\\php_xampp\\xampp\\htdocs\\include\\db.php on line 12, referer: http://localhost/page/note/recv_read.php?idx=28
+[Tue Nov 08 20:34:37.157049 2022] [php7:error] [pid 3428:tid 1852] [client ::1:9458] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 41, referer: http://localhost/page/note.php
+[Tue Nov 08 20:35:36.545341 2022] [php7:error] [pid 3428:tid 1852] [client ::1:9502] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 41, referer: http://localhost/page/note.php
+[Tue Nov 08 20:43:50.252379 2022] [php7:error] [pid 3428:tid 1852] [client ::1:10040] PHP Parse error:  syntax error, unexpected '}', expecting end of file in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 67, referer: http://localhost/page/note/recv_read.php?idx=34
+[Tue Nov 08 20:48:33.186926 2022] [php7:warn] [pid 3428:tid 1880] [client ::1:10583] PHP Warning:  A non-numeric value encountered in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 16, referer: http://localhost/page/note_send.php
+[Tue Nov 08 20:48:33.186926 2022] [php7:warn] [pid 3428:tid 1880] [client ::1:10583] PHP Warning:  A non-numeric value encountered in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 16, referer: http://localhost/page/note_send.php
+[Tue Nov 08 20:48:33.852131 2022] [php7:warn] [pid 3428:tid 1880] [client ::1:10583] PHP Warning:  A non-numeric value encountered in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 16, referer: http://localhost/page/note_send.php
+[Tue Nov 08 20:48:33.853635 2022] [php7:warn] [pid 3428:tid 1880] [client ::1:10583] PHP Warning:  A non-numeric value encountered in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 16, referer: http://localhost/page/note_send.php
+[Tue Nov 08 20:49:05.814727 2022] [php7:error] [pid 3428:tid 1880] [client ::1:10621] PHP Parse error:  syntax error, unexpected '<', expecting end of file in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 17, referer: http://localhost/page/note_send.php
+[Tue Nov 08 20:49:06.437573 2022] [php7:error] [pid 3428:tid 1880] [client ::1:10621] PHP Parse error:  syntax error, unexpected '<', expecting end of file in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 17, referer: http://localhost/page/note_send.php
+[Tue Nov 08 20:49:06.724692 2022] [php7:error] [pid 3428:tid 1880] [client ::1:10621] PHP Parse error:  syntax error, unexpected '<', expecting end of file in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 17, referer: http://localhost/page/note_send.php
+[Tue Nov 08 20:49:06.986602 2022] [php7:error] [pid 3428:tid 1880] [client ::1:10621] PHP Parse error:  syntax error, unexpected '<', expecting end of file in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 17, referer: http://localhost/page/note_send.php
+[Tue Nov 08 20:49:07.220061 2022] [php7:error] [pid 3428:tid 1880] [client ::1:10621] PHP Parse error:  syntax error, unexpected '<', expecting end of file in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 17, referer: http://localhost/page/note_send.php
+[Tue Nov 08 20:49:15.579822 2022] [php7:error] [pid 3428:tid 1880] [client ::1:10645] PHP Parse error:  syntax error, unexpected '}', expecting end of file in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 65, referer: http://localhost/page/note_send.php
+[Tue Nov 08 20:49:16.161593 2022] [php7:error] [pid 3428:tid 1880] [client ::1:10645] PHP Parse error:  syntax error, unexpected '}', expecting end of file in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 65, referer: http://localhost/page/note_send.php
+[Tue Nov 08 20:49:16.430565 2022] [php7:error] [pid 3428:tid 1880] [client ::1:10645] PHP Parse error:  syntax error, unexpected '}', expecting end of file in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 65, referer: http://localhost/page/note_send.php
+[Tue Nov 08 20:49:21.289092 2022] [php7:error] [pid 3428:tid 1880] [client ::1:10645] PHP Parse error:  syntax error, unexpected '}', expecting end of file in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 65, referer: http://localhost/page/note_send.php
+[Tue Nov 08 20:49:55.294517 2022] [php7:error] [pid 3428:tid 1880] [client ::1:10708] PHP Parse error:  syntax error, unexpected '$cnt' (T_VARIABLE), expecting ',' or ';' in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 17, referer: http://localhost/page/note_send.php
+[Tue Nov 08 20:50:00.826822 2022] [php7:warn] [pid 3428:tid 1880] [client ::1:10719] PHP Warning:  A non-numeric value encountered in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 17, referer: http://localhost/page/note_send.php
+[Tue Nov 08 20:50:52.539665 2022] [php7:warn] [pid 3428:tid 1880] [client ::1:10781] PHP Warning:  A non-numeric value encountered in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 17, referer: http://localhost/page/note_send.php
+[Tue Nov 08 20:50:53.528087 2022] [php7:warn] [pid 3428:tid 1880] [client ::1:10781] PHP Warning:  A non-numeric value encountered in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 17, referer: http://localhost/page/note_send.php
+[Tue Nov 08 20:50:57.006931 2022] [php7:error] [pid 3428:tid 1880] [client ::1:10781] PHP Parse error:  syntax error, unexpected '$cnt' (T_VARIABLE), expecting ',' or ';' in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 17, referer: http://localhost/page/note_send.php
+[Tue Nov 08 21:28:06.037619 2022] [php7:error] [pid 3428:tid 1844] [client ::1:1740] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 80, referer: http://localhost/page/note_send.php
+[Tue Nov 08 21:28:06.722467 2022] [php7:error] [pid 3428:tid 1844] [client ::1:1740] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in D:\\github\\php_xampp\\xampp\\htdocs\\page\\note.php on line 80, referer: http://localhost/page/note_send.php
+[Tue Nov 08 21:56:34.446559 2022] [mpm_winnt:crit] [pid 3428:tid 604] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Nov 08 21:56:37.675858 2022] [ssl:warn] [pid 5484:tid 600] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 08 21:56:37.695862 2022] [core:warn] [pid 5484:tid 600] AH00098: pid file D:/github/php_xampp/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Nov 08 21:56:37.696863 2022] [ssl:warn] [pid 5484:tid 600] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 08 21:56:37.710867 2022] [mpm_winnt:notice] [pid 5484:tid 600] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 configured -- resuming normal operations
+[Tue Nov 08 21:56:37.710867 2022] [mpm_winnt:notice] [pid 5484:tid 600] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue Nov 08 21:56:37.710867 2022] [core:notice] [pid 5484:tid 600] AH00094: Command line: 'd:\\github\\php_xampp\\xampp\\apache\\bin\\httpd.exe -d D:/github/php_xampp/xampp/apache'
+[Tue Nov 08 21:56:37.713867 2022] [mpm_winnt:notice] [pid 5484:tid 600] AH00418: Parent: Created child process 19412
+[Tue Nov 08 21:56:38.157479 2022] [ssl:warn] [pid 19412:tid 608] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 08 21:56:38.177483 2022] [ssl:warn] [pid 19412:tid 608] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 08 21:56:38.192487 2022] [mpm_winnt:notice] [pid 19412:tid 608] AH00354: Child: Starting 150 worker threads.
+[Tue Nov 08 21:58:07.201168 2022] [mpm_winnt:crit] [pid 19412:tid 608] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Nov 08 21:58:11.895526 2022] [ssl:warn] [pid 16648:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 08 21:58:11.916531 2022] [core:warn] [pid 16648:tid 596] AH00098: pid file D:/github/php_xampp/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Nov 08 21:58:11.917531 2022] [ssl:warn] [pid 16648:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 08 21:58:11.931535 2022] [mpm_winnt:notice] [pid 16648:tid 596] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 configured -- resuming normal operations
+[Tue Nov 08 21:58:11.931535 2022] [mpm_winnt:notice] [pid 16648:tid 596] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue Nov 08 21:58:11.931535 2022] [core:notice] [pid 16648:tid 596] AH00094: Command line: 'd:\\github\\php_xampp\\xampp\\apache\\bin\\httpd.exe -d D:/github/php_xampp/xampp/apache'
+[Tue Nov 08 21:58:11.934535 2022] [mpm_winnt:notice] [pid 16648:tid 596] AH00418: Parent: Created child process 5412
+[Tue Nov 08 21:58:12.387036 2022] [ssl:warn] [pid 5412:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 08 21:58:12.408040 2022] [ssl:warn] [pid 5412:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 08 21:58:12.422043 2022] [mpm_winnt:notice] [pid 5412:tid 604] AH00354: Child: Starting 150 worker threads.
+[Tue Nov 08 22:35:43.982388 2022] [mpm_winnt:crit] [pid 5412:tid 604] AH02538: Child: Parent process exited abruptly. Child process is ending

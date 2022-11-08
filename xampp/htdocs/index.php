@@ -1,77 +1,30 @@
-<?php include $_SERVER['DOCUMENT_ROOT']."/include/header.php"; ?>
-<!-- Page Header -->
-<header class="masthead" style="background-image: url('img/home-bg.jpg')">
-	<div class="overlay"></div>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 col-md-10 mx-auto">
-				<div class="site-heading">
-					<h1>Hello!</h1>
-					<span class="subheading">This is Data Room</span>
-				</div>
-			</div>
-		</div>
-	</div>
-</header>
+<?php 
 
-  <!-- Main Content -->
+include $_SERVER['DOCUMENT_ROOT']."/include/db.php";
+include $_SERVER['DOCUMENT_ROOT']."/include/header.php";
 
-  <section>
-	<div class="content1">
-		<h1>PHP게시판</h1>
-			<div class="list">
-				<?php 
-					$sql = mq("select * from board order by idx desc limit 0,5");
-					while($board = $sql->fetch_array()){
-						$title=$board["title"]; 
-					if(strlen($title)>30){ 
-						$content=str_replace($board["content"],mb_substr($board["content"],0,30,"utf-8")."...",$board["content"]);
-					}
-				?>
-				<div class="post-preview">
-					<a href="page/file/bo_read.php?idx=<?php echo $board['idx'];?>">
-						<h2 class="post-title">
-							<?php echo $board['title']; ?>
-						</h2>
-						<h3 class="post-subtitle">
-							<?php echo $content; ?>
-						</h3>
-					</a>
-					<p class="post-meta"><?php echo $board['date']; ?></p>
-				</div>
-				<hr>
-				<?php } ?>			
-				<div class="clearfix">
-					<a class="btn btn-primary float-left" href="/page/file/phpboard.php">더보기 &rarr;</a>
-				</div>
-			</div>
+
+//세션 userid가 있으면 경고창과 뒤로 이동
+if(isset($_SESSION['userid'])){
+	echo "<script>alert('잘못된 접근입니다.'); history.back();</script>"; 
+}else{
+?>
+<div id="wrap">
+	<div id="wrap_in">
+		<div id="mem_t">Member Login</div>
+		<!--- MemberLogin 텍스트와 input태그 사이 줄 긋기 -->
+		<div id="mem_li"></div>
+		<form action="/page/member/login_ok.php" method="post">
+		<div id="in_box" class="idpw_box">
+			<input type="text" name="userid" maxlength="20" placeholder="사용자 아이디" required />
+			<input type="password" name="userpw" maxlength="20" placeholder="사용자 비밀번호" required/>
 		</div>
-		<div class="content2">
-			<h1>QA게시판</h1>
-				<div class="list">
-					<?php 
-						$sql2 = mq("select * from qa order by idx desc limit 0,5");
-						while($qa = $sql2->fetch_array()){
-					?>
-					<div class="post-preview">
-						<a href="page/board/bo_process/read.php?idx=<?php echo $qa['idx'];?>">
-							<h2 class="post-title">
-								<?php echo $qa['title']; ?>
-							</h2>
-							<h3 class="post-subtitle">
-								<?php echo $qa['content']; ?>
-							</h3>
-						</a>
-						<p class="post-meta"><?php echo $qa['w_date']; ?> <?php echo $qa['chk']; ?></p>
-					</div>
-					<hr>
-					<?php } ?>
-				<!-- Pager -->
-				<div class="clearfix">
-					<a class="btn btn-primary float-left" href="/page/board/board">더보기 &rarr;</a>
-				</div>
-			</div>
-		</section>
-	<?php include $_SERVER['DOCUMENT_ROOT']."/include/footer.php"; ?>
-</body>
-</html>
+		<span id="idpw_find"><a href="#">아이디나 비밀번호를 잊어버리셨나요?</a></span>
+		<span id="join_mem"><a href="/page/member/join_form.php">회원가입</a></span>
+		<div id="log_box_bot">
+			<button>LOGIN</button>
+		</div>
+	</form>
+</div><!--- wrap_in end -->
+</div><!--- wrap end -->
+<?php } include "include/footer.php"; ?>
