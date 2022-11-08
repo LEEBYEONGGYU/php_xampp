@@ -484,3 +484,36 @@
 오후 10:23:59  [main] 	Deinitializing Modules
 오후 10:23:59  [main] 	Deinitializing Control Panel
 
+오후 2:45:26  [main] 	Initializing Control Panel
+오후 2:45:26  [main] 	Windows Version:  Enterprise  64-bit
+오후 2:45:26  [main] 	XAMPP Version: 7.3.12
+오후 2:45:26  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 2:45:26  [main] 	Running with Administrator rights - good!
+오후 2:45:26  [main] 	XAMPP Installation Directory: "d:\github\php_xampp\xampp\"
+오후 2:45:26  [main] 	Checking for prerequisites
+오후 2:45:27  [main] 	All prerequisites found
+오후 2:45:27  [main] 	Initializing Modules
+오후 2:45:27  [main] 	Starting Check-Timer
+오후 2:45:27  [main] 	Control Panel Ready
+오후 2:45:29  [mysql] 	Attempting to start MySQL app...
+오후 2:45:29  [Apache] 	Attempting to start Apache app...
+오후 2:45:30  [Apache] 	Status change detected: running
+오후 2:45:30  [mysql] 	Status change detected: running
+오후 2:46:24  [mysql] 	Status change detected: stopped
+오후 2:46:24  [mysql] 	Error: MySQL shutdown unexpectedly.
+오후 2:46:24  [mysql] 	This may be due to a blocked port, missing dependencies, 
+오후 2:46:24  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+오후 2:46:24  [mysql] 	Press the Logs button to view error logs and check
+오후 2:46:24  [mysql] 	the Windows Event Viewer for more clues
+오후 2:46:24  [mysql] 	If you need more help, copy and post this
+오후 2:46:24  [mysql] 	entire log window on the forums
+오후 2:54:09  [mysql] 	Attempting to start MySQL app...
+오후 2:54:09  [mysql] 	Status change detected: running
+오후 4:17:23  [mysql] 	Attempting to stop MySQL app...
+오후 4:17:23  [mysql] 	Status change detected: stopped
+오후 4:17:23  [Apache] 	Attempting to stop Apache (PID: 23332)
+오후 4:17:23  [Apache] 	Attempting to stop Apache (PID: 11436)
+오후 4:17:24  [Apache] 	Status change detected: stopped
+오후 4:17:24  [main] 	Deinitializing Modules
+오후 4:17:24  [main] 	Deinitializing Control Panel
+
