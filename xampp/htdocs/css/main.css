@@ -1,0 +1,52 @@
+/* 공통 */
+#logo_t {
+	font-size:26px;
+}
+.menav-link{
+	font-size:16px;
+}
+section {
+
+	position:relative;
+}
+.list {
+	margin-left:150px;
+}
+.content1 {
+	width:50%;
+}
+.content1 h1 {
+	margin-left:130px;
+}
+.content2 {
+	position:absolute;
+	right:0;
+	top:0;
+	width:50%;
+}
+.content2 h1 {
+	margin-left:130px;
+}
+
+#footer {
+	width:100%;
+	height:200px;
+	font:20px 'malgun gothic';
+	color:black;
+
+	border:solid 1px white;
+}
+#footer_in {
+	width:1200px;
+	height:200px;
+	margin:0 auto;
+}
+#github {
+	margin:0 auto;
+	text-align:center;
+}
+#copyright {
+	text-align: center;
+	font:16px 'malgun gothic';
+	color:#333;
+}

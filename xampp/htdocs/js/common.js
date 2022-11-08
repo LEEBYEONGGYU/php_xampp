@@ -10,13 +10,12 @@ $(document).ready(function(){
 					function(data,success){
 						if(success=="success"){
 							$(".reply_view").html(data);
-							alert("댓글이 작성되었습니다");	
+							//alert("댓글이 작성되었습니다");	
 						}else{
 							alert("댓글작성이 실패되었습니다");
 						}
 					});
 				});
-
 	$(".dat_edit_bt").click(function(){
 		/* dat_edit_bt클래스 클릭시 동작(댓글 수정) */
 			var obj = $(this).closest(".dap_lo").find(".dat_edit");
@@ -35,5 +34,4 @@ $(document).ready(function(){
 			width:400,
 			title:"댓글 삭제확인"});
 		});
-
 	});
