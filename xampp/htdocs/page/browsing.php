@@ -2,18 +2,15 @@
 <section id="sub_content">
 	<div id="sub_content_in">
 		<div id="sub_object">
-			<div id="sub_title">가전, TV에 대한 상품 50개를 찾았어요
-			<div id="sub_View">
-			<select name="speed" id="speed">
-				<option>10</option>
-				<option>20</option>
-				<option selected="selected">40</option>
-				<option>80</option>
-				<option>100</option>
-    		</select>
+			<?php 
+				$getCatagory = $_GET['catagory'];
+				$sql = mq("select * from product pd where pd.pro_class='".$getCatagory."'");
+				$ct = mysqli_num_rows($sql);
+				$sql2 = mq("select * from catagory  where url='".$getCatagory."'");
+				$ct_name = $sql2->fetch_array();
+			?>
 
-			</div>
-			<div id="sub_Sort">Sort</div>
+			<div id="sub_title"><?php echo $ct_name['title']; ?>에 대한 상품 <?php echo $ct; ?>개를 찾았어요
 		</div>
 	</div>
 
@@ -25,98 +22,110 @@
 			<div id="catagory_list">
 				<ul>
 					<?php 
-						$sql = mq("select * from catagory order by idx desc");  
+						$sql = mq("select ct.title, ct.url, count(pd.pro_class) as ct from catagory ct left join product pd on ct.url = pd.pro_class group by title");  
 						while($catagory = $sql->fetch_array()){
 					?>
-					<li><a href=""><?php echo $catagory['title']; ?>
-						<?php 
-							$sql2 = mq("select * from product where pro_class='".$catagory['title']."'");
-							$catagory_ct = mysqli_num_rows($sql2);
-						?></a><b>(<?php echo $catagory_ct; ?>)</b></li>
+					<li><a href="/page/browsing.php?catagory=<?php echo $catagory['url']; ?>"><?php echo $catagory['title']; ?>
+					</a><b>(<?php echo $catagory['ct']; ?>)</b></li>
 					<?php } ?>
 				</ul>
-			</div>
-		</div>
-		<div id="sub_product_option">
+			</div><!--catagory_list -->
 			<div id="sub_product_catagory_t">
-				상세옵션
+				가격
 			</div>
+			<div id="sub_product_price_sel">
+				<input type="text" placeholder="최저" name="price_min" size="5" /> <b>-</b> <input type="text" placeholder="최저" name="price_min" size="5" /> <button type="button">적용</button>
+			</div>
+			<div id="sub_product_catagory_t">
+				평점
+			</div>
+			<div id="sub_product_price_radio">
+				<input type="radio" name="like" /> ★★★★★ <br />
+				<input type="radio" name="like" /> ★★★★ <br />
+				<input type="radio" name="like" /> ★★★ <br />
+				<input type="radio" name="like" /> ★★ <br />
+				<input type="radio" name="like" /> ★ <br />
+			</div>
+
 		</div>
+		
 		<div id="sub_product_wrap">
 			<div id="sub_product_wrap_in">
-				<?php 
-					$sql = mq("select * from product order by idx desc");  
-					while($catagory = $sql->fetch_array()){
-				?>
-				<?php } ?>
-					<div class="sub_product_pulinfo">
-						<div class="product_pulimg"><img src="/upload/admin/product/ssd.jpg" width="310" height="320"></div>
-						<div class="sub_product_pultitle">상품1</div>
-						<div class="sub_product_pulprice">23,800원</div>
-						<div class="sub_product_pulbuycount">10,741개 구매</div>
-					</div>
+				<?php
+					if(isset($_GET['page'])){
+						$page = $_GET['page'];
+							}else{
+								$page = 1;
+							}
+								$sql = mq("select * from product");
+								$row_num = mysqli_num_rows($sql); //게시판 총 레코드 수
+								$list = 9; //한 페이지에 보여줄 개수
+								$block_ct = 9; //블록당 보여줄 페이지 개수
 
-					<div class="sub_product_pulinfo">
-						<div class="sub_product_pulimg"><img src="/upload/admin/product/a6000.jpeg" width="310" height="320"></div>
-						<div class="sub_product_pultitle">상품1</div>
-						<div class="sub_product_pulprice">23,800원</div>
-						<div class="sub_product_pulbuycount">10,741개 구매</div>
-					</div>
+								$block_num = ceil($page/$block_ct); // 현재 페이지 블록 구하기
+								$block_start = (($block_num - 1) * $block_ct) + 1; // 블록의 시작번호
+								$block_end = $block_start + $block_ct - 1; //블록 마지막 번호
 
-					<div class="sub_product_pulinfo">
-						<div class="sub_product_pulimg"><img src="/upload/admin/product/d750.png" width="310" height="320"></div>
-						<div class="sub_product_pultitle">상품1</div>
-						<div class="sub_product_pulprice">23,800원</div>
-						<div class="sub_product_pulbuycount">10,741개 구매</div>
-					</div>
+								$total_page = ceil($row_num / $list); // 페이징한 페이지 수 구하기
+								if($block_end > $total_page) $block_end = $total_page; //만약 블록의 마지박 번호가 페이지수보다 많다면 마지박번호는 페이지 수
+								$total_block = ceil($total_page/$block_ct); //블럭 총 개수
+								$start_num = ($page-1) * $list; //시작번호 (page-1)에서 $list를 곱한다.
 
-					<div class="sub_product_pulinfo">
-						<div class="sub_product_pulimg"><img src="/upload/admin/product/d750.png" width="310" height="320"></div>
-						<div class="sub_product_pultitle">상품1</div>
-						<div class="sub_product_pulprice">23,800원</div>
-						<div class="sub_product_pulbuycount">10,741개 구매</div>
-					</div>
-
-					<div class="sub_product_pulinfo">
-						<div class="sub_product_pulimg"><img src="/upload/admin/product/d750.png" width="310" height="320"></div>
-						<div class="sub_product_pultitle">상품1</div>
-						<div class="sub_product_pulprice">23,800원</div>
-						<div class="sub_product_pulbuycount">10,741개 구매</div>
-					</div>
-
-					<div class="sub_product_pulinfo">
-						<div class="sub_product_pulimg"><img src="/upload/admin/product/d750.png" width="310" height="320"></div>
-						<div class="sub_product_pultitle">상품1</div>
-						<div class="sub_product_pulprice">23,800원</div>
-						<div class="sub_product_pulbuycount">10,741개 구매</div>
-					</div>
-
-					<div class="sub_product_pulinfo">
-						<div class="sub_product_pulimg"><img src="/upload/admin/product/d750.png" width="310" height="320"></div>
-						<div class="sub_product_pultitle">상품1</div>
-						<div class="sub_product_pulprice">23,800원</div>
-						<div class="sub_product_pulbuycount">10,741개 구매</div>
-					</div>
-
-					<div class="sub_product_pulinfo">
-						<div class="sub_product_pulimg"><img src="/upload/admin/product/d750.png" width="310" height="320"></div>
-						<div class="sub_product_pultitle">상품1</div>
-						<div class="sub_product_pulprice">23,800원</div>
-						<div class="sub_product_pulbuycount">10,741개 구매</div>
-					</div>
-
-					<div class="sub_product_pulinfo">
-						<div class="sub_product_pulimg"><img src="/upload/admin/product/d750.png" width="310" height="320"></div>
-						<div class="sub_product_pultitle">상품1</div>
-						<div class="sub_product_pulprice">23,800원</div>
-						<div class="sub_product_pulbuycount">10,741개 구매</div>
-					</div>
-
+								//검색조건별 쿼리변경
+								$sql2 = mq("select * from product where pro_class='$getCatagory' order by pro_num desc limit $start_num, $list");  
+								while($catagory = $sql2->fetch_array()){
+								$title=$catagory["pro_name"]; 
+									if(strlen($title)>30){ 
+										$title=str_replace( $catagory["pro_name"],mb_substr($catagory["pro_name"],0,30,"utf-8")."...",$catagory["pro_name"]);
+									}
+								?>
+				<div class="sub_product_pulinfo">
+					<div class="product_pulimg"><img src="/upload/admin/product/<?php echo $catagory['pro_proimg']; ?>.jpg" width="310" height="320"></div>
+					<div class="sub_product_pultitle"><?php echo $title; ?></div>
+					<div class="sub_product_pulprice"><?php echo $catagory['pro_price']; ?>원</div>
 				</div>
+			<?php } ?>
+			<div id="page_num">
+        <?php
+          if($page <= 1)
+          { //만약 page가 1보다 크거나 같다면
+            echo "<span class='fo_re'>처음</span>"; //처음이라는 글자에 빨간색 표시 
+          }else{
+            echo "<a href='?page=1&catagory=$getCatagory'>처음</a>"; //알니라면 처음글자에 1번페이지로 갈 수있게 링크
+          }
+          if($page <= 1)
+          { //만약 page가 1보다 크거나 같다면 빈값
+            
+          }else{
+          $pre = $page-1; //pre변수에 page-1을 해준다 만약 현재 페이지가 3인데 이전버튼을 누르면 2번페이지로 갈 수 있게 함
+            /* 2022.11.06 컬럼정렬 추가 */
+            echo "<a href='?page=$pre&catagory=$getCatagory'>이전</a>"; //이전글자에 pre변수를 링크한다. 이러면 이전버튼을 누를때마다 현재 페이지에서 -1하게 된다.
+          }
+          for($i=$block_start; $i<=$block_end; $i++){ 
+            //for문 반복문을 사용하여, 초기값을 블록의 시작번호를 조건으로 블록시작번호가 마지박블록보다 작거나 같을 때까지 $i를 반복시킨다
+            if($page == $i){ //만약 page가 $i와 같다면 
+              echo "<span class='fo_re'>[$i]</span>"; //현재 페이지에 해당하는 번호에 굵은 빨간색을 적용한다
+            }else{
+              /* 2022.11.06 컬럼정렬 추가 */
+              echo "<a href='?page=$i&catagory=$getCatagory'>[$i]</a>"; //아니라면 $i
+            }
+          }
+          if($block_num >= $total_block){ //만약 현재 블록이 블록 총개수보다 크거나 같다면 빈 값
+          }else{
+            $next = $page + 1; //next변수에 page + 1을 해준다.
+            echo "<a href='?page=$next&catagory=$getCatagory'>다음</a>"; //다음글자에 next변수를 링크한다. 현재 4페이지에 있다면 +1하여 5페이지로 이동하게 된다.
+          }
+          if($page >= $total_page){ //만약 page가 페이지수보다 크거나 같다면
+            echo "<span class='fo_re'>마지막</span>"; //마지막 글자에 긁은 빨간색을 적용한다.
+          }else{
+            /* 2022.11.06 컬럼정렬 추가 */
+            echo "<a href='?page=$total_page&catagory=$getCatagory'>마지막</a>"; //아니라면 마지막글자에 total_page를 링크한다.
+          }
+        ?>
+    </div>
+		</div><!--sub_product_wrap_in end -->
+	</div><!--sub_product_wrap -->
 
-		</div>
-		
-		
 	</div>
 	</div>
 </section>
