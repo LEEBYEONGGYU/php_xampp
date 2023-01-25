@@ -24,11 +24,12 @@
 		<div id="catagory_title">카테고리</div>
 		<nav id="menu">
 			<ul>
-				<li class="menu_t1"><a href="/page/browsing.php?catagory=eleTv">가전, TV</a></li>
-				<li class="menu_t2"><a href="/page/browsing.php">컴퓨터 노트북, 조립PC</a></li>
-				<li class="menu_t3"><a href="/page/browsing.php">모바일</a></li>
-				<li class="menu_t4"><a href="/page/browsing.php">카메라</a></li>
-				<li class="menu_t5"><a href="/page/browsing.php">자전거, 스포츠</a></li>
+				<?php 
+					$sql = mq("select title, url from catagory order by title desc");  
+					while($catagory = $sql->fetch_array()){
+				?>
+					<li><a href="/page/browsing.php?catagory=<?php echo $catagory['url']; ?>"><?php echo $catagory['title']; ?></a></li>
+				<?php } ?>
 			</ul>
 		</nav>
 	</div>

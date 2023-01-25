@@ -30,27 +30,47 @@
 					<?php } ?>
 				</ul>
 			</div><!--catagory_list -->
+			<form action="/page/browsing.php" method="get">
+				<!--현재 카테고리 저장 -->
+				<input type="hidden" name="catagory" value="<?php echo $_GET['catagory']; ?>" />
 			<div id="sub_product_catagory_t">
 				가격
 			</div>
 			<div id="sub_product_price_sel">
-				<input type="text" placeholder="최저" name="price_min" size="5" /> <b>-</b> <input type="text" placeholder="최저" name="price_min" size="5" /> <button type="button">적용</button>
+				<?php 
+					$minPrice = "";
+					$maxPrice = "";
+					if(isset($_GET['minPrice'])) $minPrice=  $_GET['minPrice'];
+					if(isset($_GET['maxPrice'])) $maxPrice=  $_GET['maxPrice'];
+				?>
+				<input type="text" placeholder="최저" name="minPrice" size="5" value="<?php echo $minPrice; ?>" /> <b>-</b> <input type="text" placeholder="최대" name="maxPrice" size="5" value="<?php echo $maxPrice; ?>"/>
+				
 			</div>
 			<div id="sub_product_catagory_t">
 				평점
 			</div>
 			<div id="sub_product_price_radio">
-				<input type="radio" name="like" /> ★★★★★ <br />
-				<input type="radio" name="like" /> ★★★★ <br />
-				<input type="radio" name="like" /> ★★★ <br />
-				<input type="radio" name="like" /> ★★ <br />
-				<input type="radio" name="like" /> ★ <br />
+				<?php 
+					if(isset($_GET['likeCt'])){
+						$likeCt = $_GET['likeCt'];
+					}else{
+						$likeCt = 0;
+					}
+				?>
+				<input type="radio" name="likeCt" value="5" <?php if($likeCt == 5) echo "checked";?> /> ★★★★★ <br />
+				<input type="radio" name="likeCt" value="4" <?php if($likeCt == 4) echo "checked";?> /> ★★★★ <br />
+				<input type="radio" name="likeCt" value="3" <?php if($likeCt == 3) echo "checked";?> /> ★★★ <br />
+				<input type="radio" name="likeCt" value="2" <?php if($likeCt == 2) echo "checked";?> /> ★★ <br />
+				<input type="radio" name="likeCt" value="1" <?php if($likeCt == 1) echo "checked";?> /> ★ <br />
 			</div>
 
+			<button type="submit" id="browsing_bt">적용</button>
+
+			</form>
 		</div>
 		
 		<div id="sub_product_wrap">
-			<div id="sub_product_wrap_in">
+			<div id="sub_product_wrap_in"> 
 				<?php
 					if(isset($_GET['page'])){
 						$page = $_GET['page'];
@@ -72,7 +92,28 @@
 								$start_num = ($page-1) * $list; //시작번호 (page-1)에서 $list를 곱한다.
 
 								//검색조건별 쿼리변경
-								$sql2 = mq("select * from product where pro_class='$getCatagory' order by pro_num desc limit $start_num, $list");  
+								$likeCt = 0;
+								//금액별
+								if(isset($_GET['minPrice']) && !isset($_GET['maxPrice'])){
+									//최소금액 값이 있을 경우 최소금액 입력부터 DB에 있는 최대금액까지
+									$minPrice = $_GET['minPrice'];
+									$likeCt = $_GET['likeCt'];
+									$sql2 = mq("select * from product where pro_class='$getCatagory' and pro_price between '$minPrice' and pro_price and likeCt = '$likeCt' order by pro_num desc limit $start_num, $list");
+								}else if(isset($_GET['maxPrice']) && !isset($_GET['minPrice'])){
+									//최대금액 값이 있을 경우 DB에 있는 최소금액부터 최대금액입력분까지
+									$maxPrice = $_GET['maxPrice'];
+									$likeCt = $_GET['likeCt'];
+									$sql2 = mq("select * from product where pro_class='$getCatagory' and pro_price between pro_price and '$maxPrice' and likeCt = '$likeCt' order by pro_num desc limit $start_num, $list");
+								}else if(isset($_GET['minPrice']) && isset($_GET['maxPrice'])){
+									//둘 다 있다면 
+									$minPrice = $_GET['minPrice'];
+									$maxPrice = $_GET['maxPrice'];
+									$likeCt = $_GET['likeCt'];
+									$sql2 = mq("select * from product where pro_class='$getCatagory' and pro_price between '$minPrice' and '$maxPrice' and likeCt = '$likeCt' order by pro_num desc limit $start_num, $list");
+								}else{
+									$sql2 = mq("select * from product where pro_class='$getCatagory' order by pro_num desc limit $start_num, $list");
+								}
+								$rowCt = mysqli_num_rows($sql2);
 								while($catagory = $sql2->fetch_array()){
 								$title=$catagory["pro_name"]; 
 									if(strlen($title)>30){ 
@@ -82,9 +123,11 @@
 				<div class="sub_product_pulinfo">
 					<div class="product_pulimg"><img src="/upload/admin/product/<?php echo $catagory['pro_proimg']; ?>.jpg" width="310" height="320"></div>
 					<div class="sub_product_pultitle"><?php echo $title; ?></div>
-					<div class="sub_product_pulprice"><?php echo $catagory['pro_price']; ?>원</div>
+					<div class="sub_product_pulprice"><?php echo number_format($catagory['pro_price']); ?>원</div>
 				</div>
 			<?php } ?>
+
+			<?php if($rowCt !=0){ ?>
 			<div id="page_num">
         <?php
           if($page <= 1)
@@ -123,6 +166,9 @@
           }
         ?>
     </div>
+	<?php }else{ ?>
+			<div id="empty">상품이 없습니다</div>
+		<?php } ?>
 		</div><!--sub_product_wrap_in end -->
 	</div><!--sub_product_wrap -->
 
@@ -155,5 +201,9 @@
         .addClass( "overflow" );
  
     $( "#salutation" ).selectmenu();
-  } );
+
+	//평점 클릭시 검색실행
+	
+	//
+  });
   </script>
