@@ -18,6 +18,7 @@ header {
 }
 .header_in {
 	width:1200px;
+	position:relative;
 }
 .sec_header {
 	width:100%;
@@ -41,6 +42,29 @@ header {
 	position:absolute;
 	top:-15px;
 }
+#m_service {
+	position:absolute;
+	right:140px;
+	top:10px;
+}
+#layerPopup{
+	display:none;
+	width:140px;
+	padding:10px; 
+	border:2px solid #ddd; 
+	position:absolute; 
+	left:0px; 
+	top:50px; 
+	background:#fff;
+	z-index:10;
+	font-family: 'malgun gothic';
+	font-size:16px;
+	border-radius: 10px;
+  }
+  
+  #layerPopup button{
+	cursor:pointer;
+  }
 #header_line {
 	border:solid 1px gray;
 	margin-top:20px;
@@ -122,9 +146,9 @@ header {
 	float:right;
 	margin-top:-20px;
 }
-#sec1_product {
+#m_sec1_product {
 	margin: 0 auto;
-	margin-top:80px;
+	margin-top:35px;
 	position:absolute;
 }
 .product_pulinfo {
@@ -161,7 +185,7 @@ header {
 }
 
 
-#sec1_product > .product_pulinfo {
+#m_sec1_product > .product_pulinfo {
 	float:left;
 	margin-left:20px;
 }
@@ -194,13 +218,13 @@ header {
 
 #main_sec2_in .product_time {
 	margin-top:10px;
-	font:bold 30px 'malgun gothic';
+	font:bold 26px 'malgun gothic';
 	color:red;
 }
 
 #main_sec2_in .product_title {
 	margin-top:10px;
-	font-size:26px;
+	font-size:20px;
 }
 #main_sec2_in .product_price {
 	margin-top:50px;
@@ -248,6 +272,7 @@ header {
 
 #sec2_product .product_img {
 	margin-left:250px;
+	margin-top:0;
 }
 
 
