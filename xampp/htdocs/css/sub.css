@@ -42,7 +42,7 @@
 #sub_View > span {width:60px;}
 #sub_product {
     width:1400px;
-    height:800px;
+    height:950px;
     margin-top:30px;
     position:relative;
 }
@@ -84,7 +84,8 @@
     
 }
 #sub_product_wrap {
-    width:1000px;
+    width:960px;
+    height:950px;
     position:absolute;
     right:0;
     top:0;
@@ -99,8 +100,8 @@
 	position:absolute;
 }
 .sub_product_pulinfo {
-	width:310px;
-	height:400px;
+	width:220px;
+	height:260px;
 	border:solid 1px #d5d5d5;
 	background:white;
 	margin-top:30px;
@@ -113,15 +114,16 @@
 	position:absolute;
 }
 .sub_product_pultitle {
-	font:bold 18px 'malgun gothic';
+	font:bold 14px 'malgun gothic';
+    text-align:left;
 	position:absolute;
-	margin-top:335px;
-	margin-left:20px;
+	margin-top:200px;
+	margin-left:10px;
 }
 .sub_product_pulprice {
 	font: 16px 'malgun gothic';
 	position:absolute;
-	margin-top:365px;
+	margin-top:220px;
 	margin-left:20px;
 }
 .sub_product_pulbuycount {
@@ -141,6 +143,8 @@
     margin-left:20px;
 }
 #page_num {
+    position:absolute;
+    bottom : 20px;
 	font-size: 14px;
 	text-align: center;
 }

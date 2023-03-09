@@ -121,13 +121,13 @@
 									}
 								?>
 				<div class="sub_product_pulinfo">
-					<div class="product_pulimg"><img src="/upload/admin/product/<?php echo $catagory['pro_proimg']; ?>.jpg" width="310" height="320"></div>
+					<div class="product_pulimg"><img src="/upload/admin/product/<?php echo $catagory['pro_proimg']; ?>.jpg" width="190" height="190"></div>
 					<div class="sub_product_pultitle"><?php echo $title; ?></div>
 					<div class="sub_product_pulprice"><?php echo number_format($catagory['pro_price']); ?>원</div>
 				</div>
 			<?php } ?>
-
-			<?php if($rowCt !=0){ ?>
+		</div><!--sub_product_wrap_in end -->
+		<?php if($rowCt !=0){ ?>
 			<div id="page_num">
         <?php
           if($page <= 1)
@@ -169,7 +169,6 @@
 	<?php }else{ ?>
 			<div id="empty">상품이 없습니다</div>
 		<?php } ?>
-		</div><!--sub_product_wrap_in end -->
 	</div><!--sub_product_wrap -->
 
 	</div>
