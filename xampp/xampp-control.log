@@ -747,3 +747,127 @@
 오후 10:45:30  [main] 	Deinitializing Modules
 오후 10:45:30  [main] 	Deinitializing Control Panel
 
+오후 10:32:58  [main] 	Initializing Control Panel
+오후 10:32:58  [main] 	Windows Version:  Enterprise  64-bit
+오후 10:32:58  [main] 	XAMPP Version: 7.3.12
+오후 10:32:58  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 10:32:58  [main] 	You are not running with administrator rights! This will work for
+오후 10:32:58  [main] 	most application stuff but whenever you do something with services
+오후 10:32:58  [main] 	there will be a security dialogue or things will break! So think 
+오후 10:32:58  [main] 	about running this application with administrator rights!
+오후 10:32:58  [main] 	XAMPP Installation Directory: "d:\github\php_xampp\xampp\"
+오후 10:32:58  [main] 	Checking for prerequisites
+오후 10:32:59  [main] 	All prerequisites found
+오후 10:32:59  [main] 	Initializing Modules
+오후 10:32:59  [main] 	Starting Check-Timer
+오후 10:32:59  [main] 	Control Panel Ready
+오후 10:33:00  [Apache] 	Attempting to start Apache app...
+오후 10:33:00  [mysql] 	Attempting to start MySQL app...
+오후 10:33:00  [Apache] 	Status change detected: running
+오후 10:33:00  [mysql] 	Status change detected: running
+오후 10:33:01  [mysql] 	Status change detected: stopped
+오후 10:33:01  [mysql] 	Error: MySQL shutdown unexpectedly.
+오후 10:33:01  [mysql] 	This may be due to a blocked port, missing dependencies, 
+오후 10:33:01  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+오후 10:33:01  [mysql] 	Press the Logs button to view error logs and check
+오후 10:33:01  [mysql] 	the Windows Event Viewer for more clues
+오후 10:33:01  [mysql] 	If you need more help, copy and post this
+오후 10:33:01  [mysql] 	entire log window on the forums
+오후 10:33:11  [mysql] 	Attempting to start MySQL app...
+오후 10:33:11  [mysql] 	Status change detected: running
+오후 10:37:43  [mysql] 	Attempting to stop MySQL app...
+오후 10:37:44  [mysql] 	Status change detected: stopped
+오후 10:37:44  [Apache] 	Attempting to stop Apache (PID: 13360)
+오후 10:37:44  [Apache] 	Attempting to stop Apache (PID: 14836)
+오후 10:37:44  [Apache] 	Status change detected: stopped
+오후 10:37:45  [main] 	Deinitializing Modules
+오후 10:37:45  [main] 	Deinitializing Control Panel
+
+오후 10:42:06  [main] 	Initializing Control Panel
+오후 10:42:06  [main] 	Windows Version:  Enterprise  64-bit
+오후 10:42:06  [main] 	XAMPP Version: 7.3.12
+오후 10:42:06  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 10:42:06  [main] 	You are not running with administrator rights! This will work for
+오후 10:42:06  [main] 	most application stuff but whenever you do something with services
+오후 10:42:06  [main] 	there will be a security dialogue or things will break! So think 
+오후 10:42:06  [main] 	about running this application with administrator rights!
+오후 10:42:06  [main] 	XAMPP Installation Directory: "d:\github\php_xampp\xampp\"
+오후 10:42:06  [main] 	Checking for prerequisites
+오후 10:42:07  [main] 	All prerequisites found
+오후 10:42:07  [main] 	Initializing Modules
+오후 10:42:07  [main] 	Starting Check-Timer
+오후 10:42:07  [main] 	Control Panel Ready
+오후 10:42:09  [Apache] 	Attempting to start Apache app...
+오후 10:42:09  [Apache] 	Status change detected: running
+오후 10:42:09  [mysql] 	Attempting to start MySQL app...
+오후 10:42:09  [mysql] 	Status change detected: running
+오후 10:42:10  [mysql] 	Status change detected: stopped
+오후 10:42:10  [mysql] 	Error: MySQL shutdown unexpectedly.
+오후 10:42:10  [mysql] 	This may be due to a blocked port, missing dependencies, 
+오후 10:42:10  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+오후 10:42:10  [mysql] 	Press the Logs button to view error logs and check
+오후 10:42:10  [mysql] 	the Windows Event Viewer for more clues
+오후 10:42:10  [mysql] 	If you need more help, copy and post this
+오후 10:42:10  [mysql] 	entire log window on the forums
+오후 10:42:12  [mysql] 	Attempting to start MySQL app...
+오후 10:42:12  [mysql] 	Status change detected: running
+오후 11:04:43  [mysql] 	Attempting to stop MySQL app...
+오후 11:04:43  [mysql] 	Status change detected: stopped
+오후 11:04:43  [Apache] 	Attempting to stop Apache (PID: 8304)
+오후 11:04:43  [Apache] 	Attempting to stop Apache (PID: 11236)
+오후 11:04:44  [Apache] 	Status change detected: stopped
+오후 11:04:44  [main] 	Deinitializing Modules
+오후 11:04:44  [main] 	Deinitializing Control Panel
+
+오후 9:36:57  [main] 	Initializing Control Panel
+오후 9:36:57  [main] 	Windows Version:  Enterprise  64-bit
+오후 9:36:57  [main] 	XAMPP Version: 7.3.12
+오후 9:36:57  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 9:36:57  [main] 	You are not running with administrator rights! This will work for
+오후 9:36:57  [main] 	most application stuff but whenever you do something with services
+오후 9:36:57  [main] 	there will be a security dialogue or things will break! So think 
+오후 9:36:57  [main] 	about running this application with administrator rights!
+오후 9:36:57  [main] 	XAMPP Installation Directory: "d:\github\php_xampp\xampp\"
+오후 9:36:57  [main] 	Checking for prerequisites
+오후 9:36:58  [main] 	All prerequisites found
+오후 9:36:58  [main] 	Initializing Modules
+오후 9:36:58  [main] 	Starting Check-Timer
+오후 9:36:58  [main] 	Control Panel Ready
+오후 9:36:59  [mysql] 	Attempting to start MySQL app...
+오후 9:36:59  [Apache] 	Attempting to start Apache app...
+오후 9:36:59  [Apache] 	Status change detected: running
+오후 9:36:59  [mysql] 	Status change detected: running
+오후 10:29:58  [mysql] 	Attempting to stop MySQL app...
+오후 10:29:58  [mysql] 	Status change detected: stopped
+오후 10:29:58  [Apache] 	Attempting to stop Apache (PID: 13036)
+오후 10:29:58  [Apache] 	Attempting to stop Apache (PID: 3304)
+오후 10:29:59  [Apache] 	Status change detected: stopped
+오후 10:29:59  [main] 	Deinitializing Modules
+오후 10:29:59  [main] 	Deinitializing Control Panel
+
+오후 11:03:03  [main] 	Initializing Control Panel
+오후 11:03:03  [main] 	Windows Version:  Enterprise  64-bit
+오후 11:03:03  [main] 	XAMPP Version: 7.3.12
+오후 11:03:03  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 11:03:03  [main] 	You are not running with administrator rights! This will work for
+오후 11:03:03  [main] 	most application stuff but whenever you do something with services
+오후 11:03:03  [main] 	there will be a security dialogue or things will break! So think 
+오후 11:03:03  [main] 	about running this application with administrator rights!
+오후 11:03:03  [main] 	XAMPP Installation Directory: "d:\github\php_xampp\xampp\"
+오후 11:03:03  [main] 	Checking for prerequisites
+오후 11:03:04  [main] 	All prerequisites found
+오후 11:03:04  [main] 	Initializing Modules
+오후 11:03:04  [main] 	Starting Check-Timer
+오후 11:03:04  [main] 	Control Panel Ready
+오후 11:03:05  [Apache] 	Attempting to start Apache app...
+오후 11:03:05  [mysql] 	Attempting to start MySQL app...
+오후 11:03:06  [Apache] 	Status change detected: running
+오후 11:03:06  [mysql] 	Status change detected: running
+오후 11:35:31  [mysql] 	Attempting to stop MySQL app...
+오후 11:35:32  [mysql] 	Status change detected: stopped
+오후 11:35:32  [Apache] 	Attempting to stop Apache (PID: 17428)
+오후 11:35:32  [Apache] 	Attempting to stop Apache (PID: 19324)
+오후 11:35:32  [Apache] 	Status change detected: stopped
+오후 11:35:33  [main] 	Deinitializing Modules
+오후 11:35:33  [main] 	Deinitializing Control Panel
+

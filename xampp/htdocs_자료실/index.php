@@ -18,6 +18,9 @@
 
   <section>
 	<div class="content1">
+		<div class="">
+			
+		</div>
 		<h1>PHP게시판</h1>
 			<div class="list">
 				<?php 
@@ -46,31 +49,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="content2">
-			<h1>QA게시판</h1>
-				<div class="list">
-					<?php 
-						$sql2 = mq("select * from qa order by idx desc limit 0,5");
-						while($qa = $sql2->fetch_array()){
-					?>
-					<div class="post-preview">
-						<a href="page/board/bo_process/read.php?idx=<?php echo $qa['idx'];?>">
-							<h2 class="post-title">
-								<?php echo $qa['title']; ?>
-							</h2>
-							<h3 class="post-subtitle">
-								<?php echo $qa['content']; ?>
-							</h3>
-						</a>
-						<p class="post-meta"><?php echo $qa['w_date']; ?> <?php echo $qa['chk']; ?></p>
-					</div>
-					<hr>
-					<?php } ?>
-				<!-- Pager -->
-				<div class="clearfix">
-					<a class="btn btn-primary float-left" href="/page/board/board">더보기 &rarr;</a>
-				</div>
-			</div>
+		
 		</section>
 	<?php include $_SERVER['DOCUMENT_ROOT']."/include/footer.php"; ?>
 </body>

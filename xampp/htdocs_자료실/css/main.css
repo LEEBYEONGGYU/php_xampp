@@ -13,7 +13,8 @@ section {
 	margin-left:150px;
 }
 .content1 {
-	width:50%;
+	width:100%;
+	border:solid 1px red;
 }
 .content1 h1 {
 	margin-left:130px;

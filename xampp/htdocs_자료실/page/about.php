@@ -16,6 +16,6 @@
   </header>
 
 <div id="about">
-	<p>이것을 만든 이유는 블로그를 찾아주시는 분들이 자료소실없이 이용할 수 있도록 하기위해 제작되었습니다</p>
+	<p>블로그에 업로드된 개발자료들을 미리 볼 수 있고 테스트 할 수 있는 사이트입니다.</p>
 </div>
   <?php include $_SERVER['DOCUMENT_ROOT']."/include/footer.php"; ?>
