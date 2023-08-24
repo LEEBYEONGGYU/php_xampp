@@ -871,3 +871,39 @@
 오후 11:35:33  [main] 	Deinitializing Modules
 오후 11:35:33  [main] 	Deinitializing Control Panel
 
+오후 9:32:00  [main] 	Initializing Control Panel
+오후 9:32:00  [main] 	Windows Version:  Enterprise  64-bit
+오후 9:32:00  [main] 	XAMPP Version: 7.3.12
+오후 9:32:00  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+오후 9:32:00  [main] 	You are not running with administrator rights! This will work for
+오후 9:32:00  [main] 	most application stuff but whenever you do something with services
+오후 9:32:00  [main] 	there will be a security dialogue or things will break! So think 
+오후 9:32:00  [main] 	about running this application with administrator rights!
+오후 9:32:00  [main] 	XAMPP Installation Directory: "d:\github\php_xampp\xampp\"
+오후 9:32:00  [main] 	Checking for prerequisites
+오후 9:32:01  [main] 	All prerequisites found
+오후 9:32:01  [main] 	Initializing Modules
+오후 9:32:01  [main] 	Starting Check-Timer
+오후 9:32:01  [main] 	Control Panel Ready
+오후 9:32:03  [Apache] 	Attempting to start Apache app...
+오후 9:32:04  [mysql] 	Attempting to start MySQL app...
+오후 9:32:04  [Apache] 	Status change detected: running
+오후 9:32:04  [mysql] 	Status change detected: running
+오후 9:32:04  [mysql] 	Status change detected: stopped
+오후 9:32:04  [mysql] 	Error: MySQL shutdown unexpectedly.
+오후 9:32:04  [mysql] 	This may be due to a blocked port, missing dependencies, 
+오후 9:32:04  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+오후 9:32:04  [mysql] 	Press the Logs button to view error logs and check
+오후 9:32:04  [mysql] 	the Windows Event Viewer for more clues
+오후 9:32:04  [mysql] 	If you need more help, copy and post this
+오후 9:32:04  [mysql] 	entire log window on the forums
+오후 9:32:06  [mysql] 	Attempting to start MySQL app...
+오후 9:32:06  [mysql] 	Status change detected: running
+오후 11:11:15  [mysql] 	Attempting to stop MySQL app...
+오후 11:11:15  [Apache] 	Attempting to stop Apache (PID: 17284)
+오후 11:11:15  [Apache] 	Attempting to stop Apache (PID: 7972)
+오후 11:11:16  [Apache] 	Status change detected: stopped
+오후 11:11:16  [mysql] 	Status change detected: stopped
+오후 11:11:16  [main] 	Deinitializing Modules
+오후 11:11:16  [main] 	Deinitializing Control Panel
+

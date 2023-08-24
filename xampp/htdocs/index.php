@@ -1,281 +1,82 @@
+<?php include "bin/db.php"; ?>
 <!doctype html>
 <head>
 	<meta charset="utf-8" />
 	<title>No</title>
 	<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-	<link rel="stylesheet" href="" />
-	 <style>
-		* {
-			margin: 0 ;
-			padding:0;
-		}
-
-		ul li {list-style: none;}
-		a {color:#ccc; text-decoration: none;}
-		img {vertical-align: top; border: 0;}
-		.tl {text-align:left;}
-		.tc {text-align:center;}
-		.tr {text-align:right;}
-
-
-		header {
-			width:100%; 
-			height:60px;
-			background:#ECCEF5;
-		}
-
-		#todoArea {
-			border:solid 1px #ccc;
-			margin-top:30px;
-			left:0;
-			box-shadow: 7px 7px 2px 1px rgba(0, 0, 255, .2);
-			background:white;
-
-		}
-
-		.txt {
-			text-align:center;
-			font:bold 26px 'malgun gothic';
-			margin-top:15px;
-		}
-		/*body {
-			background: linear-gradient(to bottom, #4bcc9d, #cb9bda);
-		}*/
-		.areaLine {
-			width:500px;
-			height:2px;
-			background:#D8D8D8;
-			margin-top:15px;
-		}
-		section {
-			text-align:center;
-			position:relative;
-			margin-top:30px;
-		}
-
-		section article{
-			width:600px;
-			height:400px;
-			border:solid 1px #ccc;
-			display: inline-block;
-}
-
-		#todoListWrap{
-			margin-top:30px;
-		}
-		.todoList {
-			background:#F2F2F2;
-			width:550px;
-			height:50px;
-			margin-top:10px;
-			position:relative;
-			margin-left:20px;
-		}
-		.todo_txt {
-			font:16px 'malgun gothic';
-			line-height:50px;
-			margin-left:10px;
-		}
-		.remove_bt {
-			position:absolute;
-			top:10px;
-			right:70px;
-			
-		}
-		.edit_bt {
-			position:absolute;
-			top:10px;
-			right:20px;
-		}
-
-		#doingArea {
-			border:solid 1px #ccc;
-			box-shadow: 7px 7px 2px 1px rgba(0, 0, 255, .2);
-			background:white;
-
-		}
-
-
-
-		#doneArea {
-
-			border:solid 1px #ccc;
-			position:relative;
-
-			box-shadow: 7px 7px 2px 1px rgba(0, 0, 255, .2);
-			background:white;
-		}
-
-		#planDay {
-			width:600px;
-			height:400px;
-			border:solid 1px #ccc;
-			margin-top:30px;
-			margin-left:10px;
-			
-			box-shadow: 7px 7px 2px 1px rgba(0, 0, 255, .2);
-			background:white;
-		}
-		#planInfo {
-			font:bold 20px 'malgun gothic';
-			color:black;
-			margin-top:20px;
-			margin-left:10px;
-		}
-		p {
-			font:bold 20px 'malgun gothic';
-			color:black;
-			margin-top:0px;
-			margin-left:10px;
-		}
-
-		#join_form_in {
-	width:700px;
-	height:600px;
-	margin-top:150px;
-	background: white;
-}
-#join_f {
-	margin-left: 50px; 
-	margin-top:50px; 
-}
-.form-group {
-	margin-bottom: 40px; 
-	margin-left: 50px;
-	font-size: 16px;
-	font-weight: bold;
-	height:30px;
-	padding:5px 10px;
-	font-size:14px;
-}
-.mb {
-	margin-top:10px; 
-}
-.inp {
-	padding: 0 0 0 10px;
-	font-size:12px;
-	border-radius: 10px;
-	border:solid 1px #D8D8D8;
-	width: 450px; 
-	height: 35px; 
-}
-.inp:focus {
-	box-shadow: 1px 1px 10px 1px #00BFFF;
-	transition: 0.5s;
-}
-.form_btn {
-	margin-top:70px; 
-	margin-left: 200px; 
-}
-.form_bt {
-	padding:10px 20px 10px 20px;
-	background: #58D3F7;
-	border: 0px;
-	color:white;
-}
-.form_bt:hover {
-	background: #01A9DB;
-}
-.form_bt2 {
-	margin-left: 30px;
-	padding: 10px 20px 10px 20px;
-	background: #FFBF00;
-	border: 0;
-	color:white;
-	font-size: 12px;
-}
-.form_bt2 a {
-	color:white;
-}
-.form_bt2:hover {
-	background: #DBA901;
-}
-	 </style>
+	<link rel="stylesheet" href="/css/common.css" />
 </head>
 <body>
 	<header></header>
 	<section>
-		<article>
-			<div class="txt">Todo-List(해야 할 일) <img src="imgs/write.png" alt="write" title="write" width="35" height="35" id="write_icon" /></div>
-			<div class="areaLine"></div>
-			<div id="todoListWrap">
-				<!-- DB로 반복 돌려야하는 구간-->
-				<div class="todoList">
-					<div class="todo_txt tl">휴가 전결수정</div>
-					<div class="remove_bt" onclick="remove();"><img src="imgs/trash.png" alt="trash" title="trash" width="25" height="25" /></div>
-					<div class="edit_bt" onclick="edit();"><img src="imgs/edit.png" alt="edit" title="edit" width="45" height="45" style="margin-top:-10px;"/></div>
+		<div id="content">
+			<article>
+				<div class="txt">Todo-List(해야 할 일) <img src="imgs/write.png" alt="write" title="write" width="35" height="35" id="write_icon" /></div>
+				<div class="areaLine"></div>
+				<div id="todoListWrap">
+					<?php 
+						$sql = mq("select * from todo order by to_idx");  
+						while($todo = $sql->fetch_array()){
+
+						$title=$todo["to_title"]; 
+						if(strlen($title)>30){ 
+							$title=str_replace($todo["to_title"],mb_substr($todo["to_title"],0,30,"utf-8")."...",$todo["to_title"]);
+						}
+					?>
+					<div class="todoList">
+						<div class="todo_txt tl"><?php echo $title; ?></div>
+						<div class="remove_bt" onclick="remove();"><img src="imgs/trash.png" alt="trash" title="trash" width="25" height="25" /></div>
+						<div class="edit_bt" onclick="edit();"><img src="imgs/edit.png" alt="edit" title="edit" width="45" height="45" style="margin-top:-10px;"/></div>
+					</div>
+					<?php } ?>
 				</div>
-				<div class="todoList">
-					<div class="todo_txt">출장기능추가</div>
-					<div class="remove_bt"><img src="imgs/trash.png" alt="trash" title="trash" width="25" height="25" /></div>
-					<div class="edit_bt"><img src="imgs/edit.png" alt="edit" title="edit" width="45" height="45" style="margin-top:-10px;"/></div>
-				</div>
-				<div class="todoList">
-					<div class="todo_txt">FCM링크 변경</div>
-					<div class="remove_bt"><img src="imgs/trash.png" alt="trash" title="trash" width="25" height="25" /></div>
-					<div class="edit_bt"><img src="imgs/edit.png" alt="edit" title="edit" width="45" height="45" style="margin-top:-10px;"/></div>
-				</div>
-				<div class="todoList">
-					<div class="todo_txt">쿼리스트링 권한 제거</div>
-					<div class="remove_bt"><img src="imgs/trash.png" alt="trash" title="trash" width="25" height="25" /></div>
-					<div class="edit_bt"><img src="imgs/edit.png" alt="edit" title="edit" width="45" height="45" style="margin-top:-10px;"/></div>
-				</div>
-			</div>
-		</article>
+			</article>
+		
+
+
 		<article class="tc">
 		<div class="txt">Doing-List(진행 중) </div>
 		<div class="areaLine"></div>
 		<div id="todoListWrap">
-				<!-- DB로 반복 돌려야하는 구간-->
-				<div class="todoList">
-					<div class="todo_txt tl">휴가 전결수정</div>
-					<div class="remove_bt" onclick="remove();"><img src="imgs/trash.png" alt="trash" title="trash" width="25" height="25" /></div>
-					<div class="edit_bt" onclick="edit();"><img src="imgs/edit.png" alt="edit" title="edit" width="45" height="45" style="margin-top:-10px;"/></div>
-				</div>
-				<div class="todoList">
-					<div class="todo_txt">출장기능추가</div>
-					<div class="remove_bt"><img src="imgs/trash.png" alt="trash" title="trash" width="25" height="25" /></div>
-					<div class="edit_bt"><img src="imgs/edit.png" alt="edit" title="edit" width="45" height="45" style="margin-top:-10px;"/></div>
-				</div>
-				<div class="todoList">
-					<div class="todo_txt">FCM링크 변경</div>
-					<div class="remove_bt"><img src="imgs/trash.png" alt="trash" title="trash" width="25" height="25" /></div>
-					<div class="edit_bt"><img src="imgs/edit.png" alt="edit" title="edit" width="45" height="45" style="margin-top:-10px;"/></div>
-				</div>
-				<div class="todoList">
-					<div class="todo_txt">쿼리스트링 권한 제거</div>
-					<div class="remove_bt"><img src="imgs/trash.png" alt="trash" title="trash" width="25" height="25" /></div>
-					<div class="edit_bt"><img src="imgs/edit.png" alt="edit" title="edit" width="45" height="45" style="margin-top:-10px;"/></div>
-				</div>
+			<?php 
+				$sql = mq("select * from doing order by doing_idx");  
+				while($doing = $sql->fetch_array()){
+
+				$doing_title=$doing["doing_title"]; 
+				if(strlen($doing_title)>30){ 
+					$doing_title=str_replace($doing["doing_title"],mb_substr($doing["doing_title"],0,30,"utf-8")."...",$doing["doing_title"]);
+				}
+			?>
+			<div class="todoList">
+				<div class="todo_txt tl"><?php echo $doing_title; ?></div>
+				<div class="remove_bt" onclick="remove();"><img src="imgs/trash.png" alt="trash" title="trash" width="25" height="25" /></div>
+				<div class="edit_bt" onclick="edit();"><img src="imgs/edit.png" alt="edit" title="edit" width="45" height="45" style="margin-top:-10px;"/></div>
 			</div>
+		<?php } ?>
+		</div>
 		</article>
 		<article>
 		<div class="txt">Done-List(완료) </div>
 		<div class="areaLine"></div>
 		<div id="todoListWrap">
-				<!-- DB로 반복 돌려야하는 구간-->
+		<?php 
+				$sql = mq("select * from done order by done_idx");  
+				while($done = $sql->fetch_array()){
+
+				$done_title=$done["done_title"]; 
+				if(strlen($done_title)>30){ 
+					$done_title=str_replace($done["done_title"],mb_substr($done["done_title"],0,30,"utf-8")."...",$done["done_title"]);
+				}
+			?>
 				<div class="todoList">
-					<div class="todo_txt">휴가 전결수정</div>
+					<div class="todo_txt"><?php echo $done_title; ?></div>
 					<div class="remove_bt" onclick="remove();"><img src="imgs/trash.png" alt="trash" title="trash" width="25" height="25" /></div>
 					<div class="edit_bt" onclick="edit();"><img src="imgs/edit.png" alt="edit" title="edit" width="45" height="45" style="margin-top:-10px;"/></div>
 				</div>
-				<div class="todoList">
-					<div class="todo_txt">출장기능추가</div>
-					<div class="remove_bt"><img src="imgs/trash.png" alt="trash" title="trash" width="25" height="25" /></div>
-					<div class="edit_bt"><img src="imgs/edit.png" alt="edit" title="edit" width="45" height="45" style="margin-top:-10px;"/></div>
-				</div>
-				<div class="todoList">
-					<div class="todo_txt">FCM링크 변경</div>
-					<div class="remove_bt"><img src="imgs/trash.png" alt="trash" title="trash" width="25" height="25" /></div>
-					<div class="edit_bt"><img src="imgs/edit.png" alt="edit" title="edit" width="45" height="45" style="margin-top:-10px;"/></div>
-				</div>
-				<div class="todoList">
-					<div class="todo_txt">쿼리스트링 권한 제거</div>
-					<div class="remove_bt"><img src="imgs/trash.png" alt="trash" title="trash" width="25" height="25" /></div>
-					<div class="edit_bt"><img src="imgs/edit.png" alt="edit" title="edit" width="45" height="45" style="margin-top:-10px;"/></div>
-				</div>
+				<?php } ?>
 			</div>
 		</article>
+		</div>
 	</section>
 
 	<div id="dialog" title="Basic dialog" style="display:none;">
