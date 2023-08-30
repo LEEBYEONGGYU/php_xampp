@@ -1492,3 +1492,25 @@
 [Thu Aug 24 21:57:29.605540 2023] [php7:notice] [pid 7972:tid 1868] [client ::1:7986] PHP Notice:  Undefined variable: doing_title in D:\\github\\php_xampp\\xampp\\htdocs\\index.php on line 63
 [Thu Aug 24 21:57:30.244569 2023] [php7:notice] [pid 7972:tid 1856] [client ::1:7990] PHP Notice:  Undefined variable: doing_title in D:\\github\\php_xampp\\xampp\\htdocs\\index.php on line 63
 [Thu Aug 24 23:11:15.887321 2023] [mpm_winnt:crit] [pid 7972:tid 624] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Aug 29 21:01:45.955461 2023] [ssl:warn] [pid 7292:tid 412] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Aug 29 21:01:46.009972 2023] [core:warn] [pid 7292:tid 412] AH00098: pid file D:/github/php_xampp/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Aug 29 21:01:46.011477 2023] [ssl:warn] [pid 7292:tid 412] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Aug 29 21:01:46.113550 2023] [mpm_winnt:notice] [pid 7292:tid 412] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 configured -- resuming normal operations
+[Tue Aug 29 21:01:46.113550 2023] [mpm_winnt:notice] [pid 7292:tid 412] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue Aug 29 21:01:46.113550 2023] [core:notice] [pid 7292:tid 412] AH00094: Command line: 'd:\\github\\php_xampp\\xampp\\apache\\bin\\httpd.exe -d D:/github/php_xampp/xampp/apache'
+[Tue Aug 29 21:01:46.118069 2023] [mpm_winnt:notice] [pid 7292:tid 412] AH00418: Parent: Created child process 16368
+[Tue Aug 29 21:01:48.189033 2023] [ssl:warn] [pid 16368:tid 516] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Aug 29 21:01:48.241529 2023] [ssl:warn] [pid 16368:tid 516] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Aug 29 21:01:48.269924 2023] [mpm_winnt:notice] [pid 16368:tid 516] AH00354: Child: Starting 150 worker threads.
+[Tue Aug 29 23:39:33.673459 2023] [mpm_winnt:crit] [pid 16368:tid 516] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed Aug 30 22:15:52.444923 2023] [ssl:warn] [pid 15960:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Aug 30 22:15:52.491012 2023] [core:warn] [pid 15960:tid 592] AH00098: pid file D:/github/php_xampp/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Aug 30 22:15:52.493015 2023] [ssl:warn] [pid 15960:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Aug 30 22:15:52.562255 2023] [mpm_winnt:notice] [pid 15960:tid 592] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 configured -- resuming normal operations
+[Wed Aug 30 22:15:52.562255 2023] [mpm_winnt:notice] [pid 15960:tid 592] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Wed Aug 30 22:15:52.562255 2023] [core:notice] [pid 15960:tid 592] AH00094: Command line: 'd:\\github\\php_xampp\\xampp\\apache\\bin\\httpd.exe -d D:/github/php_xampp/xampp/apache'
+[Wed Aug 30 22:15:52.565258 2023] [mpm_winnt:notice] [pid 15960:tid 592] AH00418: Parent: Created child process 18708
+[Wed Aug 30 22:15:54.227113 2023] [ssl:warn] [pid 18708:tid 600] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Aug 30 22:15:54.272026 2023] [ssl:warn] [pid 18708:tid 600] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Aug 30 22:15:54.297981 2023] [mpm_winnt:notice] [pid 18708:tid 600] AH00354: Child: Starting 150 worker threads.
+[Wed Aug 30 23:31:50.003832 2023] [mpm_winnt:crit] [pid 18708:tid 600] AH02538: Child: Parent process exited abruptly. Child process is ending

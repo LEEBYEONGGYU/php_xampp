@@ -8,76 +8,75 @@
 </head>
 <body>
 	<header></header>
-	<section>
-		<div id="content">
-			<article>
-				<div class="txt">Todo-List(해야 할 일) <img src="imgs/write.png" alt="write" title="write" width="35" height="35" id="write_icon" /></div>
-				<div class="areaLine"></div>
-				<div id="todoListWrap">
-					<?php 
-						$sql = mq("select * from todo order by to_idx");  
-						while($todo = $sql->fetch_array()){
+	<section class="layout">
+		<div class="grow1">
+		<div class="div1">
+					<div class="txt">Todo-List(해야 할 일) <img src="imgs/write.png" alt="write" title="write" width="35" height="35" id="write_icon" /></div>
+					<div class="areaLine"></div>
+					<div id="todoListWrap">
+						<?php 
+							$sql = mq("select * from todo order by to_idx");  
+							while($todo = $sql->fetch_array()){
 
-						$title=$todo["to_title"]; 
-						if(strlen($title)>30){ 
-							$title=str_replace($todo["to_title"],mb_substr($todo["to_title"],0,30,"utf-8")."...",$todo["to_title"]);
-						}
-					?>
-					<div class="todoList">
-						<div class="todo_txt tl"><?php echo $title; ?></div>
-						<div class="remove_bt" onclick="remove();"><img src="imgs/trash.png" alt="trash" title="trash" width="25" height="25" /></div>
-						<div class="edit_bt" onclick="edit();"><img src="imgs/edit.png" alt="edit" title="edit" width="45" height="45" style="margin-top:-10px;"/></div>
+							$title=$todo["to_title"]; 
+							if(strlen($title)>30){ 
+								$title=str_replace($todo["to_title"],mb_substr($todo["to_title"],0,30,"utf-8")."...",$todo["to_title"]);
+							}
+						?>
+						<div class="todoList">
+							<div class="todo_txt tl"><?php echo $title; ?></div>
+							<div class="remove_bt" onclick="remove();"><img src="imgs/trash.png" alt="trash" title="trash" width="25" height="25" /></div>
+							<div class="edit_bt" onclick="edit();"><img src="imgs/edit.png" alt="edit" title="edit" width="45" height="45" style="margin-top:-10px;"/></div>
+						</div>
+						<?php } ?>
 					</div>
+				</div>
+		</div>
+		<div class="grow1">
+		<div class="txt">Doing-List(진행 중) </div>
+						<div class="areaLine"></div>
+						<div id="todoListWrap">
+							<?php 
+								$sql = mq("select * from doing order by doing_idx");  
+								while($doing = $sql->fetch_array()){
+
+								$doing_title=$doing["doing_title"]; 
+								if(strlen($doing_title)>30){ 
+									$doing_title=str_replace($doing["doing_title"],mb_substr($doing["doing_title"],0,30,"utf-8")."...",$doing["doing_title"]);
+								}
+							?>
+							<div class="todoList">
+								<div class="todo_txt tl"><?php echo $doing_title; ?></div>
+								<div class="remove_bt" onclick="remove();"><img src="imgs/trash.png" alt="trash" title="trash" width="25" height="25" /></div>
+								<div class="edit_bt" onclick="edit();"><img src="imgs/edit.png" alt="edit" title="edit" width="45" height="45" style="margin-top:-10px;"/></div>
+							</div>
+						<?php } ?>
+					</div>
+		</div>
+		<div class="grow1">
+		<div class="txt">Done-List(완료) </div>
+						<div class="areaLine"></div>
+						<div id="todoListWrap">
+						<?php 
+								$sql = mq("select * from done order by done_idx");  
+								while($done = $sql->fetch_array()){
+
+								$done_title=$done["done_title"]; 
+								if(strlen($done_title)>30){ 
+									$done_title=str_replace($done["done_title"],mb_substr($done["done_title"],0,30,"utf-8")."...",$done["done_title"]);
+								}
+							?>
+								<div class="todoList">
+									<div class="todo_txt"><?php echo $done_title; ?></div>
+									<div class="remove_bt" onclick="remove();"><img src="imgs/trash.png" alt="trash" title="trash" width="25" height="25" /></div>
+									<div class="edit_bt" onclick="edit();"><img src="imgs/edit.png" alt="edit" title="edit" width="45" height="45" style="margin-top:-10px;"/></div>
+								</div>
 					<?php } ?>
 				</div>
-			</article>
-		
-
-
-		<article class="tc">
-		<div class="txt">Doing-List(진행 중) </div>
-		<div class="areaLine"></div>
-		<div id="todoListWrap">
-			<?php 
-				$sql = mq("select * from doing order by doing_idx");  
-				while($doing = $sql->fetch_array()){
-
-				$doing_title=$doing["doing_title"]; 
-				if(strlen($doing_title)>30){ 
-					$doing_title=str_replace($doing["doing_title"],mb_substr($doing["doing_title"],0,30,"utf-8")."...",$doing["doing_title"]);
-				}
-			?>
-			<div class="todoList">
-				<div class="todo_txt tl"><?php echo $doing_title; ?></div>
-				<div class="remove_bt" onclick="remove();"><img src="imgs/trash.png" alt="trash" title="trash" width="25" height="25" /></div>
-				<div class="edit_bt" onclick="edit();"><img src="imgs/edit.png" alt="edit" title="edit" width="45" height="45" style="margin-top:-10px;"/></div>
-			</div>
-		<?php } ?>
-		</div>
-		</article>
-		<article>
-		<div class="txt">Done-List(완료) </div>
-		<div class="areaLine"></div>
-		<div id="todoListWrap">
-		<?php 
-				$sql = mq("select * from done order by done_idx");  
-				while($done = $sql->fetch_array()){
-
-				$done_title=$done["done_title"]; 
-				if(strlen($done_title)>30){ 
-					$done_title=str_replace($done["done_title"],mb_substr($done["done_title"],0,30,"utf-8")."...",$done["done_title"]);
-				}
-			?>
-				<div class="todoList">
-					<div class="todo_txt"><?php echo $done_title; ?></div>
-					<div class="remove_bt" onclick="remove();"><img src="imgs/trash.png" alt="trash" title="trash" width="25" height="25" /></div>
-					<div class="edit_bt" onclick="edit();"><img src="imgs/edit.png" alt="edit" title="edit" width="45" height="45" style="margin-top:-10px;"/></div>
-				</div>
-				<?php } ?>
-			</div>
-		</article>
 		</div>
 	</section>
+							</div>
+
 
 	<div id="dialog" title="Basic dialog" style="display:none;">
 		<form action="" method="post" id="">
